@@ -1,0 +1,6 @@
+framework module Pods_SJCategory_Example {
+  umbrella header "Pods-SJCategory_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

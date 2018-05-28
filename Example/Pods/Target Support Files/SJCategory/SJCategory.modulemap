@@ -1,0 +1,6 @@
+framework module SJCategory {
+  umbrella header "SJCategory-umbrella.h"
+
+  export *
+  module * { export * }
+}
