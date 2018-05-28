@@ -389,14 +389,12 @@
 		F3200F9ABB9BD242A2B304A1928A2D44 /* Pods-SJCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F4A849E020BC015C00B602FD /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
 		F4A849E120BC015C00B602FD /* NSString+MD5Addition.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
-		F4A849E220BC015C00B602FD /* AppDelegate+RegistRouters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+RegistRouters.h"; sourceTree = "<group>"; };
 		F4A849E320BC015C00B602FD /* UIColor+Hex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
 		F4A849E420BC015C00B602FD /* UIImage+Dashed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Dashed.h"; sourceTree = "<group>"; };
 		F4A849E520BC015C00B602FD /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
 		F4A849E620BC015C00B602FD /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
 		F4A849E720BC015C00B602FD /* UIViewExt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		F4A849E820BC015C00B602FD /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
-		F4A849E920BC015C00B602FD /* AppDelegate+RegistRouters.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+RegistRouters.m"; sourceTree = "<group>"; };
 		F4A849EA20BC015C00B602FD /* NSString+MD5Addition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
 		F4A849EB20BC015C00B602FD /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
 		F4A849EC20BC015C00B602FD /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
@@ -849,14 +847,12 @@
 			children = (
 				F4A849E020BC015C00B602FD /* UIButton+ImageTitleSpacing.h */,
 				F4A849E120BC015C00B602FD /* NSString+MD5Addition.m */,
-				F4A849E220BC015C00B602FD /* AppDelegate+RegistRouters.h */,
 				F4A849E320BC015C00B602FD /* UIColor+Hex.m */,
 				F4A849E420BC015C00B602FD /* UIImage+Dashed.h */,
 				F4A849E520BC015C00B602FD /* UINavigationController+SXFullScreen.h */,
 				F4A849E620BC015C00B602FD /* NSObject+SXRuntime.h */,
 				F4A849E720BC015C00B602FD /* UIViewExt.m */,
 				F4A849E820BC015C00B602FD /* UINavigation+SXFixSpace.h */,
-				F4A849E920BC015C00B602FD /* AppDelegate+RegistRouters.m */,
 				F4A849EA20BC015C00B602FD /* NSString+MD5Addition.h */,
 				F4A849EB20BC015C00B602FD /* UIButton+ImageTitleSpacing.m */,
 				F4A849EC20BC015C00B602FD /* UIColor+Hex.h */,
