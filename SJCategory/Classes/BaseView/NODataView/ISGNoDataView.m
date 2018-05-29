@@ -10,6 +10,7 @@
 #import "CommonMacro.h"
 #import "UIViewExt.h"
 #import "UIColor+Hex.h"
+#import "BOAssistor.h"
 
 @implementation ISGNoDataView
 
