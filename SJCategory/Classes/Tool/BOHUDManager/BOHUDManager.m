@@ -67,13 +67,13 @@
 {
     self.progressHUD.mode = MBProgressHUDModeIndeterminate;
     self.progressHUD.label.text = text;
-    [self.progressHUD show:YES];
+    [self.progressHUD showAnimated:YES];
 }
 
 - (void)progressHUDShowWithCompleteText:(NSString *)text isSucceed:(BOOL)isSucceed
 {
     self.customSuccessSignImageView.highlighted = !isSucceed;
-    self.progressHUD.labelText = text;
+    self.progressHUD.label.text = text;
     self.progressHUD.mode = MBProgressHUDModeCustomView;
     [self.progressHUD hideAnimated:YES afterDelay:MBProgressHUDCompleteStayTime];
     self.progressHUD = nil;
