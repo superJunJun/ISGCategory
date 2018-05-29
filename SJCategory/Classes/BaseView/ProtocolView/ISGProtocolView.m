@@ -8,6 +8,8 @@
 
 #import "ISGProtocolView.h"
 #import "EnlargeAreaButton.h"
+#import "UIViewExt.h"
+#import "CommonMacro.h"
 
 @interface ISGProtocolView()
 

@@ -8,6 +8,8 @@
 
 #import "ISGNoDataView.h"
 #import "CommonMacro.h"
+#import "UIViewExt.h"
+#import "UIColor+Hex.h"
 
 @implementation ISGNoDataView
 
