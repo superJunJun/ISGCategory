@@ -20,27 +20,6 @@
 - (void)progressHUDHideImmediately;
 - (void)loadDataErrorText:(nullable NSString *)errorString;
 
-- (void)postRequestWithURL:(nullable NSString *)url
-                    sessionID:(BOOL)sessionID
-                 HUDLabelText:(nullable NSString *)text
-                       params:(nullable NSDictionary *)params
-                completeBlock:(nullable AMPostHttpRequestCompletionBlock)completeBlock
-                  failedBlock:(nullable AMPostHttpRequestFailedBlock)failedBlock;
-
-- (void)postRequestWithURL:(nullable NSString *)url
-                 sessionID:(BOOL )sessionID
-              HUDLabelText:(nullable NSString *)text
-            paramsIsInBody:(BOOL)paramsIsInBody
-                    params:(nullable NSDictionary *)params
-             completeBlock:(nullable AMPostHttpRequestCompletionBlock)completeBlock
-               failedBlock:(nullable AMPostHttpRequestFailedBlock)failedBlock;
-
-- (void)getRequestWithURL:(nullable NSString *)url
-                    sessionID:(BOOL)sessionID
-                 HUDLabelText:(nullable NSString *)text
-                       params:(nullable NSDictionary *)params
-                completeBlock:(nullable AMPostHttpRequestCompletionBlock)completeBlock
-                  failedBlock:(nullable AMPostHttpRequestFailedBlock)failedBlock;
 
 #pragma mark - barbuttonItem
 - (void)ISG_NavigationBarWithTitle:(nullable NSString *)title;

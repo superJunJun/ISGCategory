@@ -8,6 +8,7 @@
 
 #import "EaseStartHelper.h"
 #import "EaseStartView.h"
+#import "CommonMacro.h"
 
 @interface EaseStartHelper ()
 

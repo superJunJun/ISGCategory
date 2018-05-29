@@ -146,48 +146,6 @@
 		EDF3CEAAF7922F570A5AD95B005C84F8 /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F052ECCD91D2A3EE96DDCD0A1F428B84 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 569D7D67B8190C8E46DBE30950EBDEA6 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0873AA02837D34381D156267B9EB005 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = C685971A6CB0538D27790478B960CFD8 /* FBSnapshotTestCasePlatform.m */; };
-		F41B8A1320BD4714003ED723 /* ISGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C420BD4714003ED723 /* ISGWebViewController.m */; };
-		F41B8A1420BD4714003ED723 /* ISGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C420BD4714003ED723 /* ISGWebViewController.m */; };
-		F41B8A1520BD4714003ED723 /* ISGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C420BD4714003ED723 /* ISGWebViewController.m */; };
-		F41B8A1620BD4714003ED723 /* ISGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C420BD4714003ED723 /* ISGWebViewController.m */; };
-		F41B8A1720BD4714003ED723 /* ISGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C420BD4714003ED723 /* ISGWebViewController.m */; };
-		F41B8A1820BD4714003ED723 /* ISGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C420BD4714003ED723 /* ISGWebViewController.m */; };
-		F41B8A1920BD4714003ED723 /* ISGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C420BD4714003ED723 /* ISGWebViewController.m */; };
-		F41B8A1A20BD4714003ED723 /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C620BD4714003ED723 /* NJKWebViewProgressView.h */; };
-		F41B8A1B20BD4714003ED723 /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C620BD4714003ED723 /* NJKWebViewProgressView.h */; };
-		F41B8A1C20BD4714003ED723 /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C620BD4714003ED723 /* NJKWebViewProgressView.h */; };
-		F41B8A1D20BD4714003ED723 /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C620BD4714003ED723 /* NJKWebViewProgressView.h */; };
-		F41B8A1E20BD4714003ED723 /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C620BD4714003ED723 /* NJKWebViewProgressView.h */; };
-		F41B8A1F20BD4714003ED723 /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C620BD4714003ED723 /* NJKWebViewProgressView.h */; };
-		F41B8A2020BD4714003ED723 /* NJKWebViewProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C620BD4714003ED723 /* NJKWebViewProgressView.h */; };
-		F41B8A2120BD4714003ED723 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C720BD4714003ED723 /* NJKWebViewProgress.m */; };
-		F41B8A2220BD4714003ED723 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C720BD4714003ED723 /* NJKWebViewProgress.m */; };
-		F41B8A2320BD4714003ED723 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C720BD4714003ED723 /* NJKWebViewProgress.m */; };
-		F41B8A2420BD4714003ED723 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C720BD4714003ED723 /* NJKWebViewProgress.m */; };
-		F41B8A2520BD4714003ED723 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C720BD4714003ED723 /* NJKWebViewProgress.m */; };
-		F41B8A2620BD4714003ED723 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C720BD4714003ED723 /* NJKWebViewProgress.m */; };
-		F41B8A2720BD4714003ED723 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C720BD4714003ED723 /* NJKWebViewProgress.m */; };
-		F41B8A2820BD4714003ED723 /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C820BD4714003ED723 /* NJKWebViewProgress.h */; };
-		F41B8A2920BD4714003ED723 /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C820BD4714003ED723 /* NJKWebViewProgress.h */; };
-		F41B8A2A20BD4714003ED723 /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C820BD4714003ED723 /* NJKWebViewProgress.h */; };
-		F41B8A2B20BD4714003ED723 /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C820BD4714003ED723 /* NJKWebViewProgress.h */; };
-		F41B8A2C20BD4714003ED723 /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C820BD4714003ED723 /* NJKWebViewProgress.h */; };
-		F41B8A2D20BD4714003ED723 /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C820BD4714003ED723 /* NJKWebViewProgress.h */; };
-		F41B8A2E20BD4714003ED723 /* NJKWebViewProgress.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89C820BD4714003ED723 /* NJKWebViewProgress.h */; };
-		F41B8A2F20BD4714003ED723 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C920BD4714003ED723 /* NJKWebViewProgressView.m */; };
-		F41B8A3020BD4714003ED723 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C920BD4714003ED723 /* NJKWebViewProgressView.m */; };
-		F41B8A3120BD4714003ED723 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C920BD4714003ED723 /* NJKWebViewProgressView.m */; };
-		F41B8A3220BD4714003ED723 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C920BD4714003ED723 /* NJKWebViewProgressView.m */; };
-		F41B8A3320BD4714003ED723 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C920BD4714003ED723 /* NJKWebViewProgressView.m */; };
-		F41B8A3420BD4714003ED723 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C920BD4714003ED723 /* NJKWebViewProgressView.m */; };
-		F41B8A3520BD4714003ED723 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89C920BD4714003ED723 /* NJKWebViewProgressView.m */; };
-		F41B8A3620BD4714003ED723 /* ISGWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CA20BD4714003ED723 /* ISGWebViewController.h */; };
-		F41B8A3720BD4714003ED723 /* ISGWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CA20BD4714003ED723 /* ISGWebViewController.h */; };
-		F41B8A3820BD4714003ED723 /* ISGWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CA20BD4714003ED723 /* ISGWebViewController.h */; };
-		F41B8A3920BD4714003ED723 /* ISGWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CA20BD4714003ED723 /* ISGWebViewController.h */; };
-		F41B8A3A20BD4714003ED723 /* ISGWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CA20BD4714003ED723 /* ISGWebViewController.h */; };
-		F41B8A3B20BD4714003ED723 /* ISGWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CA20BD4714003ED723 /* ISGWebViewController.h */; };
-		F41B8A3C20BD4714003ED723 /* ISGWebViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CA20BD4714003ED723 /* ISGWebViewController.h */; };
 		F41B8A3D20BD4714003ED723 /* ISGNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CC20BD4714003ED723 /* ISGNoDataView.h */; };
 		F41B8A3E20BD4714003ED723 /* ISGNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CC20BD4714003ED723 /* ISGNoDataView.h */; };
 		F41B8A3F20BD4714003ED723 /* ISGNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CC20BD4714003ED723 /* ISGNoDataView.h */; };
@@ -216,34 +174,6 @@
 		F41B8A5620BD4715003ED723 /* MenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D020BD4714003ED723 /* MenuView.h */; };
 		F41B8A5720BD4715003ED723 /* MenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D020BD4714003ED723 /* MenuView.h */; };
 		F41B8A5820BD4715003ED723 /* MenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D020BD4714003ED723 /* MenuView.h */; };
-		F41B8A5920BD4715003ED723 /* ISGBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D220BD4714003ED723 /* ISGBaseViewController.h */; };
-		F41B8A5A20BD4715003ED723 /* ISGBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D220BD4714003ED723 /* ISGBaseViewController.h */; };
-		F41B8A5B20BD4715003ED723 /* ISGBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D220BD4714003ED723 /* ISGBaseViewController.h */; };
-		F41B8A5C20BD4715003ED723 /* ISGBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D220BD4714003ED723 /* ISGBaseViewController.h */; };
-		F41B8A5D20BD4715003ED723 /* ISGBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D220BD4714003ED723 /* ISGBaseViewController.h */; };
-		F41B8A5E20BD4715003ED723 /* ISGBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D220BD4714003ED723 /* ISGBaseViewController.h */; };
-		F41B8A5F20BD4715003ED723 /* ISGBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D220BD4714003ED723 /* ISGBaseViewController.h */; };
-		F41B8A6020BD4715003ED723 /* ISGBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D320BD4714003ED723 /* ISGBaseNavigationController.h */; };
-		F41B8A6120BD4715003ED723 /* ISGBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D320BD4714003ED723 /* ISGBaseNavigationController.h */; };
-		F41B8A6220BD4715003ED723 /* ISGBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D320BD4714003ED723 /* ISGBaseNavigationController.h */; };
-		F41B8A6320BD4715003ED723 /* ISGBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D320BD4714003ED723 /* ISGBaseNavigationController.h */; };
-		F41B8A6420BD4715003ED723 /* ISGBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D320BD4714003ED723 /* ISGBaseNavigationController.h */; };
-		F41B8A6520BD4715003ED723 /* ISGBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D320BD4714003ED723 /* ISGBaseNavigationController.h */; };
-		F41B8A6620BD4715003ED723 /* ISGBaseNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D320BD4714003ED723 /* ISGBaseNavigationController.h */; };
-		F41B8A6720BD4715003ED723 /* ISGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D420BD4714003ED723 /* ISGBaseNavigationController.m */; };
-		F41B8A6820BD4715003ED723 /* ISGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D420BD4714003ED723 /* ISGBaseNavigationController.m */; };
-		F41B8A6920BD4715003ED723 /* ISGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D420BD4714003ED723 /* ISGBaseNavigationController.m */; };
-		F41B8A6A20BD4715003ED723 /* ISGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D420BD4714003ED723 /* ISGBaseNavigationController.m */; };
-		F41B8A6B20BD4715003ED723 /* ISGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D420BD4714003ED723 /* ISGBaseNavigationController.m */; };
-		F41B8A6C20BD4715003ED723 /* ISGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D420BD4714003ED723 /* ISGBaseNavigationController.m */; };
-		F41B8A6D20BD4715003ED723 /* ISGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D420BD4714003ED723 /* ISGBaseNavigationController.m */; };
-		F41B8A6E20BD4715003ED723 /* ISGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D520BD4714003ED723 /* ISGBaseViewController.m */; };
-		F41B8A6F20BD4715003ED723 /* ISGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D520BD4714003ED723 /* ISGBaseViewController.m */; };
-		F41B8A7020BD4715003ED723 /* ISGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D520BD4714003ED723 /* ISGBaseViewController.m */; };
-		F41B8A7120BD4715003ED723 /* ISGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D520BD4714003ED723 /* ISGBaseViewController.m */; };
-		F41B8A7220BD4715003ED723 /* ISGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D520BD4714003ED723 /* ISGBaseViewController.m */; };
-		F41B8A7320BD4715003ED723 /* ISGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D520BD4714003ED723 /* ISGBaseViewController.m */; };
-		F41B8A7420BD4715003ED723 /* ISGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D520BD4714003ED723 /* ISGBaseViewController.m */; };
 		F41B8A7520BD4715003ED723 /* EaseStartHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D720BD4714003ED723 /* EaseStartHelper.h */; };
 		F41B8A7620BD4715003ED723 /* EaseStartHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D720BD4714003ED723 /* EaseStartHelper.h */; };
 		F41B8A7720BD4715003ED723 /* EaseStartHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D720BD4714003ED723 /* EaseStartHelper.h */; };
@@ -559,6 +489,13 @@
 		F41B8BAD20BD4715003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A1120BD4714003ED723 /* BOHUDManager.h */; };
 		F41B8BAE20BD4715003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A1120BD4714003ED723 /* BOHUDManager.h */; };
 		F41B8BAF20BD4715003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A1120BD4714003ED723 /* BOHUDManager.h */; };
+		F41B8BB120BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
+		F41B8BB220BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
+		F41B8BB320BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
+		F41B8BB420BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
+		F41B8BB520BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
+		F41B8BB620BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
+		F41B8BB720BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
 		F47A1C5E5511ECB73ED0ECC6D6ACE265 /* Pods-SJCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC2EA051487C9BE3A759DF8913CF770 /* Pods-SJCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7474BA8C598AEBD11BF575991FAB7D0 /* Pods-SJCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E6DF675997C7BFD7F475D189289DF6 /* Pods-SJCategory_Example-dummy.m */; };
 		F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AD646C1FEAB8503FF6D57F404BC0E6 /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -800,20 +737,10 @@
 		F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		F3200F9ABB9BD242A2B304A1928A2D44 /* Pods-SJCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F41B89C420BD4714003ED723 /* ISGWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISGWebViewController.m; sourceTree = "<group>"; };
-		F41B89C620BD4714003ED723 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
-		F41B89C720BD4714003ED723 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
-		F41B89C820BD4714003ED723 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
-		F41B89C920BD4714003ED723 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
-		F41B89CA20BD4714003ED723 /* ISGWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISGWebViewController.h; sourceTree = "<group>"; };
 		F41B89CC20BD4714003ED723 /* ISGNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISGNoDataView.h; sourceTree = "<group>"; };
 		F41B89CD20BD4714003ED723 /* ISGNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISGNoDataView.m; sourceTree = "<group>"; };
 		F41B89CF20BD4714003ED723 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
 		F41B89D020BD4714003ED723 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
-		F41B89D220BD4714003ED723 /* ISGBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISGBaseViewController.h; sourceTree = "<group>"; };
-		F41B89D320BD4714003ED723 /* ISGBaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISGBaseNavigationController.h; sourceTree = "<group>"; };
-		F41B89D420BD4714003ED723 /* ISGBaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISGBaseNavigationController.m; sourceTree = "<group>"; };
-		F41B89D520BD4714003ED723 /* ISGBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISGBaseViewController.m; sourceTree = "<group>"; };
 		F41B89D720BD4714003ED723 /* EaseStartHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseStartHelper.h; sourceTree = "<group>"; };
 		F41B89D820BD4714003ED723 /* EaseStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseStartView.h; sourceTree = "<group>"; };
 		F41B89D920BD4714003ED723 /* EaseStartHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseStartHelper.m; sourceTree = "<group>"; };
@@ -861,6 +788,7 @@
 		F41B8A1020BD4714003ED723 /* 40x-Cancelmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40x-Cancelmark@2x.png"; sourceTree = "<group>"; };
 		F41B8A1120BD4714003ED723 /* BOHUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOHUDManager.h; sourceTree = "<group>"; };
 		F41B8A1220BD4714003ED723 /* 40x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		F41B8BB020BD49A9003ED723 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
 		F65B541884B29F97FE5498A8EC1BC9CD /* Pods-SJCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SJCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F6636C0229E54793FBCF41941077A50A /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
@@ -1304,10 +1232,8 @@
 		F41B89C220BD4714003ED723 /* BaseView */ = {
 			isa = PBXGroup;
 			children = (
-				F41B89C320BD4714003ED723 /* BaseWebView */,
 				F41B89CB20BD4714003ED723 /* NODataView */,
 				F41B89CE20BD4714003ED723 /* MenuView */,
-				F41B89D120BD4714003ED723 /* BaseViewController */,
 				F41B89D620BD4714003ED723 /* EaseStartView */,
 				F41B89DB20BD4714003ED723 /* PlaceholderTextView */,
 				F41B89DE20BD4714003ED723 /* ProtocolView */,
@@ -1315,27 +1241,6 @@
 			);
 			name = BaseView;
 			path = SJCategory/Classes/BaseView;
-			sourceTree = "<group>";
-		};
-		F41B89C320BD4714003ED723 /* BaseWebView */ = {
-			isa = PBXGroup;
-			children = (
-				F41B89C420BD4714003ED723 /* ISGWebViewController.m */,
-				F41B89C520BD4714003ED723 /* NJKWebViewProgress */,
-				F41B89CA20BD4714003ED723 /* ISGWebViewController.h */,
-			);
-			path = BaseWebView;
-			sourceTree = "<group>";
-		};
-		F41B89C520BD4714003ED723 /* NJKWebViewProgress */ = {
-			isa = PBXGroup;
-			children = (
-				F41B89C620BD4714003ED723 /* NJKWebViewProgressView.h */,
-				F41B89C720BD4714003ED723 /* NJKWebViewProgress.m */,
-				F41B89C820BD4714003ED723 /* NJKWebViewProgress.h */,
-				F41B89C920BD4714003ED723 /* NJKWebViewProgressView.m */,
-			);
-			path = NJKWebViewProgress;
 			sourceTree = "<group>";
 		};
 		F41B89CB20BD4714003ED723 /* NODataView */ = {
@@ -1354,17 +1259,6 @@
 				F41B89D020BD4714003ED723 /* MenuView.h */,
 			);
 			path = MenuView;
-			sourceTree = "<group>";
-		};
-		F41B89D120BD4714003ED723 /* BaseViewController */ = {
-			isa = PBXGroup;
-			children = (
-				F41B89D220BD4714003ED723 /* ISGBaseViewController.h */,
-				F41B89D320BD4714003ED723 /* ISGBaseNavigationController.h */,
-				F41B89D420BD4714003ED723 /* ISGBaseNavigationController.m */,
-				F41B89D520BD4714003ED723 /* ISGBaseViewController.m */,
-			);
-			path = BaseViewController;
 			sourceTree = "<group>";
 		};
 		F41B89D620BD4714003ED723 /* EaseStartView */ = {
@@ -1462,6 +1356,7 @@
 				F41B89FC20BD4714003ED723 /* UINavigation+SXFixSpace.m */,
 				F41B89FD20BD4714003ED723 /* UIViewExt.h */,
 				F41B89FE20BD4714003ED723 /* NSObject+SXRuntime.m */,
+				F41B8BB020BD49A9003ED723 /* CommonMacro.h */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -1538,12 +1433,8 @@
 				F41B8A9B20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */,
 				F41B8ABE20BD4715003ED723 /* GTMBase64.h in Headers */,
 				F41B8B5F20BD4715003ED723 /* DESUtil.h in Headers */,
-				F41B8A3920BD4714003ED723 /* ISGWebViewController.h in Headers */,
 				F41B8B1220BD4715003ED723 /* NSObject+SXRuntime.h in Headers */,
 				F41B8B0B20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8A2B20BD4714003ED723 /* NJKWebViewProgress.h in Headers */,
-				F41B8A5C20BD4715003ED723 /* ISGBaseViewController.h in Headers */,
-				F41B8A1D20BD4714003ED723 /* NJKWebViewProgressView.h in Headers */,
 				F41B8B7B20BD4715003ED723 /* BONoticeBar.h in Headers */,
 				F41B8AC520BD4715003ED723 /* GTMDefines.h in Headers */,
 				F41B8B2020BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
@@ -1553,12 +1444,12 @@
 				F41B8B3520BD4715003ED723 /* UIColor+Hex.h in Headers */,
 				F41B8B8920BD4715003ED723 /* BOAssistor.h in Headers */,
 				F41B8AA220BD4715003ED723 /* ISGProtocolView.h in Headers */,
-				F41B8A6320BD4715003ED723 /* ISGBaseNavigationController.h in Headers */,
 				F41B8B9E20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
 				F41B8AEF20BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
 				F41B8A5520BD4715003ED723 /* MenuView.h in Headers */,
 				4255BB6DA98AA3B3D94F28D90EDEF937 /* Pods-SJCategory_Example-umbrella.h in Headers */,
 				F41B8A7820BD4715003ED723 /* EaseStartHelper.h in Headers */,
+				F41B8BB420BD49A9003ED723 /* CommonMacro.h in Headers */,
 				F41B8AB720BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1576,12 +1467,8 @@
 				F41B8A9C20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */,
 				F41B8ABF20BD4715003ED723 /* GTMBase64.h in Headers */,
 				F41B8B6020BD4715003ED723 /* DESUtil.h in Headers */,
-				F41B8A3A20BD4714003ED723 /* ISGWebViewController.h in Headers */,
 				F41B8B1320BD4715003ED723 /* NSObject+SXRuntime.h in Headers */,
 				F41B8B0C20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8A2C20BD4714003ED723 /* NJKWebViewProgress.h in Headers */,
-				F41B8A5D20BD4715003ED723 /* ISGBaseViewController.h in Headers */,
-				F41B8A1E20BD4714003ED723 /* NJKWebViewProgressView.h in Headers */,
 				F41B8B7C20BD4715003ED723 /* BONoticeBar.h in Headers */,
 				F41B8AC620BD4715003ED723 /* GTMDefines.h in Headers */,
 				F41B8B2120BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
@@ -1591,12 +1478,12 @@
 				F41B8B3620BD4715003ED723 /* UIColor+Hex.h in Headers */,
 				F41B8B8A20BD4715003ED723 /* BOAssistor.h in Headers */,
 				F41B8AA320BD4715003ED723 /* ISGProtocolView.h in Headers */,
-				F41B8A6420BD4715003ED723 /* ISGBaseNavigationController.h in Headers */,
 				F41B8B9F20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
 				F41B8AF020BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
 				F41B8A5620BD4715003ED723 /* MenuView.h in Headers */,
 				F47A1C5E5511ECB73ED0ECC6D6ACE265 /* Pods-SJCategory_Tests-umbrella.h in Headers */,
 				F41B8A7920BD4715003ED723 /* EaseStartHelper.h in Headers */,
+				F41B8BB520BD49A9003ED723 /* CommonMacro.h in Headers */,
 				F41B8AB820BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1613,26 +1500,22 @@
 				7A27CAFCB586104AA102A9C161AD0978 /* SpectaDSL.h in Headers */,
 				C1DF1378F608A031627FBF81B6A9C6E5 /* SpectaTypes.h in Headers */,
 				4A571204986D316637D43D3F93DCAC77 /* SpectaUtility.h in Headers */,
-				F41B8A2020BD4714003ED723 /* NJKWebViewProgressView.h in Headers */,
 				6A725E2BDA6D302C9F30439A6390689C /* SPTCallSite.h in Headers */,
-				F41B8A6620BD4715003ED723 /* ISGBaseNavigationController.h in Headers */,
 				F41B8B7020BD4715003ED723 /* BOCoordinateTransformation.h in Headers */,
 				F41B8B3820BD4715003ED723 /* UIColor+Hex.h in Headers */,
 				A41034714C779552383D238C48FC4FDA /* SPTCompiledExample.h in Headers */,
-				F41B8A5F20BD4715003ED723 /* ISGBaseViewController.h in Headers */,
 				86A40D9CFD9051779B220F53DE991DCA /* SPTExample.h in Headers */,
 				F41B8AC120BD4715003ED723 /* GTMBase64.h in Headers */,
 				F41B8A7B20BD4715003ED723 /* EaseStartHelper.h in Headers */,
 				F41B8B0720BD4715003ED723 /* UIImage+Dashed.h in Headers */,
 				F41B8AF220BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
+				F41B8BB720BD49A9003ED723 /* CommonMacro.h in Headers */,
 				F41B8B2320BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
 				F41B8A9E20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */,
 				F41B8AA520BD4715003ED723 /* ISGProtocolView.h in Headers */,
-				F41B8A2E20BD4714003ED723 /* NJKWebViewProgress.h in Headers */,
 				F41B8B6220BD4715003ED723 /* DESUtil.h in Headers */,
 				8EDC47391C8554AD5C7A91C4D5AFC5F2 /* SPTExampleGroup.h in Headers */,
 				F41B8ABA20BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
-				F41B8A3C20BD4714003ED723 /* ISGWebViewController.h in Headers */,
 				F41B8A8220BD4715003ED723 /* EaseStartView.h in Headers */,
 				D7BF9558E071FDF8643CE2B50276B777 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */,
 				F41B8B5420BD4715003ED723 /* UIViewExt.h in Headers */,
@@ -1672,7 +1555,6 @@
 				F41B8B6A20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */,
 				4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */,
 				F41B8B4E20BD4715003ED723 /* UIViewExt.h in Headers */,
-				F41B8A2820BD4714003ED723 /* NJKWebViewProgress.h in Headers */,
 				F41B8B9B20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
 				F41B8A3D20BD4714003ED723 /* ISGNoDataView.h in Headers */,
 				F41B8AB420BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
@@ -1680,7 +1562,6 @@
 				E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */,
 				4861F2FFD5A4306E7B7BD3CD0D8199AC /* EXPMatchers+beCloseTo.h in Headers */,
 				F41B8B0120BD4715003ED723 /* UIImage+Dashed.h in Headers */,
-				F41B8A1A20BD4714003ED723 /* NJKWebViewProgressView.h in Headers */,
 				F41B8B5C20BD4715003ED723 /* DESUtil.h in Headers */,
 				F41B8B7820BD4715003ED723 /* BONoticeBar.h in Headers */,
 				F41B8ADE20BD4715003ED723 /* IntroductoryPageView.h in Headers */,
@@ -1698,12 +1579,12 @@
 				F41B8ABB20BD4715003ED723 /* GTMBase64.h in Headers */,
 				41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */,
 				E233F5CF4BF16CFB539804C4E995C355 /* EXPMatchers+beLessThan.h in Headers */,
-				F41B8A5920BD4715003ED723 /* ISGBaseViewController.h in Headers */,
 				AA5060419F1307F5F03ECBEA70DB186C /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
 				F41B8B1D20BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
 				64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */,
 				CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */,
 				FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */,
+				F41B8BB120BD49A9003ED723 /* CommonMacro.h in Headers */,
 				F41B8A9F20BD4715003ED723 /* ISGProtocolView.h in Headers */,
 				F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */,
 				F41B8AD020BD4715003ED723 /* IntroductoryPageHelper.h in Headers */,
@@ -1720,12 +1601,10 @@
 				F41B8B3220BD4715003ED723 /* UIColor+Hex.h in Headers */,
 				A8446D8224F103BE7F4A5237A60F0EFB /* EXPMatchers+raise.h in Headers */,
 				B3F189747A7A3CEDA9200CB2749AC7D8 /* EXPMatchers+raiseWithReason.h in Headers */,
-				F41B8A6020BD4715003ED723 /* ISGBaseNavigationController.h in Headers */,
 				DED9AE33B24B462D4B44FE94383B35F4 /* EXPMatchers+respondTo.h in Headers */,
 				9CAFC7DAE2E661FC92393E5CC55D1D61 /* EXPMatchers.h in Headers */,
 				60CD83FA1B2BF6E93B59834C1E0CBEF0 /* EXPUnsupportedObject.h in Headers */,
 				F41B8B0820BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8A3620BD4714003ED723 /* ISGWebViewController.h in Headers */,
 				DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */,
 				5922E3B61E351E2A21095BD92E4FE8AC /* NSValue+Expecta.h in Headers */,
 			);
@@ -1739,13 +1618,11 @@
 				F41B8AB620BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
 				F41B8AE020BD4715003ED723 /* IntroductoryPageView.h in Headers */,
 				F41B8BAB20BD4715003ED723 /* BOHUDManager.h in Headers */,
-				F41B8A6220BD4715003ED723 /* ISGBaseNavigationController.h in Headers */,
 				8D49114979B44DF683A9A964565E0FE6 /* FBSnapshotTestCase-umbrella.h in Headers */,
 				31328536635BDC034D4E43B11CA846BD /* FBSnapshotTestCase.h in Headers */,
 				F41B8A7720BD4715003ED723 /* EaseStartHelper.h in Headers */,
 				F41B8B1F20BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
 				F41B8B0320BD4715003ED723 /* UIImage+Dashed.h in Headers */,
-				F41B8A5B20BD4715003ED723 /* ISGBaseViewController.h in Headers */,
 				F41B8AEE20BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
 				F41B8B5020BD4715003ED723 /* UIViewExt.h in Headers */,
 				F41B8A3F20BD4714003ED723 /* ISGNoDataView.h in Headers */,
@@ -1754,7 +1631,6 @@
 				F41B8B7A20BD4715003ED723 /* BONoticeBar.h in Headers */,
 				889FE136349E95DFBE20F050685FB124 /* FBSnapshotTestController.h in Headers */,
 				5D95DC370FE619787EA993FF91CA51EE /* UIApplication+StrictKeyWindow.h in Headers */,
-				F41B8A2A20BD4714003ED723 /* NJKWebViewProgress.h in Headers */,
 				F41B8A7E20BD4715003ED723 /* EaseStartView.h in Headers */,
 				F41B8A5420BD4715003ED723 /* MenuView.h in Headers */,
 				F41B8AD220BD4715003ED723 /* IntroductoryPageHelper.h in Headers */,
@@ -1765,10 +1641,9 @@
 				F41B8B6C20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */,
 				F41B8B1120BD4715003ED723 /* NSObject+SXRuntime.h in Headers */,
 				3849993FDFE7642E4BEF1096B047FB86 /* UIImage+Compare.h in Headers */,
-				F41B8A1C20BD4714003ED723 /* NJKWebViewProgressView.h in Headers */,
 				F41B8ABD20BD4715003ED723 /* GTMBase64.h in Headers */,
 				26BBC63406C6863BE6DD27C64A70CB42 /* UIImage+Diff.h in Headers */,
-				F41B8A3820BD4714003ED723 /* ISGWebViewController.h in Headers */,
+				F41B8BB320BD49A9003ED723 /* CommonMacro.h in Headers */,
 				F41B8B3420BD4715003ED723 /* UIColor+Hex.h in Headers */,
 				F41B8A9A20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */,
 				F41B8B9D20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
@@ -1782,10 +1657,9 @@
 			files = (
 				F41B8B8720BD4715003ED723 /* BOAssistor.h in Headers */,
 				F41B8AB520BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
+				F41B8BB220BD49A9003ED723 /* CommonMacro.h in Headers */,
 				F41B8A5320BD4715003ED723 /* MenuView.h in Headers */,
 				F41B8A7620BD4715003ED723 /* EaseStartHelper.h in Headers */,
-				F41B8A2920BD4714003ED723 /* NJKWebViewProgress.h in Headers */,
-				F41B8A5A20BD4715003ED723 /* ISGBaseViewController.h in Headers */,
 				F41B8A7D20BD4715003ED723 /* EaseStartView.h in Headers */,
 				F41B8B2520BD4715003ED723 /* NSString+MD5Addition.h in Headers */,
 				F41B8B9C20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
@@ -1795,15 +1669,12 @@
 				DE4EF1ED618D31CA16938565A1CA0607 /* Expecta+Snapshots-umbrella.h in Headers */,
 				F41B8B3320BD4715003ED723 /* UIColor+Hex.h in Headers */,
 				CDBF7F2D23165CAB8B3819A256A49F0A /* ExpectaObject+FBSnapshotTest.h in Headers */,
-				F41B8A6120BD4715003ED723 /* ISGBaseNavigationController.h in Headers */,
 				F41B8BAA20BD4715003ED723 /* BOHUDManager.h in Headers */,
-				F41B8A1B20BD4714003ED723 /* NJKWebViewProgressView.h in Headers */,
 				F41B8B7920BD4715003ED723 /* BONoticeBar.h in Headers */,
 				F41B8A3E20BD4714003ED723 /* ISGNoDataView.h in Headers */,
 				F41B8AED20BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
 				F41B8B0920BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
 				F41B8B1020BD4715003ED723 /* NSObject+SXRuntime.h in Headers */,
-				F41B8A3720BD4714003ED723 /* ISGWebViewController.h in Headers */,
 				F41B8B4F20BD4715003ED723 /* UIViewExt.h in Headers */,
 				F41B8AA020BD4715003ED723 /* ISGProtocolView.h in Headers */,
 				EDF3CEAAF7922F570A5AD95B005C84F8 /* EXPMatchers+FBSnapshotTest.h in Headers */,
@@ -1829,12 +1700,8 @@
 				F41B8A9D20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */,
 				F41B8AC020BD4715003ED723 /* GTMBase64.h in Headers */,
 				F41B8B6120BD4715003ED723 /* DESUtil.h in Headers */,
-				F41B8A3B20BD4714003ED723 /* ISGWebViewController.h in Headers */,
 				F41B8B1420BD4715003ED723 /* NSObject+SXRuntime.h in Headers */,
 				F41B8B0D20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8A2D20BD4714003ED723 /* NJKWebViewProgress.h in Headers */,
-				F41B8A5E20BD4715003ED723 /* ISGBaseViewController.h in Headers */,
-				F41B8A1F20BD4714003ED723 /* NJKWebViewProgressView.h in Headers */,
 				F41B8B7D20BD4715003ED723 /* BONoticeBar.h in Headers */,
 				F41B8AC720BD4715003ED723 /* GTMDefines.h in Headers */,
 				F41B8B2220BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
@@ -1844,12 +1711,12 @@
 				F41B8B3720BD4715003ED723 /* UIColor+Hex.h in Headers */,
 				F41B8B8B20BD4715003ED723 /* BOAssistor.h in Headers */,
 				F41B8AA420BD4715003ED723 /* ISGProtocolView.h in Headers */,
-				F41B8A6520BD4715003ED723 /* ISGBaseNavigationController.h in Headers */,
 				F41B8BA020BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
 				F41B8AF120BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
 				F41B8A5720BD4715003ED723 /* MenuView.h in Headers */,
 				19B4ECE3BAD2E84198870F02B8476CF4 /* SJCategory-umbrella.h in Headers */,
 				F41B8A7A20BD4715003ED723 /* EaseStartHelper.h in Headers */,
+				F41B8BB620BD49A9003ED723 /* CommonMacro.h in Headers */,
 				F41B8AB920BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2023,7 +1890,6 @@
 			files = (
 				F41B8BA420BD4715003ED723 /* BOHUDManager.m in Sources */,
 				F41B8B9620BD4715003ED723 /* BOTimeStampAssistor.m in Sources */,
-				F41B8A6920BD4715003ED723 /* ISGBaseNavigationController.m in Sources */,
 				F41B8B5720BD4715003ED723 /* NSObject+SXRuntime.m in Sources */,
 				F41B8B4220BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
 				F41B8A9320BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
@@ -2040,24 +1906,20 @@
 				C516B672FFC9DB635E0E53DA8FC9CF88 /* FBSnapshotTestCase.m in Sources */,
 				F0873AA02837D34381D156267B9EB005 /* FBSnapshotTestCasePlatform.m in Sources */,
 				57C1DAC24BEE6C12B29AAE68DD3EBEC7 /* FBSnapshotTestController.m in Sources */,
-				F41B8A2320BD4714003ED723 /* NJKWebViewProgress.m in Sources */,
 				754197D184C23A19146DB4C9B3B90050 /* SwiftSupport.swift in Sources */,
 				F41B8B2D20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
 				47EC7BD047C906B92B85399E097E258E /* UIApplication+StrictKeyWindow.m in Sources */,
 				F41B8ACB20BD4715003ED723 /* GTMBase64.m in Sources */,
 				F41B8AE720BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
-				F41B8A3120BD4714003ED723 /* NJKWebViewProgressView.m in Sources */,
 				F41B8B8F20BD4715003ED723 /* BOAssistor.m in Sources */,
 				F41B8B4920BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */,
 				F41B8AD920BD4715003ED723 /* IntroductoryPageView.m in Sources */,
 				98CF4E57A36540E13153A545546A1D11 /* UIImage+Compare.m in Sources */,
-				F41B8A1520BD4714003ED723 /* ISGWebViewController.m in Sources */,
 				F41B8A8520BD4715003ED723 /* EaseStartHelper.m in Sources */,
 				75DF265A4FEC4E42582B8570194CB583 /* UIImage+Diff.m in Sources */,
 				F41B8B8120BD4715003ED723 /* BONoticeBar.m in Sources */,
 				E972E6647713D21A0F21BDAD1816AA29 /* UIImage+Snapshot.m in Sources */,
 				F41B8A4D20BD4714003ED723 /* MenuView.m in Sources */,
-				F41B8A7020BD4715003ED723 /* ISGBaseViewController.m in Sources */,
 				F41B8AFC20BD4715003ED723 /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2070,15 +1932,12 @@
 				F41B8B3D20BD4715003ED723 /* UIImage+Dashed.m in Sources */,
 				F41B8B5920BD4715003ED723 /* NSObject+SXRuntime.m in Sources */,
 				63171771443F27C58A8B3D96CFC8C418 /* Pods-SJCategory_Tests-dummy.m in Sources */,
-				F41B8A6B20BD4715003ED723 /* ISGBaseNavigationController.m in Sources */,
 				F41B8B4B20BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */,
 				F41B8B4420BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
 				F41B8A8720BD4715003ED723 /* EaseStartHelper.m in Sources */,
 				F41B8BA620BD4715003ED723 /* BOHUDManager.m in Sources */,
 				F41B8B9120BD4715003ED723 /* BOAssistor.m in Sources */,
-				F41B8A2520BD4714003ED723 /* NJKWebViewProgress.m in Sources */,
 				F41B8AAA20BD4715003ED723 /* ISGProtocolView.m in Sources */,
-				F41B8A1720BD4714003ED723 /* ISGWebViewController.m in Sources */,
 				F41B8B9820BD4715003ED723 /* BOTimeStampAssistor.m in Sources */,
 				F41B8AE920BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
 				F41B8ADB20BD4715003ED723 /* IntroductoryPageView.m in Sources */,
@@ -2087,11 +1946,9 @@
 				F41B8AB120BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
 				F41B8A4820BD4714003ED723 /* ISGNoDataView.m in Sources */,
 				F41B8B7520BD4715003ED723 /* BOCoordinateTransformation.m in Sources */,
-				F41B8A3320BD4714003ED723 /* NJKWebViewProgressView.m in Sources */,
 				F41B8A4F20BD4715003ED723 /* MenuView.m in Sources */,
 				F41B8AFE20BD4715003ED723 /* UIColor+Hex.m in Sources */,
 				F41B8A9520BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
-				F41B8A7220BD4715003ED723 /* ISGBaseViewController.m in Sources */,
 				F41B8AF720BD4715003ED723 /* NSString+MD5Addition.m in Sources */,
 				F41B8B8320BD4715003ED723 /* BONoticeBar.m in Sources */,
 				F41B8B2F20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
@@ -2113,17 +1970,14 @@
 				F41B8B6920BD4715003ED723 /* DESUtil.m in Sources */,
 				F41B8AB320BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
 				F41B8A8920BD4715003ED723 /* EaseStartHelper.m in Sources */,
-				F41B8A6D20BD4715003ED723 /* ISGBaseNavigationController.m in Sources */,
 				6F1C8C2851E8B7476992360408E05B40 /* SpectaUtility.m in Sources */,
 				F41B8ADD20BD4715003ED723 /* IntroductoryPageView.m in Sources */,
 				F41B8B8520BD4715003ED723 /* BONoticeBar.m in Sources */,
 				F41B8B3120BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
 				F41B8A9020BD4715003ED723 /* EaseStartView.m in Sources */,
 				146D2FD2E3B98DA591885219099F2A4A /* SPTCallSite.m in Sources */,
-				F41B8A7420BD4715003ED723 /* ISGBaseViewController.m in Sources */,
 				255345DF9F3F6DDC70B0ABAF2775324B /* SPTCompiledExample.m in Sources */,
 				F41B8A5120BD4715003ED723 /* MenuView.m in Sources */,
-				F41B8A1920BD4714003ED723 /* ISGWebViewController.m in Sources */,
 				F41B8A9720BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
 				B376B4A777F62028AF0965D93658413E /* SPTExample.m in Sources */,
 				F41B8B3F20BD4715003ED723 /* UIImage+Dashed.m in Sources */,
@@ -2132,12 +1986,10 @@
 				F41B8A4A20BD4714003ED723 /* ISGNoDataView.m in Sources */,
 				9695B31D33EA0EC9CFB42B9D8ABC447D /* SPTSharedExampleGroups.m in Sources */,
 				F41B8B1C20BD4715003ED723 /* UIViewExt.m in Sources */,
-				F41B8A3520BD4714003ED723 /* NJKWebViewProgressView.m in Sources */,
 				F41B8ACF20BD4715003ED723 /* GTMBase64.m in Sources */,
 				F41B8AF920BD4715003ED723 /* NSString+MD5Addition.m in Sources */,
 				FCDA06700D1989687F2471414453A57A /* SPTSpec.m in Sources */,
 				F41B8B4620BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
-				F41B8A2720BD4714003ED723 /* NJKWebViewProgress.m in Sources */,
 				F41B8B0020BD4715003ED723 /* UIColor+Hex.m in Sources */,
 				20A2A483CDC911D6DB2EAD12444D1406 /* SPTTestSuite.m in Sources */,
 				7F1209D2DD89FBCDABDA3CDBB0DDB49D /* XCTestCase+Specta.m in Sources */,
@@ -2154,15 +2006,12 @@
 				F41B8B3C20BD4715003ED723 /* UIImage+Dashed.m in Sources */,
 				F41B8B5820BD4715003ED723 /* NSObject+SXRuntime.m in Sources */,
 				F7474BA8C598AEBD11BF575991FAB7D0 /* Pods-SJCategory_Example-dummy.m in Sources */,
-				F41B8A6A20BD4715003ED723 /* ISGBaseNavigationController.m in Sources */,
 				F41B8B4A20BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */,
 				F41B8B4320BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
 				F41B8A8620BD4715003ED723 /* EaseStartHelper.m in Sources */,
 				F41B8BA520BD4715003ED723 /* BOHUDManager.m in Sources */,
 				F41B8B9020BD4715003ED723 /* BOAssistor.m in Sources */,
-				F41B8A2420BD4714003ED723 /* NJKWebViewProgress.m in Sources */,
 				F41B8AA920BD4715003ED723 /* ISGProtocolView.m in Sources */,
-				F41B8A1620BD4714003ED723 /* ISGWebViewController.m in Sources */,
 				F41B8B9720BD4715003ED723 /* BOTimeStampAssistor.m in Sources */,
 				F41B8AE820BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
 				F41B8ADA20BD4715003ED723 /* IntroductoryPageView.m in Sources */,
@@ -2171,11 +2020,9 @@
 				F41B8AB020BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
 				F41B8A4720BD4714003ED723 /* ISGNoDataView.m in Sources */,
 				F41B8B7420BD4715003ED723 /* BOCoordinateTransformation.m in Sources */,
-				F41B8A3220BD4714003ED723 /* NJKWebViewProgressView.m in Sources */,
 				F41B8A4E20BD4714003ED723 /* MenuView.m in Sources */,
 				F41B8AFD20BD4715003ED723 /* UIColor+Hex.m in Sources */,
 				F41B8A9420BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
-				F41B8A7120BD4715003ED723 /* ISGBaseViewController.m in Sources */,
 				F41B8AF620BD4715003ED723 /* NSString+MD5Addition.m in Sources */,
 				F41B8B8220BD4715003ED723 /* BONoticeBar.m in Sources */,
 				F41B8B2E20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
@@ -2193,8 +2040,6 @@
 				D1768C977F0CD5B420D1A1D2375CDBD4 /* Expecta-dummy.m in Sources */,
 				99E6D51A8A4E3FFB7601D182D995A3BA /* ExpectaObject.m in Sources */,
 				1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */,
-				F41B8A1320BD4714003ED723 /* ISGWebViewController.m in Sources */,
-				F41B8A6720BD4715003ED723 /* ISGBaseNavigationController.m in Sources */,
 				BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */,
 				5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */,
 				150503B99F77D3D8897EFFC68C09A351 /* EXPMatcherHelpers.m in Sources */,
@@ -2233,13 +2078,11 @@
 				C676818DADAC76EE2FDC5533CBF3648A /* EXPMatchers+haveCountOf.m in Sources */,
 				F41B8AE520BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
 				F41B8B7F20BD4715003ED723 /* BONoticeBar.m in Sources */,
-				F41B8A2F20BD4714003ED723 /* NJKWebViewProgressView.m in Sources */,
 				F41B8A8320BD4715003ED723 /* EaseStartHelper.m in Sources */,
 				BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */,
 				F41B8AAD20BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
 				9F51005FE4BF10FA9906B02DAD609C6E /* EXPMatchers+postNotification.m in Sources */,
 				F41B8B2B20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
-				F41B8A2120BD4714003ED723 /* NJKWebViewProgress.m in Sources */,
 				361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */,
 				870CAAA15357EFF9E1619737DEE56067 /* EXPMatchers+raiseWithReason.m in Sources */,
 				A0612BA825C81CE45266B214DF3A8BCB /* EXPMatchers+respondTo.m in Sources */,
@@ -2247,7 +2090,6 @@
 				F41B8B8D20BD4715003ED723 /* BOAssistor.m in Sources */,
 				F41B8B9420BD4715003ED723 /* BOTimeStampAssistor.m in Sources */,
 				A6CC81FC886EE8FF27EF4DD48D6F8F56 /* NSValue+Expecta.m in Sources */,
-				F41B8A6E20BD4715003ED723 /* ISGBaseViewController.m in Sources */,
 				F41B8B5520BD4715003ED723 /* NSObject+SXRuntime.m in Sources */,
 				F41B8AF320BD4715003ED723 /* NSString+MD5Addition.m in Sources */,
 				F41B8A9120BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
@@ -2263,21 +2105,16 @@
 				F41B8AAE20BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
 				F41B8B6420BD4715003ED723 /* DESUtil.m in Sources */,
 				F41B8AFB20BD4715003ED723 /* UIColor+Hex.m in Sources */,
-				F41B8A6820BD4715003ED723 /* ISGBaseNavigationController.m in Sources */,
 				F41B8AD820BD4715003ED723 /* IntroductoryPageView.m in Sources */,
 				F41B8A8B20BD4715003ED723 /* EaseStartView.m in Sources */,
 				F41B8ACA20BD4715003ED723 /* GTMBase64.m in Sources */,
 				F41B8A4520BD4714003ED723 /* ISGNoDataView.m in Sources */,
 				F41B8B1720BD4715003ED723 /* UIViewExt.m in Sources */,
 				F41B8B7220BD4715003ED723 /* BOCoordinateTransformation.m in Sources */,
-				F41B8A2220BD4714003ED723 /* NJKWebViewProgress.m in Sources */,
 				F41B8B4820BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */,
-				F41B8A6F20BD4715003ED723 /* ISGBaseViewController.m in Sources */,
 				F41B8B8020BD4715003ED723 /* BONoticeBar.m in Sources */,
 				F41B8AE620BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
-				F41B8A3020BD4714003ED723 /* NJKWebViewProgressView.m in Sources */,
 				2CC183AE5C5A4EA8EE0E14768F464BBB /* Expecta+Snapshots-dummy.m in Sources */,
-				F41B8A1420BD4714003ED723 /* ISGWebViewController.m in Sources */,
 				F41B8AA720BD4715003ED723 /* ISGProtocolView.m in Sources */,
 				F41B8A4C20BD4714003ED723 /* MenuView.m in Sources */,
 				F41B8BA320BD4715003ED723 /* BOHUDManager.m in Sources */,
@@ -2301,15 +2138,12 @@
 				F41B8B3E20BD4715003ED723 /* UIImage+Dashed.m in Sources */,
 				F41B8B5A20BD4715003ED723 /* NSObject+SXRuntime.m in Sources */,
 				A1273302A260E0CABE6E556DD9C52ECB /* SJCategory-dummy.m in Sources */,
-				F41B8A6C20BD4715003ED723 /* ISGBaseNavigationController.m in Sources */,
 				F41B8B4C20BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */,
 				F41B8B4520BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
 				F41B8A8820BD4715003ED723 /* EaseStartHelper.m in Sources */,
 				F41B8BA720BD4715003ED723 /* BOHUDManager.m in Sources */,
 				F41B8B9220BD4715003ED723 /* BOAssistor.m in Sources */,
-				F41B8A2620BD4714003ED723 /* NJKWebViewProgress.m in Sources */,
 				F41B8AAB20BD4715003ED723 /* ISGProtocolView.m in Sources */,
-				F41B8A1820BD4714003ED723 /* ISGWebViewController.m in Sources */,
 				F41B8B9920BD4715003ED723 /* BOTimeStampAssistor.m in Sources */,
 				F41B8AEA20BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
 				F41B8ADC20BD4715003ED723 /* IntroductoryPageView.m in Sources */,
@@ -2318,11 +2152,9 @@
 				F41B8AB220BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
 				F41B8A4920BD4714003ED723 /* ISGNoDataView.m in Sources */,
 				F41B8B7620BD4715003ED723 /* BOCoordinateTransformation.m in Sources */,
-				F41B8A3420BD4714003ED723 /* NJKWebViewProgressView.m in Sources */,
 				F41B8A5020BD4715003ED723 /* MenuView.m in Sources */,
 				F41B8AFF20BD4715003ED723 /* UIColor+Hex.m in Sources */,
 				F41B8A9620BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
-				F41B8A7320BD4715003ED723 /* ISGBaseViewController.m in Sources */,
 				F41B8AF820BD4715003ED723 /* NSString+MD5Addition.m in Sources */,
 				F41B8B8420BD4715003ED723 /* BONoticeBar.m in Sources */,
 				F41B8B3020BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,

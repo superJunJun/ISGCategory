@@ -4,6 +4,8 @@
 
 #import "ISGBaseViewController.h"
 #import "BOHUDManager.h"
+#import "BONoticeBar.h"
+#import "UIColor+Hex.h"
 
 @interface ISGBaseViewController ()
 
