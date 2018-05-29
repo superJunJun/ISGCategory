@@ -10,6 +10,7 @@
 #import "EnlargeAreaButton.h"
 #import "UIViewExt.h"
 #import "CommonMacro.h"
+#import "UIColor+Hex.h"
 
 @interface ISGProtocolView()
 
