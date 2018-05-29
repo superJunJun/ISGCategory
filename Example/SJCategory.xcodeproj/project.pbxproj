@@ -64,9 +64,9 @@
 		7EAF5602C9F95D88D90BD280 /* Pods-SJCategory_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SJCategory_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SJCategory_Example/Pods-SJCategory_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		988AD7FE261142753DB1CF09 /* Pods_SJCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SJCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6A3B6022454EDDF77E7DE1B /* SJCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SJCategory.podspec; path = ../SJCategory.podspec; sourceTree = "<group>"; };
-		B1C929EF9A31FFA27EFFD316 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B693752BCB9E2E4F163A9F53 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A6A3B6022454EDDF77E7DE1B /* SJCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SJCategory.podspec; path = ../SJCategory.podspec; sourceTree = "<group>"; };
+		B1C929EF9A31FFA27EFFD316 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B693752BCB9E2E4F163A9F53 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
