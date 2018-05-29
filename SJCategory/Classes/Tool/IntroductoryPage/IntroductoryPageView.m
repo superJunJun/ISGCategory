@@ -7,6 +7,7 @@
 //
 
 #import "IntroductoryPageView.h"
+#import "CommonMacro.h"
 
 
 @interface IntroductoryPageView()<UIScrollViewDelegate>

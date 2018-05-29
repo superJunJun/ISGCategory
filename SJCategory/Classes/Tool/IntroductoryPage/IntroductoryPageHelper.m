@@ -8,6 +8,7 @@
 
 #import "IntroductoryPageHelper.h"
 #import "IntroductoryPageView.h"
+#import "CommonMacro.h"
 
 @interface IntroductoryPageHelper()
 

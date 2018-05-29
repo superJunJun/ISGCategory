@@ -66,7 +66,7 @@
 - (void)progressHUDShowWithText:(NSString *)text
 {
     self.progressHUD.mode = MBProgressHUDModeIndeterminate;
-    self.progressHUD.labelText = text;
+    self.progressHUD.label.text = text;
     [self.progressHUD show:YES];
 }
 
@@ -75,13 +75,13 @@
     self.customSuccessSignImageView.highlighted = !isSucceed;
     self.progressHUD.labelText = text;
     self.progressHUD.mode = MBProgressHUDModeCustomView;
-    [self.progressHUD hide:YES afterDelay:MBProgressHUDCompleteStayTime];
+    [self.progressHUD hideAnimated:YES afterDelay:MBProgressHUDCompleteStayTime];
     self.progressHUD = nil;
 }
 
 - (void)progressHUDMomentaryShowWithText:(NSString *)text target:(id)target action:(SEL)action object:(id)object
 {
-    [self.progressHUD hide:YES afterDelay:MBProgressHUDCompleteStayTime];
+    [self.progressHUD hideAnimated:YES afterDelay:MBProgressHUDCompleteStayTime];
     [target performSelector:action withObject:object afterDelay:MBProgressHUDCompleteAdditionalFuncDelayTime];
     self.progressHUD = nil;
 }
@@ -100,7 +100,7 @@
 
 - (void)progressHUDHideImmediately
 {
-    [self.progressHUD hide:NO];
+    [self.progressHUD hideAnimated:NO];
     self.progressHUD = nil;
 }
 

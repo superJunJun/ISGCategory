@@ -7,6 +7,7 @@
 //
 
 #import "ISGNoDataView.h"
+#import "CommonMacro.h"
 
 @implementation ISGNoDataView
 

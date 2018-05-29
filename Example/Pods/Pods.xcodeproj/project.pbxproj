@@ -1409,9 +1409,9 @@
 		F41B8A0E20BD4714003ED723 /* BOHUDManager */ = {
 			isa = PBXGroup;
 			children = (
+				F41B8A1120BD4714003ED723 /* BOHUDManager.h */,
 				F41B8A0F20BD4714003ED723 /* BOHUDManager.m */,
 				F41B8A1020BD4714003ED723 /* 40x-Cancelmark@2x.png */,
-				F41B8A1120BD4714003ED723 /* BOHUDManager.h */,
 				F41B8A1220BD4714003ED723 /* 40x-Checkmark@2x.png */,
 			);
 			path = BOHUDManager;
