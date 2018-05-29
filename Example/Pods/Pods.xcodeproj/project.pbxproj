@@ -146,356 +146,230 @@
 		EDF3CEAAF7922F570A5AD95B005C84F8 /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F052ECCD91D2A3EE96DDCD0A1F428B84 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 569D7D67B8190C8E46DBE30950EBDEA6 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0873AA02837D34381D156267B9EB005 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = C685971A6CB0538D27790478B960CFD8 /* FBSnapshotTestCasePlatform.m */; };
-		F41B8A3D20BD4714003ED723 /* ISGNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CC20BD4714003ED723 /* ISGNoDataView.h */; };
-		F41B8A3E20BD4714003ED723 /* ISGNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CC20BD4714003ED723 /* ISGNoDataView.h */; };
-		F41B8A3F20BD4714003ED723 /* ISGNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CC20BD4714003ED723 /* ISGNoDataView.h */; };
-		F41B8A4020BD4714003ED723 /* ISGNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CC20BD4714003ED723 /* ISGNoDataView.h */; };
-		F41B8A4120BD4714003ED723 /* ISGNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CC20BD4714003ED723 /* ISGNoDataView.h */; };
-		F41B8A4220BD4714003ED723 /* ISGNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CC20BD4714003ED723 /* ISGNoDataView.h */; };
-		F41B8A4320BD4714003ED723 /* ISGNoDataView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89CC20BD4714003ED723 /* ISGNoDataView.h */; };
-		F41B8A4420BD4714003ED723 /* ISGNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CD20BD4714003ED723 /* ISGNoDataView.m */; };
-		F41B8A4520BD4714003ED723 /* ISGNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CD20BD4714003ED723 /* ISGNoDataView.m */; };
-		F41B8A4620BD4714003ED723 /* ISGNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CD20BD4714003ED723 /* ISGNoDataView.m */; };
-		F41B8A4720BD4714003ED723 /* ISGNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CD20BD4714003ED723 /* ISGNoDataView.m */; };
-		F41B8A4820BD4714003ED723 /* ISGNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CD20BD4714003ED723 /* ISGNoDataView.m */; };
-		F41B8A4920BD4714003ED723 /* ISGNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CD20BD4714003ED723 /* ISGNoDataView.m */; };
-		F41B8A4A20BD4714003ED723 /* ISGNoDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CD20BD4714003ED723 /* ISGNoDataView.m */; };
-		F41B8A4B20BD4714003ED723 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CF20BD4714003ED723 /* MenuView.m */; };
-		F41B8A4C20BD4714003ED723 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CF20BD4714003ED723 /* MenuView.m */; };
-		F41B8A4D20BD4714003ED723 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CF20BD4714003ED723 /* MenuView.m */; };
-		F41B8A4E20BD4714003ED723 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CF20BD4714003ED723 /* MenuView.m */; };
-		F41B8A4F20BD4715003ED723 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CF20BD4714003ED723 /* MenuView.m */; };
-		F41B8A5020BD4715003ED723 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CF20BD4714003ED723 /* MenuView.m */; };
-		F41B8A5120BD4715003ED723 /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89CF20BD4714003ED723 /* MenuView.m */; };
-		F41B8A5220BD4715003ED723 /* MenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D020BD4714003ED723 /* MenuView.h */; };
-		F41B8A5320BD4715003ED723 /* MenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D020BD4714003ED723 /* MenuView.h */; };
-		F41B8A5420BD4715003ED723 /* MenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D020BD4714003ED723 /* MenuView.h */; };
-		F41B8A5520BD4715003ED723 /* MenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D020BD4714003ED723 /* MenuView.h */; };
-		F41B8A5620BD4715003ED723 /* MenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D020BD4714003ED723 /* MenuView.h */; };
-		F41B8A5720BD4715003ED723 /* MenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D020BD4714003ED723 /* MenuView.h */; };
-		F41B8A5820BD4715003ED723 /* MenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D020BD4714003ED723 /* MenuView.h */; };
-		F41B8A7520BD4715003ED723 /* EaseStartHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D720BD4714003ED723 /* EaseStartHelper.h */; };
-		F41B8A7620BD4715003ED723 /* EaseStartHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D720BD4714003ED723 /* EaseStartHelper.h */; };
-		F41B8A7720BD4715003ED723 /* EaseStartHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D720BD4714003ED723 /* EaseStartHelper.h */; };
-		F41B8A7820BD4715003ED723 /* EaseStartHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D720BD4714003ED723 /* EaseStartHelper.h */; };
-		F41B8A7920BD4715003ED723 /* EaseStartHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D720BD4714003ED723 /* EaseStartHelper.h */; };
-		F41B8A7A20BD4715003ED723 /* EaseStartHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D720BD4714003ED723 /* EaseStartHelper.h */; };
-		F41B8A7B20BD4715003ED723 /* EaseStartHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D720BD4714003ED723 /* EaseStartHelper.h */; };
-		F41B8A7C20BD4715003ED723 /* EaseStartView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D820BD4714003ED723 /* EaseStartView.h */; };
-		F41B8A7D20BD4715003ED723 /* EaseStartView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D820BD4714003ED723 /* EaseStartView.h */; };
-		F41B8A7E20BD4715003ED723 /* EaseStartView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D820BD4714003ED723 /* EaseStartView.h */; };
-		F41B8A7F20BD4715003ED723 /* EaseStartView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D820BD4714003ED723 /* EaseStartView.h */; };
-		F41B8A8020BD4715003ED723 /* EaseStartView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D820BD4714003ED723 /* EaseStartView.h */; };
-		F41B8A8120BD4715003ED723 /* EaseStartView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D820BD4714003ED723 /* EaseStartView.h */; };
-		F41B8A8220BD4715003ED723 /* EaseStartView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89D820BD4714003ED723 /* EaseStartView.h */; };
-		F41B8A8320BD4715003ED723 /* EaseStartHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D920BD4714003ED723 /* EaseStartHelper.m */; };
-		F41B8A8420BD4715003ED723 /* EaseStartHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D920BD4714003ED723 /* EaseStartHelper.m */; };
-		F41B8A8520BD4715003ED723 /* EaseStartHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D920BD4714003ED723 /* EaseStartHelper.m */; };
-		F41B8A8620BD4715003ED723 /* EaseStartHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D920BD4714003ED723 /* EaseStartHelper.m */; };
-		F41B8A8720BD4715003ED723 /* EaseStartHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D920BD4714003ED723 /* EaseStartHelper.m */; };
-		F41B8A8820BD4715003ED723 /* EaseStartHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D920BD4714003ED723 /* EaseStartHelper.m */; };
-		F41B8A8920BD4715003ED723 /* EaseStartHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89D920BD4714003ED723 /* EaseStartHelper.m */; };
-		F41B8A8A20BD4715003ED723 /* EaseStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DA20BD4714003ED723 /* EaseStartView.m */; };
-		F41B8A8B20BD4715003ED723 /* EaseStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DA20BD4714003ED723 /* EaseStartView.m */; };
-		F41B8A8C20BD4715003ED723 /* EaseStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DA20BD4714003ED723 /* EaseStartView.m */; };
-		F41B8A8D20BD4715003ED723 /* EaseStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DA20BD4714003ED723 /* EaseStartView.m */; };
-		F41B8A8E20BD4715003ED723 /* EaseStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DA20BD4714003ED723 /* EaseStartView.m */; };
-		F41B8A8F20BD4715003ED723 /* EaseStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DA20BD4714003ED723 /* EaseStartView.m */; };
-		F41B8A9020BD4715003ED723 /* EaseStartView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DA20BD4714003ED723 /* EaseStartView.m */; };
-		F41B8A9120BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DC20BD4714003ED723 /* ISGPlaceholderTextView.m */; };
-		F41B8A9220BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DC20BD4714003ED723 /* ISGPlaceholderTextView.m */; };
-		F41B8A9320BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DC20BD4714003ED723 /* ISGPlaceholderTextView.m */; };
-		F41B8A9420BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DC20BD4714003ED723 /* ISGPlaceholderTextView.m */; };
-		F41B8A9520BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DC20BD4714003ED723 /* ISGPlaceholderTextView.m */; };
-		F41B8A9620BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DC20BD4714003ED723 /* ISGPlaceholderTextView.m */; };
-		F41B8A9720BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89DC20BD4714003ED723 /* ISGPlaceholderTextView.m */; };
-		F41B8A9820BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DD20BD4714003ED723 /* ISGPlaceholderTextView.h */; };
-		F41B8A9920BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DD20BD4714003ED723 /* ISGPlaceholderTextView.h */; };
-		F41B8A9A20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DD20BD4714003ED723 /* ISGPlaceholderTextView.h */; };
-		F41B8A9B20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DD20BD4714003ED723 /* ISGPlaceholderTextView.h */; };
-		F41B8A9C20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DD20BD4714003ED723 /* ISGPlaceholderTextView.h */; };
-		F41B8A9D20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DD20BD4714003ED723 /* ISGPlaceholderTextView.h */; };
-		F41B8A9E20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DD20BD4714003ED723 /* ISGPlaceholderTextView.h */; };
-		F41B8A9F20BD4715003ED723 /* ISGProtocolView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DF20BD4714003ED723 /* ISGProtocolView.h */; };
-		F41B8AA020BD4715003ED723 /* ISGProtocolView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DF20BD4714003ED723 /* ISGProtocolView.h */; };
-		F41B8AA120BD4715003ED723 /* ISGProtocolView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DF20BD4714003ED723 /* ISGProtocolView.h */; };
-		F41B8AA220BD4715003ED723 /* ISGProtocolView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DF20BD4714003ED723 /* ISGProtocolView.h */; };
-		F41B8AA320BD4715003ED723 /* ISGProtocolView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DF20BD4714003ED723 /* ISGProtocolView.h */; };
-		F41B8AA420BD4715003ED723 /* ISGProtocolView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DF20BD4714003ED723 /* ISGProtocolView.h */; };
-		F41B8AA520BD4715003ED723 /* ISGProtocolView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89DF20BD4714003ED723 /* ISGProtocolView.h */; };
-		F41B8AA620BD4715003ED723 /* ISGProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E020BD4714003ED723 /* ISGProtocolView.m */; };
-		F41B8AA720BD4715003ED723 /* ISGProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E020BD4714003ED723 /* ISGProtocolView.m */; };
-		F41B8AA820BD4715003ED723 /* ISGProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E020BD4714003ED723 /* ISGProtocolView.m */; };
-		F41B8AA920BD4715003ED723 /* ISGProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E020BD4714003ED723 /* ISGProtocolView.m */; };
-		F41B8AAA20BD4715003ED723 /* ISGProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E020BD4714003ED723 /* ISGProtocolView.m */; };
-		F41B8AAB20BD4715003ED723 /* ISGProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E020BD4714003ED723 /* ISGProtocolView.m */; };
-		F41B8AAC20BD4715003ED723 /* ISGProtocolView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E020BD4714003ED723 /* ISGProtocolView.m */; };
-		F41B8AAD20BD4715003ED723 /* EnlargeAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E220BD4714003ED723 /* EnlargeAreaButton.m */; };
-		F41B8AAE20BD4715003ED723 /* EnlargeAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E220BD4714003ED723 /* EnlargeAreaButton.m */; };
-		F41B8AAF20BD4715003ED723 /* EnlargeAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E220BD4714003ED723 /* EnlargeAreaButton.m */; };
-		F41B8AB020BD4715003ED723 /* EnlargeAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E220BD4714003ED723 /* EnlargeAreaButton.m */; };
-		F41B8AB120BD4715003ED723 /* EnlargeAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E220BD4714003ED723 /* EnlargeAreaButton.m */; };
-		F41B8AB220BD4715003ED723 /* EnlargeAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E220BD4714003ED723 /* EnlargeAreaButton.m */; };
-		F41B8AB320BD4715003ED723 /* EnlargeAreaButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E220BD4714003ED723 /* EnlargeAreaButton.m */; };
-		F41B8AB420BD4715003ED723 /* EnlargeAreaButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E320BD4714003ED723 /* EnlargeAreaButton.h */; };
-		F41B8AB520BD4715003ED723 /* EnlargeAreaButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E320BD4714003ED723 /* EnlargeAreaButton.h */; };
-		F41B8AB620BD4715003ED723 /* EnlargeAreaButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E320BD4714003ED723 /* EnlargeAreaButton.h */; };
-		F41B8AB720BD4715003ED723 /* EnlargeAreaButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E320BD4714003ED723 /* EnlargeAreaButton.h */; };
-		F41B8AB820BD4715003ED723 /* EnlargeAreaButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E320BD4714003ED723 /* EnlargeAreaButton.h */; };
-		F41B8AB920BD4715003ED723 /* EnlargeAreaButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E320BD4714003ED723 /* EnlargeAreaButton.h */; };
-		F41B8ABA20BD4715003ED723 /* EnlargeAreaButton.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E320BD4714003ED723 /* EnlargeAreaButton.h */; };
-		F41B8ABB20BD4715003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E620BD4714003ED723 /* GTMBase64.h */; };
-		F41B8ABC20BD4715003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E620BD4714003ED723 /* GTMBase64.h */; };
-		F41B8ABD20BD4715003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E620BD4714003ED723 /* GTMBase64.h */; };
-		F41B8ABE20BD4715003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E620BD4714003ED723 /* GTMBase64.h */; };
-		F41B8ABF20BD4715003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E620BD4714003ED723 /* GTMBase64.h */; };
-		F41B8AC020BD4715003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E620BD4714003ED723 /* GTMBase64.h */; };
-		F41B8AC120BD4715003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E620BD4714003ED723 /* GTMBase64.h */; };
-		F41B8AC220BD4715003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E720BD4714003ED723 /* GTMDefines.h */; };
-		F41B8AC320BD4715003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E720BD4714003ED723 /* GTMDefines.h */; };
-		F41B8AC420BD4715003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E720BD4714003ED723 /* GTMDefines.h */; };
-		F41B8AC520BD4715003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E720BD4714003ED723 /* GTMDefines.h */; };
-		F41B8AC620BD4715003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E720BD4714003ED723 /* GTMDefines.h */; };
-		F41B8AC720BD4715003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E720BD4714003ED723 /* GTMDefines.h */; };
-		F41B8AC820BD4715003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89E720BD4714003ED723 /* GTMDefines.h */; };
-		F41B8AC920BD4715003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E820BD4714003ED723 /* GTMBase64.m */; };
-		F41B8ACA20BD4715003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E820BD4714003ED723 /* GTMBase64.m */; };
-		F41B8ACB20BD4715003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E820BD4714003ED723 /* GTMBase64.m */; };
-		F41B8ACC20BD4715003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E820BD4714003ED723 /* GTMBase64.m */; };
-		F41B8ACD20BD4715003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E820BD4714003ED723 /* GTMBase64.m */; };
-		F41B8ACE20BD4715003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E820BD4714003ED723 /* GTMBase64.m */; };
-		F41B8ACF20BD4715003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89E820BD4714003ED723 /* GTMBase64.m */; };
-		F41B8AD020BD4715003ED723 /* IntroductoryPageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EA20BD4714003ED723 /* IntroductoryPageHelper.h */; };
-		F41B8AD120BD4715003ED723 /* IntroductoryPageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EA20BD4714003ED723 /* IntroductoryPageHelper.h */; };
-		F41B8AD220BD4715003ED723 /* IntroductoryPageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EA20BD4714003ED723 /* IntroductoryPageHelper.h */; };
-		F41B8AD320BD4715003ED723 /* IntroductoryPageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EA20BD4714003ED723 /* IntroductoryPageHelper.h */; };
-		F41B8AD420BD4715003ED723 /* IntroductoryPageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EA20BD4714003ED723 /* IntroductoryPageHelper.h */; };
-		F41B8AD520BD4715003ED723 /* IntroductoryPageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EA20BD4714003ED723 /* IntroductoryPageHelper.h */; };
-		F41B8AD620BD4715003ED723 /* IntroductoryPageHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EA20BD4714003ED723 /* IntroductoryPageHelper.h */; };
-		F41B8AD720BD4715003ED723 /* IntroductoryPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89EB20BD4714003ED723 /* IntroductoryPageView.m */; };
-		F41B8AD820BD4715003ED723 /* IntroductoryPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89EB20BD4714003ED723 /* IntroductoryPageView.m */; };
-		F41B8AD920BD4715003ED723 /* IntroductoryPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89EB20BD4714003ED723 /* IntroductoryPageView.m */; };
-		F41B8ADA20BD4715003ED723 /* IntroductoryPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89EB20BD4714003ED723 /* IntroductoryPageView.m */; };
-		F41B8ADB20BD4715003ED723 /* IntroductoryPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89EB20BD4714003ED723 /* IntroductoryPageView.m */; };
-		F41B8ADC20BD4715003ED723 /* IntroductoryPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89EB20BD4714003ED723 /* IntroductoryPageView.m */; };
-		F41B8ADD20BD4715003ED723 /* IntroductoryPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89EB20BD4714003ED723 /* IntroductoryPageView.m */; };
-		F41B8ADE20BD4715003ED723 /* IntroductoryPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EC20BD4714003ED723 /* IntroductoryPageView.h */; };
-		F41B8ADF20BD4715003ED723 /* IntroductoryPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EC20BD4714003ED723 /* IntroductoryPageView.h */; };
-		F41B8AE020BD4715003ED723 /* IntroductoryPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EC20BD4714003ED723 /* IntroductoryPageView.h */; };
-		F41B8AE120BD4715003ED723 /* IntroductoryPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EC20BD4714003ED723 /* IntroductoryPageView.h */; };
-		F41B8AE220BD4715003ED723 /* IntroductoryPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EC20BD4714003ED723 /* IntroductoryPageView.h */; };
-		F41B8AE320BD4715003ED723 /* IntroductoryPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EC20BD4714003ED723 /* IntroductoryPageView.h */; };
-		F41B8AE420BD4715003ED723 /* IntroductoryPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EC20BD4714003ED723 /* IntroductoryPageView.h */; };
-		F41B8AE520BD4715003ED723 /* IntroductoryPageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89ED20BD4714003ED723 /* IntroductoryPageHelper.m */; };
-		F41B8AE620BD4715003ED723 /* IntroductoryPageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89ED20BD4714003ED723 /* IntroductoryPageHelper.m */; };
-		F41B8AE720BD4715003ED723 /* IntroductoryPageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89ED20BD4714003ED723 /* IntroductoryPageHelper.m */; };
-		F41B8AE820BD4715003ED723 /* IntroductoryPageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89ED20BD4714003ED723 /* IntroductoryPageHelper.m */; };
-		F41B8AE920BD4715003ED723 /* IntroductoryPageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89ED20BD4714003ED723 /* IntroductoryPageHelper.m */; };
-		F41B8AEA20BD4715003ED723 /* IntroductoryPageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89ED20BD4714003ED723 /* IntroductoryPageHelper.m */; };
-		F41B8AEB20BD4715003ED723 /* IntroductoryPageHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89ED20BD4714003ED723 /* IntroductoryPageHelper.m */; };
-		F41B8AEC20BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EF20BD4714003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8AED20BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EF20BD4714003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8AEE20BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EF20BD4714003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8AEF20BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EF20BD4714003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8AF020BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EF20BD4714003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8AF120BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EF20BD4714003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8AF220BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89EF20BD4714003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8AF320BD4715003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F020BD4714003ED723 /* NSString+MD5Addition.m */; };
-		F41B8AF420BD4715003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F020BD4714003ED723 /* NSString+MD5Addition.m */; };
-		F41B8AF520BD4715003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F020BD4714003ED723 /* NSString+MD5Addition.m */; };
-		F41B8AF620BD4715003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F020BD4714003ED723 /* NSString+MD5Addition.m */; };
-		F41B8AF720BD4715003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F020BD4714003ED723 /* NSString+MD5Addition.m */; };
-		F41B8AF820BD4715003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F020BD4714003ED723 /* NSString+MD5Addition.m */; };
-		F41B8AF920BD4715003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F020BD4714003ED723 /* NSString+MD5Addition.m */; };
-		F41B8AFA20BD4715003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F120BD4714003ED723 /* UIColor+Hex.m */; };
-		F41B8AFB20BD4715003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F120BD4714003ED723 /* UIColor+Hex.m */; };
-		F41B8AFC20BD4715003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F120BD4714003ED723 /* UIColor+Hex.m */; };
-		F41B8AFD20BD4715003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F120BD4714003ED723 /* UIColor+Hex.m */; };
-		F41B8AFE20BD4715003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F120BD4714003ED723 /* UIColor+Hex.m */; };
-		F41B8AFF20BD4715003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F120BD4714003ED723 /* UIColor+Hex.m */; };
-		F41B8B0020BD4715003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F120BD4714003ED723 /* UIColor+Hex.m */; };
-		F41B8B0120BD4715003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F220BD4714003ED723 /* UIImage+Dashed.h */; };
-		F41B8B0220BD4715003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F220BD4714003ED723 /* UIImage+Dashed.h */; };
-		F41B8B0320BD4715003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F220BD4714003ED723 /* UIImage+Dashed.h */; };
-		F41B8B0420BD4715003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F220BD4714003ED723 /* UIImage+Dashed.h */; };
-		F41B8B0520BD4715003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F220BD4714003ED723 /* UIImage+Dashed.h */; };
-		F41B8B0620BD4715003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F220BD4714003ED723 /* UIImage+Dashed.h */; };
-		F41B8B0720BD4715003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F220BD4714003ED723 /* UIImage+Dashed.h */; };
-		F41B8B0820BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F320BD4714003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8B0920BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F320BD4714003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8B0A20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F320BD4714003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8B0B20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F320BD4714003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8B0C20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F320BD4714003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8B0D20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F320BD4714003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8B0E20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F320BD4714003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8B0F20BD4715003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F420BD4714003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8B1020BD4715003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F420BD4714003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8B1120BD4715003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F420BD4714003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8B1220BD4715003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F420BD4714003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8B1320BD4715003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F420BD4714003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8B1420BD4715003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F420BD4714003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8B1520BD4715003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F420BD4714003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8B1620BD4715003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F520BD4714003ED723 /* UIViewExt.m */; };
-		F41B8B1720BD4715003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F520BD4714003ED723 /* UIViewExt.m */; };
-		F41B8B1820BD4715003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F520BD4714003ED723 /* UIViewExt.m */; };
-		F41B8B1920BD4715003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F520BD4714003ED723 /* UIViewExt.m */; };
-		F41B8B1A20BD4715003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F520BD4714003ED723 /* UIViewExt.m */; };
-		F41B8B1B20BD4715003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F520BD4714003ED723 /* UIViewExt.m */; };
-		F41B8B1C20BD4715003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F520BD4714003ED723 /* UIViewExt.m */; };
-		F41B8B1D20BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F620BD4714003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8B1E20BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F620BD4714003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8B1F20BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F620BD4714003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8B2020BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F620BD4714003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8B2120BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F620BD4714003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8B2220BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F620BD4714003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8B2320BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F620BD4714003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8B2420BD4715003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F720BD4714003ED723 /* NSString+MD5Addition.h */; };
-		F41B8B2520BD4715003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F720BD4714003ED723 /* NSString+MD5Addition.h */; };
-		F41B8B2620BD4715003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F720BD4714003ED723 /* NSString+MD5Addition.h */; };
-		F41B8B2720BD4715003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F720BD4714003ED723 /* NSString+MD5Addition.h */; };
-		F41B8B2820BD4715003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F720BD4714003ED723 /* NSString+MD5Addition.h */; };
-		F41B8B2920BD4715003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F720BD4714003ED723 /* NSString+MD5Addition.h */; };
-		F41B8B2A20BD4715003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F720BD4714003ED723 /* NSString+MD5Addition.h */; };
-		F41B8B2B20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F820BD4714003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8B2C20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F820BD4714003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8B2D20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F820BD4714003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8B2E20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F820BD4714003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8B2F20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F820BD4714003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8B3020BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F820BD4714003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8B3120BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89F820BD4714003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8B3220BD4715003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F920BD4714003ED723 /* UIColor+Hex.h */; };
-		F41B8B3320BD4715003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F920BD4714003ED723 /* UIColor+Hex.h */; };
-		F41B8B3420BD4715003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F920BD4714003ED723 /* UIColor+Hex.h */; };
-		F41B8B3520BD4715003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F920BD4714003ED723 /* UIColor+Hex.h */; };
-		F41B8B3620BD4715003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F920BD4714003ED723 /* UIColor+Hex.h */; };
-		F41B8B3720BD4715003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F920BD4714003ED723 /* UIColor+Hex.h */; };
-		F41B8B3820BD4715003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89F920BD4714003ED723 /* UIColor+Hex.h */; };
-		F41B8B3920BD4715003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FA20BD4714003ED723 /* UIImage+Dashed.m */; };
-		F41B8B3A20BD4715003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FA20BD4714003ED723 /* UIImage+Dashed.m */; };
-		F41B8B3B20BD4715003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FA20BD4714003ED723 /* UIImage+Dashed.m */; };
-		F41B8B3C20BD4715003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FA20BD4714003ED723 /* UIImage+Dashed.m */; };
-		F41B8B3D20BD4715003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FA20BD4714003ED723 /* UIImage+Dashed.m */; };
-		F41B8B3E20BD4715003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FA20BD4714003ED723 /* UIImage+Dashed.m */; };
-		F41B8B3F20BD4715003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FA20BD4714003ED723 /* UIImage+Dashed.m */; };
-		F41B8B4020BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FB20BD4714003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8B4120BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FB20BD4714003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8B4220BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FB20BD4714003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8B4320BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FB20BD4714003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8B4420BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FB20BD4714003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8B4520BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FB20BD4714003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8B4620BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FB20BD4714003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8B4720BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FC20BD4714003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8B4820BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FC20BD4714003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8B4920BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FC20BD4714003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8B4A20BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FC20BD4714003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8B4B20BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FC20BD4714003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8B4C20BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FC20BD4714003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8B4D20BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FC20BD4714003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8B4E20BD4715003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89FD20BD4714003ED723 /* UIViewExt.h */; };
-		F41B8B4F20BD4715003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89FD20BD4714003ED723 /* UIViewExt.h */; };
-		F41B8B5020BD4715003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89FD20BD4714003ED723 /* UIViewExt.h */; };
-		F41B8B5120BD4715003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89FD20BD4714003ED723 /* UIViewExt.h */; };
-		F41B8B5220BD4715003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89FD20BD4714003ED723 /* UIViewExt.h */; };
-		F41B8B5320BD4715003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89FD20BD4714003ED723 /* UIViewExt.h */; };
-		F41B8B5420BD4715003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B89FD20BD4714003ED723 /* UIViewExt.h */; };
-		F41B8B5520BD4715003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FE20BD4714003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8B5620BD4715003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FE20BD4714003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8B5720BD4715003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FE20BD4714003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8B5820BD4715003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FE20BD4714003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8B5920BD4715003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FE20BD4714003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8B5A20BD4715003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FE20BD4714003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8B5B20BD4715003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B89FE20BD4714003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8B5C20BD4715003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0020BD4714003ED723 /* DESUtil.h */; };
-		F41B8B5D20BD4715003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0020BD4714003ED723 /* DESUtil.h */; };
-		F41B8B5E20BD4715003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0020BD4714003ED723 /* DESUtil.h */; };
-		F41B8B5F20BD4715003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0020BD4714003ED723 /* DESUtil.h */; };
-		F41B8B6020BD4715003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0020BD4714003ED723 /* DESUtil.h */; };
-		F41B8B6120BD4715003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0020BD4714003ED723 /* DESUtil.h */; };
-		F41B8B6220BD4715003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0020BD4714003ED723 /* DESUtil.h */; };
-		F41B8B6320BD4715003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0120BD4714003ED723 /* DESUtil.m */; };
-		F41B8B6420BD4715003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0120BD4714003ED723 /* DESUtil.m */; };
-		F41B8B6520BD4715003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0120BD4714003ED723 /* DESUtil.m */; };
-		F41B8B6620BD4715003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0120BD4714003ED723 /* DESUtil.m */; };
-		F41B8B6720BD4715003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0120BD4714003ED723 /* DESUtil.m */; };
-		F41B8B6820BD4715003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0120BD4714003ED723 /* DESUtil.m */; };
-		F41B8B6920BD4715003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0120BD4714003ED723 /* DESUtil.m */; };
-		F41B8B6A20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0320BD4714003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8B6B20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0320BD4714003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8B6C20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0320BD4714003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8B6D20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0320BD4714003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8B6E20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0320BD4714003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8B6F20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0320BD4714003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8B7020BD4715003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0320BD4714003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8B7120BD4715003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0420BD4714003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8B7220BD4715003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0420BD4714003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8B7320BD4715003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0420BD4714003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8B7420BD4715003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0420BD4714003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8B7520BD4715003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0420BD4714003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8B7620BD4715003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0420BD4714003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8B7720BD4715003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0420BD4714003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8B7820BD4715003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0620BD4714003ED723 /* BONoticeBar.h */; };
-		F41B8B7920BD4715003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0620BD4714003ED723 /* BONoticeBar.h */; };
-		F41B8B7A20BD4715003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0620BD4714003ED723 /* BONoticeBar.h */; };
-		F41B8B7B20BD4715003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0620BD4714003ED723 /* BONoticeBar.h */; };
-		F41B8B7C20BD4715003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0620BD4714003ED723 /* BONoticeBar.h */; };
-		F41B8B7D20BD4715003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0620BD4714003ED723 /* BONoticeBar.h */; };
-		F41B8B7E20BD4715003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0620BD4714003ED723 /* BONoticeBar.h */; };
-		F41B8B7F20BD4715003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0720BD4714003ED723 /* BONoticeBar.m */; };
-		F41B8B8020BD4715003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0720BD4714003ED723 /* BONoticeBar.m */; };
-		F41B8B8120BD4715003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0720BD4714003ED723 /* BONoticeBar.m */; };
-		F41B8B8220BD4715003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0720BD4714003ED723 /* BONoticeBar.m */; };
-		F41B8B8320BD4715003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0720BD4714003ED723 /* BONoticeBar.m */; };
-		F41B8B8420BD4715003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0720BD4714003ED723 /* BONoticeBar.m */; };
-		F41B8B8520BD4715003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0720BD4714003ED723 /* BONoticeBar.m */; };
-		F41B8B8620BD4715003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0920BD4714003ED723 /* BOAssistor.h */; };
-		F41B8B8720BD4715003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0920BD4714003ED723 /* BOAssistor.h */; };
-		F41B8B8820BD4715003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0920BD4714003ED723 /* BOAssistor.h */; };
-		F41B8B8920BD4715003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0920BD4714003ED723 /* BOAssistor.h */; };
-		F41B8B8A20BD4715003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0920BD4714003ED723 /* BOAssistor.h */; };
-		F41B8B8B20BD4715003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0920BD4714003ED723 /* BOAssistor.h */; };
-		F41B8B8C20BD4715003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0920BD4714003ED723 /* BOAssistor.h */; };
-		F41B8B8D20BD4715003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0A20BD4714003ED723 /* BOAssistor.m */; };
-		F41B8B8E20BD4715003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0A20BD4714003ED723 /* BOAssistor.m */; };
-		F41B8B8F20BD4715003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0A20BD4714003ED723 /* BOAssistor.m */; };
-		F41B8B9020BD4715003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0A20BD4714003ED723 /* BOAssistor.m */; };
-		F41B8B9120BD4715003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0A20BD4714003ED723 /* BOAssistor.m */; };
-		F41B8B9220BD4715003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0A20BD4714003ED723 /* BOAssistor.m */; };
-		F41B8B9320BD4715003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0A20BD4714003ED723 /* BOAssistor.m */; };
-		F41B8B9420BD4715003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0C20BD4714003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8B9520BD4715003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0C20BD4714003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8B9620BD4715003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0C20BD4714003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8B9720BD4715003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0C20BD4714003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8B9820BD4715003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0C20BD4714003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8B9920BD4715003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0C20BD4714003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8B9A20BD4715003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0C20BD4714003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8B9B20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0D20BD4714003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8B9C20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0D20BD4714003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8B9D20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0D20BD4714003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8B9E20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0D20BD4714003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8B9F20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0D20BD4714003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8BA020BD4715003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0D20BD4714003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8BA120BD4715003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A0D20BD4714003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8BA220BD4715003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0F20BD4714003ED723 /* BOHUDManager.m */; };
-		F41B8BA320BD4715003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0F20BD4714003ED723 /* BOHUDManager.m */; };
-		F41B8BA420BD4715003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0F20BD4714003ED723 /* BOHUDManager.m */; };
-		F41B8BA520BD4715003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0F20BD4714003ED723 /* BOHUDManager.m */; };
-		F41B8BA620BD4715003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0F20BD4714003ED723 /* BOHUDManager.m */; };
-		F41B8BA720BD4715003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0F20BD4714003ED723 /* BOHUDManager.m */; };
-		F41B8BA820BD4715003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8A0F20BD4714003ED723 /* BOHUDManager.m */; };
-		F41B8BA920BD4715003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A1120BD4714003ED723 /* BOHUDManager.h */; };
-		F41B8BAA20BD4715003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A1120BD4714003ED723 /* BOHUDManager.h */; };
-		F41B8BAB20BD4715003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A1120BD4714003ED723 /* BOHUDManager.h */; };
-		F41B8BAC20BD4715003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A1120BD4714003ED723 /* BOHUDManager.h */; };
-		F41B8BAD20BD4715003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A1120BD4714003ED723 /* BOHUDManager.h */; };
-		F41B8BAE20BD4715003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A1120BD4714003ED723 /* BOHUDManager.h */; };
-		F41B8BAF20BD4715003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8A1120BD4714003ED723 /* BOHUDManager.h */; };
-		F41B8BB120BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
-		F41B8BB220BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
-		F41B8BB320BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
-		F41B8BB420BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
-		F41B8BB520BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
-		F41B8BB620BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
-		F41B8BB720BD49A9003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BB020BD49A9003ED723 /* CommonMacro.h */; };
+		F41B8BF320BD548A003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCA20BD5489003ED723 /* GTMBase64.h */; };
+		F41B8BF420BD548A003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCA20BD5489003ED723 /* GTMBase64.h */; };
+		F41B8BF520BD548A003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCA20BD5489003ED723 /* GTMBase64.h */; };
+		F41B8BF620BD548A003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCA20BD5489003ED723 /* GTMBase64.h */; };
+		F41B8BF720BD548A003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCA20BD5489003ED723 /* GTMBase64.h */; };
+		F41B8BF820BD548A003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCA20BD5489003ED723 /* GTMBase64.h */; };
+		F41B8BF920BD548A003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCA20BD5489003ED723 /* GTMBase64.h */; };
+		F41B8BFA20BD548A003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCB20BD5489003ED723 /* GTMDefines.h */; };
+		F41B8BFB20BD548A003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCB20BD5489003ED723 /* GTMDefines.h */; };
+		F41B8BFC20BD548A003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCB20BD5489003ED723 /* GTMDefines.h */; };
+		F41B8BFD20BD548A003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCB20BD5489003ED723 /* GTMDefines.h */; };
+		F41B8BFE20BD548A003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCB20BD5489003ED723 /* GTMDefines.h */; };
+		F41B8BFF20BD548A003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCB20BD5489003ED723 /* GTMDefines.h */; };
+		F41B8C0020BD548A003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCB20BD5489003ED723 /* GTMDefines.h */; };
+		F41B8C0120BD548A003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCC20BD5489003ED723 /* GTMBase64.m */; };
+		F41B8C0220BD548A003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCC20BD5489003ED723 /* GTMBase64.m */; };
+		F41B8C0320BD548A003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCC20BD5489003ED723 /* GTMBase64.m */; };
+		F41B8C0420BD548A003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCC20BD5489003ED723 /* GTMBase64.m */; };
+		F41B8C0520BD548A003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCC20BD5489003ED723 /* GTMBase64.m */; };
+		F41B8C0620BD548A003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCC20BD5489003ED723 /* GTMBase64.m */; };
+		F41B8C0720BD548A003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCC20BD5489003ED723 /* GTMBase64.m */; };
+		F41B8C0820BD548A003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCE20BD5489003ED723 /* BOAssistor.h */; };
+		F41B8C0920BD548A003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCE20BD5489003ED723 /* BOAssistor.h */; };
+		F41B8C0A20BD548A003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCE20BD5489003ED723 /* BOAssistor.h */; };
+		F41B8C0B20BD548A003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCE20BD5489003ED723 /* BOAssistor.h */; };
+		F41B8C0C20BD548A003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCE20BD5489003ED723 /* BOAssistor.h */; };
+		F41B8C0D20BD548A003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCE20BD5489003ED723 /* BOAssistor.h */; };
+		F41B8C0E20BD548A003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BCE20BD5489003ED723 /* BOAssistor.h */; };
+		F41B8C0F20BD548A003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCF20BD5489003ED723 /* BOAssistor.m */; };
+		F41B8C1020BD548A003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCF20BD5489003ED723 /* BOAssistor.m */; };
+		F41B8C1120BD548A003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCF20BD5489003ED723 /* BOAssistor.m */; };
+		F41B8C1220BD548A003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCF20BD5489003ED723 /* BOAssistor.m */; };
+		F41B8C1320BD548A003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCF20BD5489003ED723 /* BOAssistor.m */; };
+		F41B8C1420BD548A003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCF20BD5489003ED723 /* BOAssistor.m */; };
+		F41B8C1520BD548A003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BCF20BD5489003ED723 /* BOAssistor.m */; };
+		F41B8C1620BD548A003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD120BD5489003ED723 /* BOHUDManager.m */; };
+		F41B8C1720BD548A003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD120BD5489003ED723 /* BOHUDManager.m */; };
+		F41B8C1820BD548A003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD120BD5489003ED723 /* BOHUDManager.m */; };
+		F41B8C1920BD548A003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD120BD5489003ED723 /* BOHUDManager.m */; };
+		F41B8C1A20BD548A003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD120BD5489003ED723 /* BOHUDManager.m */; };
+		F41B8C1B20BD548A003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD120BD5489003ED723 /* BOHUDManager.m */; };
+		F41B8C1C20BD548A003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD120BD5489003ED723 /* BOHUDManager.m */; };
+		F41B8C1D20BD548A003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD320BD5489003ED723 /* BOHUDManager.h */; };
+		F41B8C1E20BD548A003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD320BD5489003ED723 /* BOHUDManager.h */; };
+		F41B8C1F20BD548A003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD320BD5489003ED723 /* BOHUDManager.h */; };
+		F41B8C2020BD548A003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD320BD5489003ED723 /* BOHUDManager.h */; };
+		F41B8C2120BD548A003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD320BD5489003ED723 /* BOHUDManager.h */; };
+		F41B8C2220BD548A003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD320BD5489003ED723 /* BOHUDManager.h */; };
+		F41B8C2320BD548A003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD320BD5489003ED723 /* BOHUDManager.h */; };
+		F41B8C2420BD548A003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD620BD5489003ED723 /* BOCoordinateTransformation.h */; };
+		F41B8C2520BD548A003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD620BD5489003ED723 /* BOCoordinateTransformation.h */; };
+		F41B8C2620BD548A003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD620BD5489003ED723 /* BOCoordinateTransformation.h */; };
+		F41B8C2720BD548A003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD620BD5489003ED723 /* BOCoordinateTransformation.h */; };
+		F41B8C2820BD548A003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD620BD5489003ED723 /* BOCoordinateTransformation.h */; };
+		F41B8C2920BD548A003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD620BD5489003ED723 /* BOCoordinateTransformation.h */; };
+		F41B8C2A20BD548A003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD620BD5489003ED723 /* BOCoordinateTransformation.h */; };
+		F41B8C2B20BD548A003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD720BD5489003ED723 /* BOCoordinateTransformation.m */; };
+		F41B8C2C20BD548A003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD720BD5489003ED723 /* BOCoordinateTransformation.m */; };
+		F41B8C2D20BD548A003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD720BD5489003ED723 /* BOCoordinateTransformation.m */; };
+		F41B8C2E20BD548A003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD720BD5489003ED723 /* BOCoordinateTransformation.m */; };
+		F41B8C2F20BD548A003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD720BD5489003ED723 /* BOCoordinateTransformation.m */; };
+		F41B8C3020BD548A003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD720BD5489003ED723 /* BOCoordinateTransformation.m */; };
+		F41B8C3120BD548A003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BD720BD5489003ED723 /* BOCoordinateTransformation.m */; };
+		F41B8C3220BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD920BD5489003ED723 /* UIButton+ImageTitleSpacing.h */; };
+		F41B8C3320BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD920BD5489003ED723 /* UIButton+ImageTitleSpacing.h */; };
+		F41B8C3420BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD920BD5489003ED723 /* UIButton+ImageTitleSpacing.h */; };
+		F41B8C3520BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD920BD5489003ED723 /* UIButton+ImageTitleSpacing.h */; };
+		F41B8C3620BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD920BD5489003ED723 /* UIButton+ImageTitleSpacing.h */; };
+		F41B8C3720BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD920BD5489003ED723 /* UIButton+ImageTitleSpacing.h */; };
+		F41B8C3820BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BD920BD5489003ED723 /* UIButton+ImageTitleSpacing.h */; };
+		F41B8C3920BD548A003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDA20BD5489003ED723 /* NSString+MD5Addition.m */; };
+		F41B8C3A20BD548A003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDA20BD5489003ED723 /* NSString+MD5Addition.m */; };
+		F41B8C3B20BD548A003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDA20BD5489003ED723 /* NSString+MD5Addition.m */; };
+		F41B8C3C20BD548A003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDA20BD5489003ED723 /* NSString+MD5Addition.m */; };
+		F41B8C3D20BD548A003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDA20BD5489003ED723 /* NSString+MD5Addition.m */; };
+		F41B8C3E20BD548A003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDA20BD5489003ED723 /* NSString+MD5Addition.m */; };
+		F41B8C3F20BD548A003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDA20BD5489003ED723 /* NSString+MD5Addition.m */; };
+		F41B8C4020BD548A003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDB20BD5489003ED723 /* CommonMacro.h */; };
+		F41B8C4120BD548A003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDB20BD5489003ED723 /* CommonMacro.h */; };
+		F41B8C4220BD548A003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDB20BD5489003ED723 /* CommonMacro.h */; };
+		F41B8C4320BD548A003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDB20BD5489003ED723 /* CommonMacro.h */; };
+		F41B8C4420BD548A003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDB20BD5489003ED723 /* CommonMacro.h */; };
+		F41B8C4520BD548A003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDB20BD5489003ED723 /* CommonMacro.h */; };
+		F41B8C4620BD548A003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDB20BD5489003ED723 /* CommonMacro.h */; };
+		F41B8C4720BD548A003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDC20BD5489003ED723 /* UIColor+Hex.m */; };
+		F41B8C4820BD548A003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDC20BD5489003ED723 /* UIColor+Hex.m */; };
+		F41B8C4920BD548A003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDC20BD5489003ED723 /* UIColor+Hex.m */; };
+		F41B8C4A20BD548A003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDC20BD5489003ED723 /* UIColor+Hex.m */; };
+		F41B8C4B20BD548A003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDC20BD5489003ED723 /* UIColor+Hex.m */; };
+		F41B8C4C20BD548A003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDC20BD5489003ED723 /* UIColor+Hex.m */; };
+		F41B8C4D20BD548A003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BDC20BD5489003ED723 /* UIColor+Hex.m */; };
+		F41B8C4E20BD548A003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDD20BD5489003ED723 /* UIImage+Dashed.h */; };
+		F41B8C4F20BD548A003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDD20BD5489003ED723 /* UIImage+Dashed.h */; };
+		F41B8C5020BD548A003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDD20BD5489003ED723 /* UIImage+Dashed.h */; };
+		F41B8C5120BD548A003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDD20BD5489003ED723 /* UIImage+Dashed.h */; };
+		F41B8C5220BD548A003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDD20BD5489003ED723 /* UIImage+Dashed.h */; };
+		F41B8C5320BD548A003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDD20BD5489003ED723 /* UIImage+Dashed.h */; };
+		F41B8C5420BD548A003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDD20BD5489003ED723 /* UIImage+Dashed.h */; };
+		F41B8C5520BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDE20BD5489003ED723 /* UINavigationController+SXFullScreen.h */; };
+		F41B8C5620BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDE20BD5489003ED723 /* UINavigationController+SXFullScreen.h */; };
+		F41B8C5720BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDE20BD5489003ED723 /* UINavigationController+SXFullScreen.h */; };
+		F41B8C5820BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDE20BD5489003ED723 /* UINavigationController+SXFullScreen.h */; };
+		F41B8C5920BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDE20BD5489003ED723 /* UINavigationController+SXFullScreen.h */; };
+		F41B8C5A20BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDE20BD5489003ED723 /* UINavigationController+SXFullScreen.h */; };
+		F41B8C5B20BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDE20BD5489003ED723 /* UINavigationController+SXFullScreen.h */; };
+		F41B8C5C20BD548A003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDF20BD5489003ED723 /* NSObject+SXRuntime.h */; };
+		F41B8C5D20BD548A003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDF20BD5489003ED723 /* NSObject+SXRuntime.h */; };
+		F41B8C5E20BD548A003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDF20BD5489003ED723 /* NSObject+SXRuntime.h */; };
+		F41B8C5F20BD548A003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDF20BD5489003ED723 /* NSObject+SXRuntime.h */; };
+		F41B8C6020BD548A003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDF20BD5489003ED723 /* NSObject+SXRuntime.h */; };
+		F41B8C6120BD548A003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDF20BD5489003ED723 /* NSObject+SXRuntime.h */; };
+		F41B8C6220BD548A003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BDF20BD5489003ED723 /* NSObject+SXRuntime.h */; };
+		F41B8C6320BD548A003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE020BD5489003ED723 /* UIViewExt.m */; };
+		F41B8C6420BD548A003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE020BD5489003ED723 /* UIViewExt.m */; };
+		F41B8C6520BD548A003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE020BD5489003ED723 /* UIViewExt.m */; };
+		F41B8C6620BD548A003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE020BD5489003ED723 /* UIViewExt.m */; };
+		F41B8C6720BD548A003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE020BD5489003ED723 /* UIViewExt.m */; };
+		F41B8C6820BD548A003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE020BD5489003ED723 /* UIViewExt.m */; };
+		F41B8C6920BD548A003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE020BD5489003ED723 /* UIViewExt.m */; };
+		F41B8C6A20BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE120BD5489003ED723 /* UINavigation+SXFixSpace.h */; };
+		F41B8C6B20BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE120BD5489003ED723 /* UINavigation+SXFixSpace.h */; };
+		F41B8C6C20BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE120BD5489003ED723 /* UINavigation+SXFixSpace.h */; };
+		F41B8C6D20BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE120BD5489003ED723 /* UINavigation+SXFixSpace.h */; };
+		F41B8C6E20BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE120BD5489003ED723 /* UINavigation+SXFixSpace.h */; };
+		F41B8C6F20BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE120BD5489003ED723 /* UINavigation+SXFixSpace.h */; };
+		F41B8C7020BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE120BD5489003ED723 /* UINavigation+SXFixSpace.h */; };
+		F41B8C7120BD548A003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE220BD5489003ED723 /* NSString+MD5Addition.h */; };
+		F41B8C7220BD548A003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE220BD5489003ED723 /* NSString+MD5Addition.h */; };
+		F41B8C7320BD548A003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE220BD5489003ED723 /* NSString+MD5Addition.h */; };
+		F41B8C7420BD548A003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE220BD5489003ED723 /* NSString+MD5Addition.h */; };
+		F41B8C7520BD548A003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE220BD5489003ED723 /* NSString+MD5Addition.h */; };
+		F41B8C7620BD548A003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE220BD5489003ED723 /* NSString+MD5Addition.h */; };
+		F41B8C7720BD548A003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE220BD5489003ED723 /* NSString+MD5Addition.h */; };
+		F41B8C7820BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE320BD5489003ED723 /* UIButton+ImageTitleSpacing.m */; };
+		F41B8C7920BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE320BD5489003ED723 /* UIButton+ImageTitleSpacing.m */; };
+		F41B8C7A20BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE320BD5489003ED723 /* UIButton+ImageTitleSpacing.m */; };
+		F41B8C7B20BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE320BD5489003ED723 /* UIButton+ImageTitleSpacing.m */; };
+		F41B8C7C20BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE320BD5489003ED723 /* UIButton+ImageTitleSpacing.m */; };
+		F41B8C7D20BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE320BD5489003ED723 /* UIButton+ImageTitleSpacing.m */; };
+		F41B8C7E20BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE320BD5489003ED723 /* UIButton+ImageTitleSpacing.m */; };
+		F41B8C7F20BD548A003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE420BD5489003ED723 /* UIColor+Hex.h */; };
+		F41B8C8020BD548A003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE420BD5489003ED723 /* UIColor+Hex.h */; };
+		F41B8C8120BD548A003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE420BD5489003ED723 /* UIColor+Hex.h */; };
+		F41B8C8220BD548A003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE420BD5489003ED723 /* UIColor+Hex.h */; };
+		F41B8C8320BD548A003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE420BD5489003ED723 /* UIColor+Hex.h */; };
+		F41B8C8420BD548A003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE420BD5489003ED723 /* UIColor+Hex.h */; };
+		F41B8C8520BD548A003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE420BD5489003ED723 /* UIColor+Hex.h */; };
+		F41B8C8620BD548A003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE520BD5489003ED723 /* UIImage+Dashed.m */; };
+		F41B8C8720BD548A003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE520BD5489003ED723 /* UIImage+Dashed.m */; };
+		F41B8C8820BD548A003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE520BD5489003ED723 /* UIImage+Dashed.m */; };
+		F41B8C8920BD548A003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE520BD5489003ED723 /* UIImage+Dashed.m */; };
+		F41B8C8A20BD548A003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE520BD5489003ED723 /* UIImage+Dashed.m */; };
+		F41B8C8B20BD548A003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE520BD5489003ED723 /* UIImage+Dashed.m */; };
+		F41B8C8C20BD548A003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE520BD5489003ED723 /* UIImage+Dashed.m */; };
+		F41B8C8D20BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE620BD5489003ED723 /* UINavigationController+SXFullScreen.m */; };
+		F41B8C8E20BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE620BD5489003ED723 /* UINavigationController+SXFullScreen.m */; };
+		F41B8C8F20BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE620BD5489003ED723 /* UINavigationController+SXFullScreen.m */; };
+		F41B8C9020BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE620BD5489003ED723 /* UINavigationController+SXFullScreen.m */; };
+		F41B8C9120BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE620BD5489003ED723 /* UINavigationController+SXFullScreen.m */; };
+		F41B8C9220BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE620BD5489003ED723 /* UINavigationController+SXFullScreen.m */; };
+		F41B8C9320BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE620BD5489003ED723 /* UINavigationController+SXFullScreen.m */; };
+		F41B8C9420BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE720BD5489003ED723 /* UINavigation+SXFixSpace.m */; };
+		F41B8C9520BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE720BD5489003ED723 /* UINavigation+SXFixSpace.m */; };
+		F41B8C9620BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE720BD5489003ED723 /* UINavigation+SXFixSpace.m */; };
+		F41B8C9720BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE720BD5489003ED723 /* UINavigation+SXFixSpace.m */; };
+		F41B8C9820BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE720BD5489003ED723 /* UINavigation+SXFixSpace.m */; };
+		F41B8C9920BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE720BD5489003ED723 /* UINavigation+SXFixSpace.m */; };
+		F41B8C9A20BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE720BD5489003ED723 /* UINavigation+SXFixSpace.m */; };
+		F41B8C9B20BD548A003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE820BD5489003ED723 /* UIViewExt.h */; };
+		F41B8C9C20BD548A003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE820BD5489003ED723 /* UIViewExt.h */; };
+		F41B8C9D20BD548A003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE820BD5489003ED723 /* UIViewExt.h */; };
+		F41B8C9E20BD548A003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE820BD5489003ED723 /* UIViewExt.h */; };
+		F41B8C9F20BD548A003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE820BD5489003ED723 /* UIViewExt.h */; };
+		F41B8CA020BD548A003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE820BD5489003ED723 /* UIViewExt.h */; };
+		F41B8CA120BD548A003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BE820BD5489003ED723 /* UIViewExt.h */; };
+		F41B8CA220BD548A003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE920BD5489003ED723 /* NSObject+SXRuntime.m */; };
+		F41B8CA320BD548A003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE920BD5489003ED723 /* NSObject+SXRuntime.m */; };
+		F41B8CA420BD548A003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE920BD5489003ED723 /* NSObject+SXRuntime.m */; };
+		F41B8CA520BD548A003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE920BD5489003ED723 /* NSObject+SXRuntime.m */; };
+		F41B8CA620BD548A003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE920BD5489003ED723 /* NSObject+SXRuntime.m */; };
+		F41B8CA720BD548A003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE920BD5489003ED723 /* NSObject+SXRuntime.m */; };
+		F41B8CA820BD548A003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BE920BD5489003ED723 /* NSObject+SXRuntime.m */; };
+		F41B8CA920BD548A003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEB20BD5489003ED723 /* DESUtil.h */; };
+		F41B8CAA20BD548A003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEB20BD5489003ED723 /* DESUtil.h */; };
+		F41B8CAB20BD548A003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEB20BD5489003ED723 /* DESUtil.h */; };
+		F41B8CAC20BD548A003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEB20BD5489003ED723 /* DESUtil.h */; };
+		F41B8CAD20BD548A003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEB20BD5489003ED723 /* DESUtil.h */; };
+		F41B8CAE20BD548A003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEB20BD5489003ED723 /* DESUtil.h */; };
+		F41B8CAF20BD548A003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEB20BD5489003ED723 /* DESUtil.h */; };
+		F41B8CB020BD548A003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEC20BD5489003ED723 /* DESUtil.m */; };
+		F41B8CB120BD548A003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEC20BD5489003ED723 /* DESUtil.m */; };
+		F41B8CB220BD548A003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEC20BD5489003ED723 /* DESUtil.m */; };
+		F41B8CB320BD548A003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEC20BD5489003ED723 /* DESUtil.m */; };
+		F41B8CB420BD548A003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEC20BD5489003ED723 /* DESUtil.m */; };
+		F41B8CB520BD548A003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEC20BD5489003ED723 /* DESUtil.m */; };
+		F41B8CB620BD548A003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEC20BD5489003ED723 /* DESUtil.m */; };
+		F41B8CB720BD548A003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEE20BD5489003ED723 /* BONoticeBar.h */; };
+		F41B8CB820BD548A003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEE20BD5489003ED723 /* BONoticeBar.h */; };
+		F41B8CB920BD548A003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEE20BD5489003ED723 /* BONoticeBar.h */; };
+		F41B8CBA20BD548A003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEE20BD5489003ED723 /* BONoticeBar.h */; };
+		F41B8CBB20BD548A003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEE20BD5489003ED723 /* BONoticeBar.h */; };
+		F41B8CBC20BD548A003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEE20BD5489003ED723 /* BONoticeBar.h */; };
+		F41B8CBD20BD548A003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BEE20BD5489003ED723 /* BONoticeBar.h */; };
+		F41B8CBE20BD548A003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEF20BD5489003ED723 /* BONoticeBar.m */; };
+		F41B8CBF20BD548A003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEF20BD5489003ED723 /* BONoticeBar.m */; };
+		F41B8CC020BD548A003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEF20BD5489003ED723 /* BONoticeBar.m */; };
+		F41B8CC120BD548A003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEF20BD5489003ED723 /* BONoticeBar.m */; };
+		F41B8CC220BD548A003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEF20BD5489003ED723 /* BONoticeBar.m */; };
+		F41B8CC320BD548A003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEF20BD5489003ED723 /* BONoticeBar.m */; };
+		F41B8CC420BD548A003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BEF20BD5489003ED723 /* BONoticeBar.m */; };
+		F41B8CC520BD548A003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BF120BD548A003ED723 /* BOTimeStampAssistor.m */; };
+		F41B8CC620BD548A003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BF120BD548A003ED723 /* BOTimeStampAssistor.m */; };
+		F41B8CC720BD548A003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BF120BD548A003ED723 /* BOTimeStampAssistor.m */; };
+		F41B8CC820BD548A003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BF120BD548A003ED723 /* BOTimeStampAssistor.m */; };
+		F41B8CC920BD548A003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BF120BD548A003ED723 /* BOTimeStampAssistor.m */; };
+		F41B8CCA20BD548A003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BF120BD548A003ED723 /* BOTimeStampAssistor.m */; };
+		F41B8CCB20BD548A003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8BF120BD548A003ED723 /* BOTimeStampAssistor.m */; };
+		F41B8CCC20BD548A003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BF220BD548A003ED723 /* BOTimeStampAssistor.h */; };
+		F41B8CCD20BD548A003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BF220BD548A003ED723 /* BOTimeStampAssistor.h */; };
+		F41B8CCE20BD548A003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BF220BD548A003ED723 /* BOTimeStampAssistor.h */; };
+		F41B8CCF20BD548A003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BF220BD548A003ED723 /* BOTimeStampAssistor.h */; };
+		F41B8CD020BD548A003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BF220BD548A003ED723 /* BOTimeStampAssistor.h */; };
+		F41B8CD120BD548A003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BF220BD548A003ED723 /* BOTimeStampAssistor.h */; };
+		F41B8CD220BD548A003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8BF220BD548A003ED723 /* BOTimeStampAssistor.h */; };
 		F47A1C5E5511ECB73ED0ECC6D6ACE265 /* Pods-SJCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC2EA051487C9BE3A759DF8913CF770 /* Pods-SJCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7474BA8C598AEBD11BF575991FAB7D0 /* Pods-SJCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E6DF675997C7BFD7F475D189289DF6 /* Pods-SJCategory_Example-dummy.m */; };
 		F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AD646C1FEAB8503FF6D57F404BC0E6 /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -737,58 +611,40 @@
 		F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		F3200F9ABB9BD242A2B304A1928A2D44 /* Pods-SJCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F41B89CC20BD4714003ED723 /* ISGNoDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISGNoDataView.h; sourceTree = "<group>"; };
-		F41B89CD20BD4714003ED723 /* ISGNoDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISGNoDataView.m; sourceTree = "<group>"; };
-		F41B89CF20BD4714003ED723 /* MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
-		F41B89D020BD4714003ED723 /* MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
-		F41B89D720BD4714003ED723 /* EaseStartHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseStartHelper.h; sourceTree = "<group>"; };
-		F41B89D820BD4714003ED723 /* EaseStartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseStartView.h; sourceTree = "<group>"; };
-		F41B89D920BD4714003ED723 /* EaseStartHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseStartHelper.m; sourceTree = "<group>"; };
-		F41B89DA20BD4714003ED723 /* EaseStartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseStartView.m; sourceTree = "<group>"; };
-		F41B89DC20BD4714003ED723 /* ISGPlaceholderTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISGPlaceholderTextView.m; sourceTree = "<group>"; };
-		F41B89DD20BD4714003ED723 /* ISGPlaceholderTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISGPlaceholderTextView.h; sourceTree = "<group>"; };
-		F41B89DF20BD4714003ED723 /* ISGProtocolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ISGProtocolView.h; sourceTree = "<group>"; };
-		F41B89E020BD4714003ED723 /* ISGProtocolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ISGProtocolView.m; sourceTree = "<group>"; };
-		F41B89E220BD4714003ED723 /* EnlargeAreaButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnlargeAreaButton.m; sourceTree = "<group>"; };
-		F41B89E320BD4714003ED723 /* EnlargeAreaButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnlargeAreaButton.h; sourceTree = "<group>"; };
-		F41B89E620BD4714003ED723 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		F41B89E720BD4714003ED723 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		F41B89E820BD4714003ED723 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		F41B89EA20BD4714003ED723 /* IntroductoryPageHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductoryPageHelper.h; sourceTree = "<group>"; };
-		F41B89EB20BD4714003ED723 /* IntroductoryPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductoryPageView.m; sourceTree = "<group>"; };
-		F41B89EC20BD4714003ED723 /* IntroductoryPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductoryPageView.h; sourceTree = "<group>"; };
-		F41B89ED20BD4714003ED723 /* IntroductoryPageHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductoryPageHelper.m; sourceTree = "<group>"; };
-		F41B89EF20BD4714003ED723 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
-		F41B89F020BD4714003ED723 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
-		F41B89F120BD4714003ED723 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		F41B89F220BD4714003ED723 /* UIImage+Dashed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Dashed.h"; sourceTree = "<group>"; };
-		F41B89F320BD4714003ED723 /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
-		F41B89F420BD4714003ED723 /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
-		F41B89F520BD4714003ED723 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
-		F41B89F620BD4714003ED723 /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
-		F41B89F720BD4714003ED723 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
-		F41B89F820BD4714003ED723 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
-		F41B89F920BD4714003ED723 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		F41B89FA20BD4714003ED723 /* UIImage+Dashed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Dashed.m"; sourceTree = "<group>"; };
-		F41B89FB20BD4714003ED723 /* UINavigationController+SXFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXFullScreen.m"; sourceTree = "<group>"; };
-		F41B89FC20BD4714003ED723 /* UINavigation+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+SXFixSpace.m"; sourceTree = "<group>"; };
-		F41B89FD20BD4714003ED723 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
-		F41B89FE20BD4714003ED723 /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
-		F41B8A0020BD4714003ED723 /* DESUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESUtil.h; sourceTree = "<group>"; };
-		F41B8A0120BD4714003ED723 /* DESUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESUtil.m; sourceTree = "<group>"; };
-		F41B8A0320BD4714003ED723 /* BOCoordinateTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOCoordinateTransformation.h; sourceTree = "<group>"; };
-		F41B8A0420BD4714003ED723 /* BOCoordinateTransformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOCoordinateTransformation.m; sourceTree = "<group>"; };
-		F41B8A0620BD4714003ED723 /* BONoticeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BONoticeBar.h; sourceTree = "<group>"; };
-		F41B8A0720BD4714003ED723 /* BONoticeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BONoticeBar.m; sourceTree = "<group>"; };
-		F41B8A0920BD4714003ED723 /* BOAssistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOAssistor.h; sourceTree = "<group>"; };
-		F41B8A0A20BD4714003ED723 /* BOAssistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOAssistor.m; sourceTree = "<group>"; };
-		F41B8A0C20BD4714003ED723 /* BOTimeStampAssistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOTimeStampAssistor.m; sourceTree = "<group>"; };
-		F41B8A0D20BD4714003ED723 /* BOTimeStampAssistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOTimeStampAssistor.h; sourceTree = "<group>"; };
-		F41B8A0F20BD4714003ED723 /* BOHUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOHUDManager.m; sourceTree = "<group>"; };
-		F41B8A1020BD4714003ED723 /* 40x-Cancelmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40x-Cancelmark@2x.png"; sourceTree = "<group>"; };
-		F41B8A1120BD4714003ED723 /* BOHUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOHUDManager.h; sourceTree = "<group>"; };
-		F41B8A1220BD4714003ED723 /* 40x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40x-Checkmark@2x.png"; sourceTree = "<group>"; };
-		F41B8BB020BD49A9003ED723 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		F41B8BCA20BD5489003ED723 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		F41B8BCB20BD5489003ED723 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		F41B8BCC20BD5489003ED723 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		F41B8BCE20BD5489003ED723 /* BOAssistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOAssistor.h; sourceTree = "<group>"; };
+		F41B8BCF20BD5489003ED723 /* BOAssistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOAssistor.m; sourceTree = "<group>"; };
+		F41B8BD120BD5489003ED723 /* BOHUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOHUDManager.m; sourceTree = "<group>"; };
+		F41B8BD220BD5489003ED723 /* 40x-Cancelmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40x-Cancelmark@2x.png"; sourceTree = "<group>"; };
+		F41B8BD320BD5489003ED723 /* BOHUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOHUDManager.h; sourceTree = "<group>"; };
+		F41B8BD420BD5489003ED723 /* 40x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40x-Checkmark@2x.png"; sourceTree = "<group>"; };
+		F41B8BD620BD5489003ED723 /* BOCoordinateTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOCoordinateTransformation.h; sourceTree = "<group>"; };
+		F41B8BD720BD5489003ED723 /* BOCoordinateTransformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOCoordinateTransformation.m; sourceTree = "<group>"; };
+		F41B8BD920BD5489003ED723 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
+		F41B8BDA20BD5489003ED723 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		F41B8BDB20BD5489003ED723 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
+		F41B8BDC20BD5489003ED723 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		F41B8BDD20BD5489003ED723 /* UIImage+Dashed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Dashed.h"; sourceTree = "<group>"; };
+		F41B8BDE20BD5489003ED723 /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
+		F41B8BDF20BD5489003ED723 /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
+		F41B8BE020BD5489003ED723 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
+		F41B8BE120BD5489003ED723 /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
+		F41B8BE220BD5489003ED723 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		F41B8BE320BD5489003ED723 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
+		F41B8BE420BD5489003ED723 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		F41B8BE520BD5489003ED723 /* UIImage+Dashed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Dashed.m"; sourceTree = "<group>"; };
+		F41B8BE620BD5489003ED723 /* UINavigationController+SXFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXFullScreen.m"; sourceTree = "<group>"; };
+		F41B8BE720BD5489003ED723 /* UINavigation+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+SXFixSpace.m"; sourceTree = "<group>"; };
+		F41B8BE820BD5489003ED723 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
+		F41B8BE920BD5489003ED723 /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
+		F41B8BEB20BD5489003ED723 /* DESUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESUtil.h; sourceTree = "<group>"; };
+		F41B8BEC20BD5489003ED723 /* DESUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESUtil.m; sourceTree = "<group>"; };
+		F41B8BEE20BD5489003ED723 /* BONoticeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BONoticeBar.h; sourceTree = "<group>"; };
+		F41B8BEF20BD5489003ED723 /* BONoticeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BONoticeBar.m; sourceTree = "<group>"; };
+		F41B8BF120BD548A003ED723 /* BOTimeStampAssistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOTimeStampAssistor.m; sourceTree = "<group>"; };
+		F41B8BF220BD548A003ED723 /* BOTimeStampAssistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOTimeStampAssistor.h; sourceTree = "<group>"; };
 		F65B541884B29F97FE5498A8EC1BC9CD /* Pods-SJCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SJCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F6636C0229E54793FBCF41941077A50A /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
@@ -939,8 +795,14 @@
 		4E13003734372EEFC0E3026825A9ED52 /* SJCategory */ = {
 			isa = PBXGroup;
 			children = (
-				F41B89C220BD4714003ED723 /* BaseView */,
-				F41B89E420BD4714003ED723 /* Tool */,
+				F41B8BCD20BD5489003ED723 /* BOAssistor */,
+				F41B8BD520BD5489003ED723 /* BOCoordinate */,
+				F41B8BD020BD5489003ED723 /* BOHUDManager */,
+				F41B8BED20BD5489003ED723 /* BONoticeBar */,
+				F41B8BF020BD548A003ED723 /* BOTimeStamp */,
+				F41B8BD820BD5489003ED723 /* Category */,
+				F41B8BEA20BD5489003ED723 /* DESUtil */,
+				F41B8BC920BD5489003ED723 /* GTMBase64 */,
 				C49D82F5294C2BB3486543AE2B10AD43 /* Support Files */,
 			);
 			name = SJCategory;
@@ -1229,192 +1091,102 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		F41B89C220BD4714003ED723 /* BaseView */ = {
+		F41B8BC920BD5489003ED723 /* GTMBase64 */ = {
 			isa = PBXGroup;
 			children = (
-				F41B89CB20BD4714003ED723 /* NODataView */,
-				F41B89CE20BD4714003ED723 /* MenuView */,
-				F41B89D620BD4714003ED723 /* EaseStartView */,
-				F41B89DB20BD4714003ED723 /* PlaceholderTextView */,
-				F41B89DE20BD4714003ED723 /* ProtocolView */,
-				F41B89E120BD4714003ED723 /* EnlargeAreaButton */,
+				F41B8BCA20BD5489003ED723 /* GTMBase64.h */,
+				F41B8BCB20BD5489003ED723 /* GTMDefines.h */,
+				F41B8BCC20BD5489003ED723 /* GTMBase64.m */,
 			);
-			name = BaseView;
-			path = SJCategory/Classes/BaseView;
+			name = GTMBase64;
+			path = SJCategory/Classes/GTMBase64;
 			sourceTree = "<group>";
 		};
-		F41B89CB20BD4714003ED723 /* NODataView */ = {
+		F41B8BCD20BD5489003ED723 /* BOAssistor */ = {
 			isa = PBXGroup;
 			children = (
-				F41B89CC20BD4714003ED723 /* ISGNoDataView.h */,
-				F41B89CD20BD4714003ED723 /* ISGNoDataView.m */,
+				F41B8BCE20BD5489003ED723 /* BOAssistor.h */,
+				F41B8BCF20BD5489003ED723 /* BOAssistor.m */,
 			);
-			path = NODataView;
+			name = BOAssistor;
+			path = SJCategory/Classes/BOAssistor;
 			sourceTree = "<group>";
 		};
-		F41B89CE20BD4714003ED723 /* MenuView */ = {
+		F41B8BD020BD5489003ED723 /* BOHUDManager */ = {
 			isa = PBXGroup;
 			children = (
-				F41B89CF20BD4714003ED723 /* MenuView.m */,
-				F41B89D020BD4714003ED723 /* MenuView.h */,
+				F41B8BD120BD5489003ED723 /* BOHUDManager.m */,
+				F41B8BD220BD5489003ED723 /* 40x-Cancelmark@2x.png */,
+				F41B8BD320BD5489003ED723 /* BOHUDManager.h */,
+				F41B8BD420BD5489003ED723 /* 40x-Checkmark@2x.png */,
 			);
-			path = MenuView;
+			name = BOHUDManager;
+			path = SJCategory/Classes/BOHUDManager;
 			sourceTree = "<group>";
 		};
-		F41B89D620BD4714003ED723 /* EaseStartView */ = {
+		F41B8BD520BD5489003ED723 /* BOCoordinate */ = {
 			isa = PBXGroup;
 			children = (
-				F41B89D720BD4714003ED723 /* EaseStartHelper.h */,
-				F41B89D820BD4714003ED723 /* EaseStartView.h */,
-				F41B89D920BD4714003ED723 /* EaseStartHelper.m */,
-				F41B89DA20BD4714003ED723 /* EaseStartView.m */,
+				F41B8BD620BD5489003ED723 /* BOCoordinateTransformation.h */,
+				F41B8BD720BD5489003ED723 /* BOCoordinateTransformation.m */,
 			);
-			path = EaseStartView;
+			name = BOCoordinate;
+			path = SJCategory/Classes/BOCoordinate;
 			sourceTree = "<group>";
 		};
-		F41B89DB20BD4714003ED723 /* PlaceholderTextView */ = {
+		F41B8BD820BD5489003ED723 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				F41B89DC20BD4714003ED723 /* ISGPlaceholderTextView.m */,
-				F41B89DD20BD4714003ED723 /* ISGPlaceholderTextView.h */,
+				F41B8BD920BD5489003ED723 /* UIButton+ImageTitleSpacing.h */,
+				F41B8BDA20BD5489003ED723 /* NSString+MD5Addition.m */,
+				F41B8BDB20BD5489003ED723 /* CommonMacro.h */,
+				F41B8BDC20BD5489003ED723 /* UIColor+Hex.m */,
+				F41B8BDD20BD5489003ED723 /* UIImage+Dashed.h */,
+				F41B8BDE20BD5489003ED723 /* UINavigationController+SXFullScreen.h */,
+				F41B8BDF20BD5489003ED723 /* NSObject+SXRuntime.h */,
+				F41B8BE020BD5489003ED723 /* UIViewExt.m */,
+				F41B8BE120BD5489003ED723 /* UINavigation+SXFixSpace.h */,
+				F41B8BE220BD5489003ED723 /* NSString+MD5Addition.h */,
+				F41B8BE320BD5489003ED723 /* UIButton+ImageTitleSpacing.m */,
+				F41B8BE420BD5489003ED723 /* UIColor+Hex.h */,
+				F41B8BE520BD5489003ED723 /* UIImage+Dashed.m */,
+				F41B8BE620BD5489003ED723 /* UINavigationController+SXFullScreen.m */,
+				F41B8BE720BD5489003ED723 /* UINavigation+SXFixSpace.m */,
+				F41B8BE820BD5489003ED723 /* UIViewExt.h */,
+				F41B8BE920BD5489003ED723 /* NSObject+SXRuntime.m */,
 			);
-			path = PlaceholderTextView;
+			name = Category;
+			path = SJCategory/Classes/Category;
 			sourceTree = "<group>";
 		};
-		F41B89DE20BD4714003ED723 /* ProtocolView */ = {
+		F41B8BEA20BD5489003ED723 /* DESUtil */ = {
 			isa = PBXGroup;
 			children = (
-				F41B89DF20BD4714003ED723 /* ISGProtocolView.h */,
-				F41B89E020BD4714003ED723 /* ISGProtocolView.m */,
+				F41B8BEB20BD5489003ED723 /* DESUtil.h */,
+				F41B8BEC20BD5489003ED723 /* DESUtil.m */,
 			);
-			path = ProtocolView;
+			name = DESUtil;
+			path = SJCategory/Classes/DESUtil;
 			sourceTree = "<group>";
 		};
-		F41B89E120BD4714003ED723 /* EnlargeAreaButton */ = {
+		F41B8BED20BD5489003ED723 /* BONoticeBar */ = {
 			isa = PBXGroup;
 			children = (
-				F41B89E220BD4714003ED723 /* EnlargeAreaButton.m */,
-				F41B89E320BD4714003ED723 /* EnlargeAreaButton.h */,
+				F41B8BEE20BD5489003ED723 /* BONoticeBar.h */,
+				F41B8BEF20BD5489003ED723 /* BONoticeBar.m */,
 			);
-			path = EnlargeAreaButton;
+			name = BONoticeBar;
+			path = SJCategory/Classes/BONoticeBar;
 			sourceTree = "<group>";
 		};
-		F41B89E420BD4714003ED723 /* Tool */ = {
+		F41B8BF020BD548A003ED723 /* BOTimeStamp */ = {
 			isa = PBXGroup;
 			children = (
-				F41B89E520BD4714003ED723 /* GTMBase64 */,
-				F41B89E920BD4714003ED723 /* IntroductoryPage */,
-				F41B89EE20BD4714003ED723 /* Category */,
-				F41B89FF20BD4714003ED723 /* DESUtil */,
-				F41B8A0220BD4714003ED723 /* BOCoordinate */,
-				F41B8A0520BD4714003ED723 /* BONoticeBar */,
-				F41B8A0820BD4714003ED723 /* BOAssistor */,
-				F41B8A0B20BD4714003ED723 /* BOTimeStamp */,
-				F41B8A0E20BD4714003ED723 /* BOHUDManager */,
+				F41B8BF120BD548A003ED723 /* BOTimeStampAssistor.m */,
+				F41B8BF220BD548A003ED723 /* BOTimeStampAssistor.h */,
 			);
-			name = Tool;
-			path = SJCategory/Classes/Tool;
-			sourceTree = "<group>";
-		};
-		F41B89E520BD4714003ED723 /* GTMBase64 */ = {
-			isa = PBXGroup;
-			children = (
-				F41B89E620BD4714003ED723 /* GTMBase64.h */,
-				F41B89E720BD4714003ED723 /* GTMDefines.h */,
-				F41B89E820BD4714003ED723 /* GTMBase64.m */,
-			);
-			path = GTMBase64;
-			sourceTree = "<group>";
-		};
-		F41B89E920BD4714003ED723 /* IntroductoryPage */ = {
-			isa = PBXGroup;
-			children = (
-				F41B89EA20BD4714003ED723 /* IntroductoryPageHelper.h */,
-				F41B89EB20BD4714003ED723 /* IntroductoryPageView.m */,
-				F41B89EC20BD4714003ED723 /* IntroductoryPageView.h */,
-				F41B89ED20BD4714003ED723 /* IntroductoryPageHelper.m */,
-			);
-			path = IntroductoryPage;
-			sourceTree = "<group>";
-		};
-		F41B89EE20BD4714003ED723 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				F41B89EF20BD4714003ED723 /* UIButton+ImageTitleSpacing.h */,
-				F41B89F020BD4714003ED723 /* NSString+MD5Addition.m */,
-				F41B89F120BD4714003ED723 /* UIColor+Hex.m */,
-				F41B89F220BD4714003ED723 /* UIImage+Dashed.h */,
-				F41B89F320BD4714003ED723 /* UINavigationController+SXFullScreen.h */,
-				F41B89F420BD4714003ED723 /* NSObject+SXRuntime.h */,
-				F41B89F520BD4714003ED723 /* UIViewExt.m */,
-				F41B89F620BD4714003ED723 /* UINavigation+SXFixSpace.h */,
-				F41B89F720BD4714003ED723 /* NSString+MD5Addition.h */,
-				F41B89F820BD4714003ED723 /* UIButton+ImageTitleSpacing.m */,
-				F41B89F920BD4714003ED723 /* UIColor+Hex.h */,
-				F41B89FA20BD4714003ED723 /* UIImage+Dashed.m */,
-				F41B89FB20BD4714003ED723 /* UINavigationController+SXFullScreen.m */,
-				F41B89FC20BD4714003ED723 /* UINavigation+SXFixSpace.m */,
-				F41B89FD20BD4714003ED723 /* UIViewExt.h */,
-				F41B89FE20BD4714003ED723 /* NSObject+SXRuntime.m */,
-				F41B8BB020BD49A9003ED723 /* CommonMacro.h */,
-			);
-			path = Category;
-			sourceTree = "<group>";
-		};
-		F41B89FF20BD4714003ED723 /* DESUtil */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8A0020BD4714003ED723 /* DESUtil.h */,
-				F41B8A0120BD4714003ED723 /* DESUtil.m */,
-			);
-			path = DESUtil;
-			sourceTree = "<group>";
-		};
-		F41B8A0220BD4714003ED723 /* BOCoordinate */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8A0320BD4714003ED723 /* BOCoordinateTransformation.h */,
-				F41B8A0420BD4714003ED723 /* BOCoordinateTransformation.m */,
-			);
-			path = BOCoordinate;
-			sourceTree = "<group>";
-		};
-		F41B8A0520BD4714003ED723 /* BONoticeBar */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8A0620BD4714003ED723 /* BONoticeBar.h */,
-				F41B8A0720BD4714003ED723 /* BONoticeBar.m */,
-			);
-			path = BONoticeBar;
-			sourceTree = "<group>";
-		};
-		F41B8A0820BD4714003ED723 /* BOAssistor */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8A0920BD4714003ED723 /* BOAssistor.h */,
-				F41B8A0A20BD4714003ED723 /* BOAssistor.m */,
-			);
-			path = BOAssistor;
-			sourceTree = "<group>";
-		};
-		F41B8A0B20BD4714003ED723 /* BOTimeStamp */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8A0C20BD4714003ED723 /* BOTimeStampAssistor.m */,
-				F41B8A0D20BD4714003ED723 /* BOTimeStampAssistor.h */,
-			);
-			path = BOTimeStamp;
-			sourceTree = "<group>";
-		};
-		F41B8A0E20BD4714003ED723 /* BOHUDManager */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8A1120BD4714003ED723 /* BOHUDManager.h */,
-				F41B8A0F20BD4714003ED723 /* BOHUDManager.m */,
-				F41B8A1020BD4714003ED723 /* 40x-Cancelmark@2x.png */,
-				F41B8A1220BD4714003ED723 /* 40x-Checkmark@2x.png */,
-			);
-			path = BOHUDManager;
+			name = BOTimeStamp;
+			path = SJCategory/Classes/BOTimeStamp;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1424,33 +1196,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8AE120BD4715003ED723 /* IntroductoryPageView.h in Headers */,
-				F41B8A7F20BD4715003ED723 /* EaseStartView.h in Headers */,
-				F41B8B5120BD4715003ED723 /* UIViewExt.h in Headers */,
-				F41B8AD320BD4715003ED723 /* IntroductoryPageHelper.h in Headers */,
-				F41B8B6D20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */,
-				F41B8B2720BD4715003ED723 /* NSString+MD5Addition.h in Headers */,
-				F41B8A9B20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */,
-				F41B8ABE20BD4715003ED723 /* GTMBase64.h in Headers */,
-				F41B8B5F20BD4715003ED723 /* DESUtil.h in Headers */,
-				F41B8B1220BD4715003ED723 /* NSObject+SXRuntime.h in Headers */,
-				F41B8B0B20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8B7B20BD4715003ED723 /* BONoticeBar.h in Headers */,
-				F41B8AC520BD4715003ED723 /* GTMDefines.h in Headers */,
-				F41B8B2020BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
-				F41B8BAC20BD4715003ED723 /* BOHUDManager.h in Headers */,
-				F41B8B0420BD4715003ED723 /* UIImage+Dashed.h in Headers */,
-				F41B8A4020BD4714003ED723 /* ISGNoDataView.h in Headers */,
-				F41B8B3520BD4715003ED723 /* UIColor+Hex.h in Headers */,
-				F41B8B8920BD4715003ED723 /* BOAssistor.h in Headers */,
-				F41B8AA220BD4715003ED723 /* ISGProtocolView.h in Headers */,
-				F41B8B9E20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
-				F41B8AEF20BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
-				F41B8A5520BD4715003ED723 /* MenuView.h in Headers */,
+				F41B8C5F20BD548A003ED723 /* NSObject+SXRuntime.h in Headers */,
+				F41B8BF620BD548A003ED723 /* GTMBase64.h in Headers */,
+				F41B8BFD20BD548A003ED723 /* GTMDefines.h in Headers */,
 				4255BB6DA98AA3B3D94F28D90EDEF937 /* Pods-SJCategory_Example-umbrella.h in Headers */,
-				F41B8A7820BD4715003ED723 /* EaseStartHelper.h in Headers */,
-				F41B8BB420BD49A9003ED723 /* CommonMacro.h in Headers */,
-				F41B8AB720BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
+				F41B8C7420BD548A003ED723 /* NSString+MD5Addition.h in Headers */,
+				F41B8C2020BD548A003ED723 /* BOHUDManager.h in Headers */,
+				F41B8C2720BD548A003ED723 /* BOCoordinateTransformation.h in Headers */,
+				F41B8C9E20BD548A003ED723 /* UIViewExt.h in Headers */,
+				F41B8C0B20BD548A003ED723 /* BOAssistor.h in Headers */,
+				F41B8CAC20BD548A003ED723 /* DESUtil.h in Headers */,
+				F41B8C5820BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
+				F41B8CBA20BD548A003ED723 /* BONoticeBar.h in Headers */,
+				F41B8CCF20BD548A003ED723 /* BOTimeStampAssistor.h in Headers */,
+				F41B8C4320BD548A003ED723 /* CommonMacro.h in Headers */,
+				F41B8C8220BD548A003ED723 /* UIColor+Hex.h in Headers */,
+				F41B8C3520BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
+				F41B8C6D20BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */,
+				F41B8C5120BD548A003ED723 /* UIImage+Dashed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1458,33 +1221,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8AE220BD4715003ED723 /* IntroductoryPageView.h in Headers */,
-				F41B8A8020BD4715003ED723 /* EaseStartView.h in Headers */,
-				F41B8B5220BD4715003ED723 /* UIViewExt.h in Headers */,
-				F41B8AD420BD4715003ED723 /* IntroductoryPageHelper.h in Headers */,
-				F41B8B6E20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */,
-				F41B8B2820BD4715003ED723 /* NSString+MD5Addition.h in Headers */,
-				F41B8A9C20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */,
-				F41B8ABF20BD4715003ED723 /* GTMBase64.h in Headers */,
-				F41B8B6020BD4715003ED723 /* DESUtil.h in Headers */,
-				F41B8B1320BD4715003ED723 /* NSObject+SXRuntime.h in Headers */,
-				F41B8B0C20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8B7C20BD4715003ED723 /* BONoticeBar.h in Headers */,
-				F41B8AC620BD4715003ED723 /* GTMDefines.h in Headers */,
-				F41B8B2120BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
-				F41B8BAD20BD4715003ED723 /* BOHUDManager.h in Headers */,
-				F41B8B0520BD4715003ED723 /* UIImage+Dashed.h in Headers */,
-				F41B8A4120BD4714003ED723 /* ISGNoDataView.h in Headers */,
-				F41B8B3620BD4715003ED723 /* UIColor+Hex.h in Headers */,
-				F41B8B8A20BD4715003ED723 /* BOAssistor.h in Headers */,
-				F41B8AA320BD4715003ED723 /* ISGProtocolView.h in Headers */,
-				F41B8B9F20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
-				F41B8AF020BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
-				F41B8A5620BD4715003ED723 /* MenuView.h in Headers */,
+				F41B8C6020BD548A003ED723 /* NSObject+SXRuntime.h in Headers */,
+				F41B8BF720BD548A003ED723 /* GTMBase64.h in Headers */,
+				F41B8BFE20BD548A003ED723 /* GTMDefines.h in Headers */,
 				F47A1C5E5511ECB73ED0ECC6D6ACE265 /* Pods-SJCategory_Tests-umbrella.h in Headers */,
-				F41B8A7920BD4715003ED723 /* EaseStartHelper.h in Headers */,
-				F41B8BB520BD49A9003ED723 /* CommonMacro.h in Headers */,
-				F41B8AB820BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
+				F41B8C7520BD548A003ED723 /* NSString+MD5Addition.h in Headers */,
+				F41B8C2120BD548A003ED723 /* BOHUDManager.h in Headers */,
+				F41B8C2820BD548A003ED723 /* BOCoordinateTransformation.h in Headers */,
+				F41B8C9F20BD548A003ED723 /* UIViewExt.h in Headers */,
+				F41B8C0C20BD548A003ED723 /* BOAssistor.h in Headers */,
+				F41B8CAD20BD548A003ED723 /* DESUtil.h in Headers */,
+				F41B8C5920BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
+				F41B8CBB20BD548A003ED723 /* BONoticeBar.h in Headers */,
+				F41B8CD020BD548A003ED723 /* BOTimeStampAssistor.h in Headers */,
+				F41B8C4420BD548A003ED723 /* CommonMacro.h in Headers */,
+				F41B8C8320BD548A003ED723 /* UIColor+Hex.h in Headers */,
+				F41B8C3620BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
+				F41B8C6E20BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */,
+				F41B8C5220BD548A003ED723 /* UIImage+Dashed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1492,48 +1246,39 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8B1520BD4715003ED723 /* NSObject+SXRuntime.h in Headers */,
 				F052ECCD91D2A3EE96DDCD0A1F428B84 /* Specta-umbrella.h in Headers */,
-				F41B8B0E20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8B8C20BD4715003ED723 /* BOAssistor.h in Headers */,
 				9605A166839E5B582E5F4A08E786DF1F /* Specta.h in Headers */,
 				7A27CAFCB586104AA102A9C161AD0978 /* SpectaDSL.h in Headers */,
+				F41B8BF920BD548A003ED723 /* GTMBase64.h in Headers */,
+				F41B8C0020BD548A003ED723 /* GTMDefines.h in Headers */,
 				C1DF1378F608A031627FBF81B6A9C6E5 /* SpectaTypes.h in Headers */,
 				4A571204986D316637D43D3F93DCAC77 /* SpectaUtility.h in Headers */,
+				F41B8CA120BD548A003ED723 /* UIViewExt.h in Headers */,
 				6A725E2BDA6D302C9F30439A6390689C /* SPTCallSite.h in Headers */,
-				F41B8B7020BD4715003ED723 /* BOCoordinateTransformation.h in Headers */,
-				F41B8B3820BD4715003ED723 /* UIColor+Hex.h in Headers */,
+				F41B8CAF20BD548A003ED723 /* DESUtil.h in Headers */,
+				F41B8C6220BD548A003ED723 /* NSObject+SXRuntime.h in Headers */,
+				F41B8CBD20BD548A003ED723 /* BONoticeBar.h in Headers */,
 				A41034714C779552383D238C48FC4FDA /* SPTCompiledExample.h in Headers */,
 				86A40D9CFD9051779B220F53DE991DCA /* SPTExample.h in Headers */,
-				F41B8AC120BD4715003ED723 /* GTMBase64.h in Headers */,
-				F41B8A7B20BD4715003ED723 /* EaseStartHelper.h in Headers */,
-				F41B8B0720BD4715003ED723 /* UIImage+Dashed.h in Headers */,
-				F41B8AF220BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
-				F41B8BB720BD49A9003ED723 /* CommonMacro.h in Headers */,
-				F41B8B2320BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
-				F41B8A9E20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */,
-				F41B8AA520BD4715003ED723 /* ISGProtocolView.h in Headers */,
-				F41B8B6220BD4715003ED723 /* DESUtil.h in Headers */,
+				F41B8C4620BD548A003ED723 /* CommonMacro.h in Headers */,
+				F41B8C5420BD548A003ED723 /* UIImage+Dashed.h in Headers */,
+				F41B8C2A20BD548A003ED723 /* BOCoordinateTransformation.h in Headers */,
 				8EDC47391C8554AD5C7A91C4D5AFC5F2 /* SPTExampleGroup.h in Headers */,
-				F41B8ABA20BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
-				F41B8A8220BD4715003ED723 /* EaseStartView.h in Headers */,
 				D7BF9558E071FDF8643CE2B50276B777 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */,
-				F41B8B5420BD4715003ED723 /* UIViewExt.h in Headers */,
-				F41B8B7E20BD4715003ED723 /* BONoticeBar.h in Headers */,
+				F41B8C7020BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */,
+				F41B8C3820BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
+				F41B8CD220BD548A003ED723 /* BOTimeStampAssistor.h in Headers */,
 				5D3A5E9359A70F84E5EC0C4CE701DDE5 /* SPTGlobalBeforeAfterEach.h in Headers */,
-				F41B8B2A20BD4715003ED723 /* NSString+MD5Addition.h in Headers */,
-				F41B8AC820BD4715003ED723 /* GTMDefines.h in Headers */,
-				F41B8BAF20BD4715003ED723 /* BOHUDManager.h in Headers */,
+				F41B8C8520BD548A003ED723 /* UIColor+Hex.h in Headers */,
+				F41B8C2320BD548A003ED723 /* BOHUDManager.h in Headers */,
 				87C61FE4EBA517506085582BD4175CCA /* SPTSharedExampleGroups.h in Headers */,
+				F41B8C7720BD548A003ED723 /* NSString+MD5Addition.h in Headers */,
 				827762B596901D18DAD29830875E1922 /* SPTSpec.h in Headers */,
 				2E81617C064F3E68A7A2A9E6A370E073 /* SPTTestSuite.h in Headers */,
-				F41B8AE420BD4715003ED723 /* IntroductoryPageView.h in Headers */,
-				F41B8BA120BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
+				F41B8C5B20BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
 				86365A8DEDA7C9315120DED5EC7F23DC /* XCTest+Private.h in Headers */,
-				F41B8AD620BD4715003ED723 /* IntroductoryPageHelper.h in Headers */,
-				F41B8A4320BD4714003ED723 /* ISGNoDataView.h in Headers */,
-				F41B8A5820BD4715003ED723 /* MenuView.h in Headers */,
 				03890D59600D45E6E9463700F9B11FFE /* XCTestCase+Specta.h in Headers */,
+				F41B8C0E20BD548A003ED723 /* BOAssistor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1542,69 +1287,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				214F8D721940BD9AA4BAB0E5AE2E8A1C /* EXPBlockDefinedMatcher.h in Headers */,
+				F41B8BF320BD548A003ED723 /* GTMBase64.h in Headers */,
 				5D4700451D6C9DFC6D5FFB86671EA2AC /* EXPDefines.h in Headers */,
+				F41B8C7F20BD548A003ED723 /* UIColor+Hex.h in Headers */,
 				39461DAB3DE2637F4AE2BA94F19DCF2B /* EXPDoubleTuple.h in Headers */,
 				0E86BBA3A65849769B47995A5E91C881 /* Expecta-umbrella.h in Headers */,
-				F41B8AC220BD4715003ED723 /* GTMDefines.h in Headers */,
-				F41B8A9820BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */,
+				F41B8C1D20BD548A003ED723 /* BOHUDManager.h in Headers */,
 				A0B36C4898CD3A75ED692AE1B945EFED /* Expecta.h in Headers */,
-				F41B8B8620BD4715003ED723 /* BOAssistor.h in Headers */,
 				8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */,
 				ABBDD0372C687211E68EDCE0166F3632 /* ExpectaSupport.h in Headers */,
+				F41B8CA920BD548A003ED723 /* DESUtil.h in Headers */,
 				FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */,
-				F41B8B6A20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */,
 				4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */,
-				F41B8B4E20BD4715003ED723 /* UIViewExt.h in Headers */,
-				F41B8B9B20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
-				F41B8A3D20BD4714003ED723 /* ISGNoDataView.h in Headers */,
-				F41B8AB420BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
+				F41B8C4E20BD548A003ED723 /* UIImage+Dashed.h in Headers */,
+				F41B8BFA20BD548A003ED723 /* GTMDefines.h in Headers */,
 				1009851D0C0B3FCBC574C414CC4D31B0 /* EXPMatcher.h in Headers */,
 				E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */,
 				4861F2FFD5A4306E7B7BD3CD0D8199AC /* EXPMatchers+beCloseTo.h in Headers */,
-				F41B8B0120BD4715003ED723 /* UIImage+Dashed.h in Headers */,
-				F41B8B5C20BD4715003ED723 /* DESUtil.h in Headers */,
-				F41B8B7820BD4715003ED723 /* BONoticeBar.h in Headers */,
-				F41B8ADE20BD4715003ED723 /* IntroductoryPageView.h in Headers */,
+				F41B8CCC20BD548A003ED723 /* BOTimeStampAssistor.h in Headers */,
 				B1487AC2DD502CCE46631C123E047D28 /* EXPMatchers+beFalsy.h in Headers */,
-				F41B8B2420BD4715003ED723 /* NSString+MD5Addition.h in Headers */,
+				F41B8C7120BD548A003ED723 /* NSString+MD5Addition.h in Headers */,
+				F41B8C9B20BD548A003ED723 /* UIViewExt.h in Headers */,
 				8C14546CF091E0A5B1F0F37F576990B8 /* EXPMatchers+beginWith.h in Headers */,
 				7E81176499F06E523CE3039B08AB5051 /* EXPMatchers+beGreaterThan.h in Headers */,
 				BBC7D292529B7E5DB953171190E321AF /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */,
-				F41B8B0F20BD4715003ED723 /* NSObject+SXRuntime.h in Headers */,
 				8B8C4B3E28E6FC6D26037EFC282BE4C5 /* EXPMatchers+beIdenticalTo.h in Headers */,
+				F41B8C4020BD548A003ED723 /* CommonMacro.h in Headers */,
+				F41B8C0820BD548A003ED723 /* BOAssistor.h in Headers */,
 				5F160713BF583BCBC136CE95E62F9C2F /* EXPMatchers+beInstanceOf.h in Headers */,
-				F41B8AEC20BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
 				FC223395BCEE46EB920CECD38AFD4402 /* EXPMatchers+beInTheRangeOf.h in Headers */,
-				F41B8A7C20BD4715003ED723 /* EaseStartView.h in Headers */,
-				F41B8ABB20BD4715003ED723 /* GTMBase64.h in Headers */,
 				41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */,
 				E233F5CF4BF16CFB539804C4E995C355 /* EXPMatchers+beLessThan.h in Headers */,
 				AA5060419F1307F5F03ECBEA70DB186C /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
-				F41B8B1D20BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
+				F41B8C6A20BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */,
 				64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */,
 				CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */,
 				FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */,
-				F41B8BB120BD49A9003ED723 /* CommonMacro.h in Headers */,
-				F41B8A9F20BD4715003ED723 /* ISGProtocolView.h in Headers */,
 				F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */,
-				F41B8AD020BD4715003ED723 /* IntroductoryPageHelper.h in Headers */,
 				DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */,
+				F41B8C3220BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
+				F41B8C2420BD548A003ED723 /* BOCoordinateTransformation.h in Headers */,
 				E3355DB3F63F6FE79FD8DD6188B0B3A4 /* EXPMatchers+contain.h in Headers */,
 				87AE70A44BD8E8676B2A3EDB6E334138 /* EXPMatchers+endWith.h in Headers */,
 				425C4DFD1FAB011D70F825631144BC4C /* EXPMatchers+equal.h in Headers */,
-				F41B8BA920BD4715003ED723 /* BOHUDManager.h in Headers */,
+				F41B8CB720BD548A003ED723 /* BONoticeBar.h in Headers */,
 				8F990515E868D90C15D2148DD1A22403 /* EXPMatchers+haveCountOf.h in Headers */,
-				F41B8A7520BD4715003ED723 /* EaseStartHelper.h in Headers */,
-				F41B8A5220BD4715003ED723 /* MenuView.h in Headers */,
 				597E5A323FD0306B81C3F7E9C8E5580D /* EXPMatchers+match.h in Headers */,
 				A2D3CFFEBD3AEA2164A535192492F3B8 /* EXPMatchers+postNotification.h in Headers */,
-				F41B8B3220BD4715003ED723 /* UIColor+Hex.h in Headers */,
 				A8446D8224F103BE7F4A5237A60F0EFB /* EXPMatchers+raise.h in Headers */,
 				B3F189747A7A3CEDA9200CB2749AC7D8 /* EXPMatchers+raiseWithReason.h in Headers */,
+				F41B8C5520BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
+				F41B8C5C20BD548A003ED723 /* NSObject+SXRuntime.h in Headers */,
 				DED9AE33B24B462D4B44FE94383B35F4 /* EXPMatchers+respondTo.h in Headers */,
 				9CAFC7DAE2E661FC92393E5CC55D1D61 /* EXPMatchers.h in Headers */,
 				60CD83FA1B2BF6E93B59834C1E0CBEF0 /* EXPUnsupportedObject.h in Headers */,
-				F41B8B0820BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
 				DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */,
 				5922E3B61E351E2A21095BD92E4FE8AC /* NSValue+Expecta.h in Headers */,
 			);
@@ -1614,40 +1350,31 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8AC420BD4715003ED723 /* GTMDefines.h in Headers */,
-				F41B8AB620BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
-				F41B8AE020BD4715003ED723 /* IntroductoryPageView.h in Headers */,
-				F41B8BAB20BD4715003ED723 /* BOHUDManager.h in Headers */,
+				F41B8C5E20BD548A003ED723 /* NSObject+SXRuntime.h in Headers */,
+				F41B8C7320BD548A003ED723 /* NSString+MD5Addition.h in Headers */,
 				8D49114979B44DF683A9A964565E0FE6 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				F41B8CB920BD548A003ED723 /* BONoticeBar.h in Headers */,
+				F41B8C1F20BD548A003ED723 /* BOHUDManager.h in Headers */,
 				31328536635BDC034D4E43B11CA846BD /* FBSnapshotTestCase.h in Headers */,
-				F41B8A7720BD4715003ED723 /* EaseStartHelper.h in Headers */,
-				F41B8B1F20BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
-				F41B8B0320BD4715003ED723 /* UIImage+Dashed.h in Headers */,
-				F41B8AEE20BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
-				F41B8B5020BD4715003ED723 /* UIViewExt.h in Headers */,
-				F41B8A3F20BD4714003ED723 /* ISGNoDataView.h in Headers */,
-				F41B8AA120BD4715003ED723 /* ISGProtocolView.h in Headers */,
+				F41B8BFC20BD548A003ED723 /* GTMDefines.h in Headers */,
+				F41B8CAB20BD548A003ED723 /* DESUtil.h in Headers */,
+				F41B8C4220BD548A003ED723 /* CommonMacro.h in Headers */,
+				F41B8C0A20BD548A003ED723 /* BOAssistor.h in Headers */,
 				0676595134A6036819E78D0404919486 /* FBSnapshotTestCasePlatform.h in Headers */,
-				F41B8B7A20BD4715003ED723 /* BONoticeBar.h in Headers */,
+				F41B8C9D20BD548A003ED723 /* UIViewExt.h in Headers */,
 				889FE136349E95DFBE20F050685FB124 /* FBSnapshotTestController.h in Headers */,
+				F41B8C8120BD548A003ED723 /* UIColor+Hex.h in Headers */,
+				F41B8CCE20BD548A003ED723 /* BOTimeStampAssistor.h in Headers */,
+				F41B8BF520BD548A003ED723 /* GTMBase64.h in Headers */,
 				5D95DC370FE619787EA993FF91CA51EE /* UIApplication+StrictKeyWindow.h in Headers */,
-				F41B8A7E20BD4715003ED723 /* EaseStartView.h in Headers */,
-				F41B8A5420BD4715003ED723 /* MenuView.h in Headers */,
-				F41B8AD220BD4715003ED723 /* IntroductoryPageHelper.h in Headers */,
-				F41B8B5E20BD4715003ED723 /* DESUtil.h in Headers */,
-				F41B8B8820BD4715003ED723 /* BOAssistor.h in Headers */,
-				F41B8B0A20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8B2620BD4715003ED723 /* NSString+MD5Addition.h in Headers */,
-				F41B8B6C20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */,
-				F41B8B1120BD4715003ED723 /* NSObject+SXRuntime.h in Headers */,
 				3849993FDFE7642E4BEF1096B047FB86 /* UIImage+Compare.h in Headers */,
-				F41B8ABD20BD4715003ED723 /* GTMBase64.h in Headers */,
+				F41B8C5020BD548A003ED723 /* UIImage+Dashed.h in Headers */,
+				F41B8C2620BD548A003ED723 /* BOCoordinateTransformation.h in Headers */,
+				F41B8C5720BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
 				26BBC63406C6863BE6DD27C64A70CB42 /* UIImage+Diff.h in Headers */,
-				F41B8BB320BD49A9003ED723 /* CommonMacro.h in Headers */,
-				F41B8B3420BD4715003ED723 /* UIColor+Hex.h in Headers */,
-				F41B8A9A20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */,
-				F41B8B9D20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
 				D180489445C2C507332A6EE964ADA1E5 /* UIImage+Snapshot.h in Headers */,
+				F41B8C6C20BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */,
+				F41B8C3420BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1655,35 +1382,26 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8B8720BD4715003ED723 /* BOAssistor.h in Headers */,
-				F41B8AB520BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
-				F41B8BB220BD49A9003ED723 /* CommonMacro.h in Headers */,
-				F41B8A5320BD4715003ED723 /* MenuView.h in Headers */,
-				F41B8A7620BD4715003ED723 /* EaseStartHelper.h in Headers */,
-				F41B8A7D20BD4715003ED723 /* EaseStartView.h in Headers */,
-				F41B8B2520BD4715003ED723 /* NSString+MD5Addition.h in Headers */,
-				F41B8B9C20BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
-				F41B8AC320BD4715003ED723 /* GTMDefines.h in Headers */,
-				F41B8AD120BD4715003ED723 /* IntroductoryPageHelper.h in Headers */,
-				F41B8B5D20BD4715003ED723 /* DESUtil.h in Headers */,
+				F41B8C8020BD548A003ED723 /* UIColor+Hex.h in Headers */,
+				F41B8C6B20BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */,
 				DE4EF1ED618D31CA16938565A1CA0607 /* Expecta+Snapshots-umbrella.h in Headers */,
-				F41B8B3320BD4715003ED723 /* UIColor+Hex.h in Headers */,
+				F41B8CAA20BD548A003ED723 /* DESUtil.h in Headers */,
+				F41B8CCD20BD548A003ED723 /* BOTimeStampAssistor.h in Headers */,
 				CDBF7F2D23165CAB8B3819A256A49F0A /* ExpectaObject+FBSnapshotTest.h in Headers */,
-				F41B8BAA20BD4715003ED723 /* BOHUDManager.h in Headers */,
-				F41B8B7920BD4715003ED723 /* BONoticeBar.h in Headers */,
-				F41B8A3E20BD4714003ED723 /* ISGNoDataView.h in Headers */,
-				F41B8AED20BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
-				F41B8B0920BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8B1020BD4715003ED723 /* NSObject+SXRuntime.h in Headers */,
-				F41B8B4F20BD4715003ED723 /* UIViewExt.h in Headers */,
-				F41B8AA020BD4715003ED723 /* ISGProtocolView.h in Headers */,
+				F41B8C2520BD548A003ED723 /* BOCoordinateTransformation.h in Headers */,
+				F41B8C9C20BD548A003ED723 /* UIViewExt.h in Headers */,
+				F41B8BFB20BD548A003ED723 /* GTMDefines.h in Headers */,
+				F41B8C4F20BD548A003ED723 /* UIImage+Dashed.h in Headers */,
+				F41B8C7220BD548A003ED723 /* NSString+MD5Addition.h in Headers */,
+				F41B8C4120BD548A003ED723 /* CommonMacro.h in Headers */,
+				F41B8C3320BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
+				F41B8CB820BD548A003ED723 /* BONoticeBar.h in Headers */,
+				F41B8BF420BD548A003ED723 /* GTMBase64.h in Headers */,
+				F41B8C5D20BD548A003ED723 /* NSObject+SXRuntime.h in Headers */,
+				F41B8C1E20BD548A003ED723 /* BOHUDManager.h in Headers */,
 				EDF3CEAAF7922F570A5AD95B005C84F8 /* EXPMatchers+FBSnapshotTest.h in Headers */,
-				F41B8ADF20BD4715003ED723 /* IntroductoryPageView.h in Headers */,
-				F41B8ABC20BD4715003ED723 /* GTMBase64.h in Headers */,
-				F41B8B6B20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */,
-				F41B8A9920BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */,
-				F41B8B1E20BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
-				F41B8B0220BD4715003ED723 /* UIImage+Dashed.h in Headers */,
+				F41B8C5620BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
+				F41B8C0920BD548A003ED723 /* BOAssistor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1691,33 +1409,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8AE320BD4715003ED723 /* IntroductoryPageView.h in Headers */,
-				F41B8A8120BD4715003ED723 /* EaseStartView.h in Headers */,
-				F41B8B5320BD4715003ED723 /* UIViewExt.h in Headers */,
-				F41B8AD520BD4715003ED723 /* IntroductoryPageHelper.h in Headers */,
-				F41B8B6F20BD4715003ED723 /* BOCoordinateTransformation.h in Headers */,
-				F41B8B2920BD4715003ED723 /* NSString+MD5Addition.h in Headers */,
-				F41B8A9D20BD4715003ED723 /* ISGPlaceholderTextView.h in Headers */,
-				F41B8AC020BD4715003ED723 /* GTMBase64.h in Headers */,
-				F41B8B6120BD4715003ED723 /* DESUtil.h in Headers */,
-				F41B8B1420BD4715003ED723 /* NSObject+SXRuntime.h in Headers */,
-				F41B8B0D20BD4715003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8B7D20BD4715003ED723 /* BONoticeBar.h in Headers */,
-				F41B8AC720BD4715003ED723 /* GTMDefines.h in Headers */,
-				F41B8B2220BD4715003ED723 /* UINavigation+SXFixSpace.h in Headers */,
-				F41B8BAE20BD4715003ED723 /* BOHUDManager.h in Headers */,
-				F41B8B0620BD4715003ED723 /* UIImage+Dashed.h in Headers */,
-				F41B8A4220BD4714003ED723 /* ISGNoDataView.h in Headers */,
-				F41B8B3720BD4715003ED723 /* UIColor+Hex.h in Headers */,
-				F41B8B8B20BD4715003ED723 /* BOAssistor.h in Headers */,
-				F41B8AA420BD4715003ED723 /* ISGProtocolView.h in Headers */,
-				F41B8BA020BD4715003ED723 /* BOTimeStampAssistor.h in Headers */,
-				F41B8AF120BD4715003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
-				F41B8A5720BD4715003ED723 /* MenuView.h in Headers */,
+				F41B8C6120BD548A003ED723 /* NSObject+SXRuntime.h in Headers */,
+				F41B8BF820BD548A003ED723 /* GTMBase64.h in Headers */,
+				F41B8BFF20BD548A003ED723 /* GTMDefines.h in Headers */,
 				19B4ECE3BAD2E84198870F02B8476CF4 /* SJCategory-umbrella.h in Headers */,
-				F41B8A7A20BD4715003ED723 /* EaseStartHelper.h in Headers */,
-				F41B8BB620BD49A9003ED723 /* CommonMacro.h in Headers */,
-				F41B8AB920BD4715003ED723 /* EnlargeAreaButton.h in Headers */,
+				F41B8C7620BD548A003ED723 /* NSString+MD5Addition.h in Headers */,
+				F41B8C2220BD548A003ED723 /* BOHUDManager.h in Headers */,
+				F41B8C2920BD548A003ED723 /* BOCoordinateTransformation.h in Headers */,
+				F41B8CA020BD548A003ED723 /* UIViewExt.h in Headers */,
+				F41B8C0D20BD548A003ED723 /* BOAssistor.h in Headers */,
+				F41B8CAE20BD548A003ED723 /* DESUtil.h in Headers */,
+				F41B8C5A20BD548A003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
+				F41B8CBC20BD548A003ED723 /* BONoticeBar.h in Headers */,
+				F41B8CD120BD548A003ED723 /* BOTimeStampAssistor.h in Headers */,
+				F41B8C4520BD548A003ED723 /* CommonMacro.h in Headers */,
+				F41B8C8420BD548A003ED723 /* UIColor+Hex.h in Headers */,
+				F41B8C3720BD548A003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
+				F41B8C6F20BD548A003ED723 /* UINavigation+SXFixSpace.h in Headers */,
+				F41B8C5320BD548A003ED723 /* UIImage+Dashed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1888,39 +1597,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8BA420BD4715003ED723 /* BOHUDManager.m in Sources */,
-				F41B8B9620BD4715003ED723 /* BOTimeStampAssistor.m in Sources */,
-				F41B8B5720BD4715003ED723 /* NSObject+SXRuntime.m in Sources */,
-				F41B8B4220BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
-				F41B8A9320BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
-				F41B8B3B20BD4715003ED723 /* UIImage+Dashed.m in Sources */,
-				F41B8A8C20BD4715003ED723 /* EaseStartView.m in Sources */,
-				F41B8AAF20BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
-				F41B8B7320BD4715003ED723 /* BOCoordinateTransformation.m in Sources */,
-				F41B8B1820BD4715003ED723 /* UIViewExt.m in Sources */,
+				F41B8C6520BD548A003ED723 /* UIViewExt.m in Sources */,
 				47BA77226056D790A2964605F468D6EA /* FBSnapshotTestCase-dummy.m in Sources */,
-				F41B8AA820BD4715003ED723 /* ISGProtocolView.m in Sources */,
-				F41B8AF520BD4715003ED723 /* NSString+MD5Addition.m in Sources */,
-				F41B8A4620BD4714003ED723 /* ISGNoDataView.m in Sources */,
-				F41B8B6520BD4715003ED723 /* DESUtil.m in Sources */,
+				F41B8C4920BD548A003ED723 /* UIColor+Hex.m in Sources */,
+				F41B8C8F20BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
 				C516B672FFC9DB635E0E53DA8FC9CF88 /* FBSnapshotTestCase.m in Sources */,
+				F41B8C1820BD548A003ED723 /* BOHUDManager.m in Sources */,
 				F0873AA02837D34381D156267B9EB005 /* FBSnapshotTestCasePlatform.m in Sources */,
+				F41B8C2D20BD548A003ED723 /* BOCoordinateTransformation.m in Sources */,
 				57C1DAC24BEE6C12B29AAE68DD3EBEC7 /* FBSnapshotTestController.m in Sources */,
 				754197D184C23A19146DB4C9B3B90050 /* SwiftSupport.swift in Sources */,
-				F41B8B2D20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
+				F41B8CA420BD548A003ED723 /* NSObject+SXRuntime.m in Sources */,
+				F41B8C7A20BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
+				F41B8CB220BD548A003ED723 /* DESUtil.m in Sources */,
+				F41B8C9620BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */,
 				47EC7BD047C906B92B85399E097E258E /* UIApplication+StrictKeyWindow.m in Sources */,
-				F41B8ACB20BD4715003ED723 /* GTMBase64.m in Sources */,
-				F41B8AE720BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
-				F41B8B8F20BD4715003ED723 /* BOAssistor.m in Sources */,
-				F41B8B4920BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */,
-				F41B8AD920BD4715003ED723 /* IntroductoryPageView.m in Sources */,
+				F41B8C3B20BD548A003ED723 /* NSString+MD5Addition.m in Sources */,
+				F41B8C8820BD548A003ED723 /* UIImage+Dashed.m in Sources */,
+				F41B8C1120BD548A003ED723 /* BOAssistor.m in Sources */,
+				F41B8CC020BD548A003ED723 /* BONoticeBar.m in Sources */,
 				98CF4E57A36540E13153A545546A1D11 /* UIImage+Compare.m in Sources */,
-				F41B8A8520BD4715003ED723 /* EaseStartHelper.m in Sources */,
+				F41B8C0320BD548A003ED723 /* GTMBase64.m in Sources */,
+				F41B8CC720BD548A003ED723 /* BOTimeStampAssistor.m in Sources */,
 				75DF265A4FEC4E42582B8570194CB583 /* UIImage+Diff.m in Sources */,
-				F41B8B8120BD4715003ED723 /* BONoticeBar.m in Sources */,
 				E972E6647713D21A0F21BDAD1816AA29 /* UIImage+Snapshot.m in Sources */,
-				F41B8A4D20BD4714003ED723 /* MenuView.m in Sources */,
-				F41B8AFC20BD4715003ED723 /* UIColor+Hex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1928,31 +1628,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8B6720BD4715003ED723 /* DESUtil.m in Sources */,
-				F41B8B3D20BD4715003ED723 /* UIImage+Dashed.m in Sources */,
-				F41B8B5920BD4715003ED723 /* NSObject+SXRuntime.m in Sources */,
+				F41B8CC220BD548A003ED723 /* BONoticeBar.m in Sources */,
+				F41B8C6720BD548A003ED723 /* UIViewExt.m in Sources */,
+				F41B8C1320BD548A003ED723 /* BOAssistor.m in Sources */,
+				F41B8C8A20BD548A003ED723 /* UIImage+Dashed.m in Sources */,
+				F41B8C9120BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
+				F41B8C2F20BD548A003ED723 /* BOCoordinateTransformation.m in Sources */,
 				63171771443F27C58A8B3D96CFC8C418 /* Pods-SJCategory_Tests-dummy.m in Sources */,
-				F41B8B4B20BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */,
-				F41B8B4420BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
-				F41B8A8720BD4715003ED723 /* EaseStartHelper.m in Sources */,
-				F41B8BA620BD4715003ED723 /* BOHUDManager.m in Sources */,
-				F41B8B9120BD4715003ED723 /* BOAssistor.m in Sources */,
-				F41B8AAA20BD4715003ED723 /* ISGProtocolView.m in Sources */,
-				F41B8B9820BD4715003ED723 /* BOTimeStampAssistor.m in Sources */,
-				F41B8AE920BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
-				F41B8ADB20BD4715003ED723 /* IntroductoryPageView.m in Sources */,
-				F41B8A8E20BD4715003ED723 /* EaseStartView.m in Sources */,
-				F41B8B1A20BD4715003ED723 /* UIViewExt.m in Sources */,
-				F41B8AB120BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
-				F41B8A4820BD4714003ED723 /* ISGNoDataView.m in Sources */,
-				F41B8B7520BD4715003ED723 /* BOCoordinateTransformation.m in Sources */,
-				F41B8A4F20BD4715003ED723 /* MenuView.m in Sources */,
-				F41B8AFE20BD4715003ED723 /* UIColor+Hex.m in Sources */,
-				F41B8A9520BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
-				F41B8AF720BD4715003ED723 /* NSString+MD5Addition.m in Sources */,
-				F41B8B8320BD4715003ED723 /* BONoticeBar.m in Sources */,
-				F41B8B2F20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
-				F41B8ACD20BD4715003ED723 /* GTMBase64.m in Sources */,
+				F41B8CA620BD548A003ED723 /* NSObject+SXRuntime.m in Sources */,
+				F41B8C1A20BD548A003ED723 /* BOHUDManager.m in Sources */,
+				F41B8C9820BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */,
+				F41B8C4B20BD548A003ED723 /* UIColor+Hex.m in Sources */,
+				F41B8C3D20BD548A003ED723 /* NSString+MD5Addition.m in Sources */,
+				F41B8C0520BD548A003ED723 /* GTMBase64.m in Sources */,
+				F41B8CC920BD548A003ED723 /* BOTimeStampAssistor.m in Sources */,
+				F41B8CB420BD548A003ED723 /* DESUtil.m in Sources */,
+				F41B8C7C20BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1960,41 +1651,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8B9A20BD4715003ED723 /* BOTimeStampAssistor.m in Sources */,
-				F41B8AEB20BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
-				F41B8B5B20BD4715003ED723 /* NSObject+SXRuntime.m in Sources */,
-				F41B8B9320BD4715003ED723 /* BOAssistor.m in Sources */,
-				F41B8B4D20BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */,
 				A4D708563D06FCC4791D002723CBA985 /* Specta-dummy.m in Sources */,
+				F41B8C9A20BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */,
+				F41B8C7E20BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
+				F41B8C4D20BD548A003ED723 /* UIColor+Hex.m in Sources */,
+				F41B8CA820BD548A003ED723 /* NSObject+SXRuntime.m in Sources */,
 				D490834AA1304BF36991A257F3366648 /* SpectaDSL.m in Sources */,
-				F41B8B6920BD4715003ED723 /* DESUtil.m in Sources */,
-				F41B8AB320BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
-				F41B8A8920BD4715003ED723 /* EaseStartHelper.m in Sources */,
+				F41B8CB620BD548A003ED723 /* DESUtil.m in Sources */,
 				6F1C8C2851E8B7476992360408E05B40 /* SpectaUtility.m in Sources */,
-				F41B8ADD20BD4715003ED723 /* IntroductoryPageView.m in Sources */,
-				F41B8B8520BD4715003ED723 /* BONoticeBar.m in Sources */,
-				F41B8B3120BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
-				F41B8A9020BD4715003ED723 /* EaseStartView.m in Sources */,
+				F41B8C6920BD548A003ED723 /* UIViewExt.m in Sources */,
 				146D2FD2E3B98DA591885219099F2A4A /* SPTCallSite.m in Sources */,
 				255345DF9F3F6DDC70B0ABAF2775324B /* SPTCompiledExample.m in Sources */,
-				F41B8A5120BD4715003ED723 /* MenuView.m in Sources */,
-				F41B8A9720BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
 				B376B4A777F62028AF0965D93658413E /* SPTExample.m in Sources */,
-				F41B8B3F20BD4715003ED723 /* UIImage+Dashed.m in Sources */,
+				F41B8C3F20BD548A003ED723 /* NSString+MD5Addition.m in Sources */,
+				F41B8CCB20BD548A003ED723 /* BOTimeStampAssistor.m in Sources */,
 				5386920B6032F8686000D909CFF26041 /* SPTExampleGroup.m in Sources */,
-				F41B8AAC20BD4715003ED723 /* ISGProtocolView.m in Sources */,
-				F41B8A4A20BD4714003ED723 /* ISGNoDataView.m in Sources */,
+				F41B8C0720BD548A003ED723 /* GTMBase64.m in Sources */,
+				F41B8CC420BD548A003ED723 /* BONoticeBar.m in Sources */,
+				F41B8C8C20BD548A003ED723 /* UIImage+Dashed.m in Sources */,
+				F41B8C1C20BD548A003ED723 /* BOHUDManager.m in Sources */,
 				9695B31D33EA0EC9CFB42B9D8ABC447D /* SPTSharedExampleGroups.m in Sources */,
-				F41B8B1C20BD4715003ED723 /* UIViewExt.m in Sources */,
-				F41B8ACF20BD4715003ED723 /* GTMBase64.m in Sources */,
-				F41B8AF920BD4715003ED723 /* NSString+MD5Addition.m in Sources */,
 				FCDA06700D1989687F2471414453A57A /* SPTSpec.m in Sources */,
-				F41B8B4620BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
-				F41B8B0020BD4715003ED723 /* UIColor+Hex.m in Sources */,
+				F41B8C3120BD548A003ED723 /* BOCoordinateTransformation.m in Sources */,
+				F41B8C1520BD548A003ED723 /* BOAssistor.m in Sources */,
 				20A2A483CDC911D6DB2EAD12444D1406 /* SPTTestSuite.m in Sources */,
+				F41B8C9320BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
 				7F1209D2DD89FBCDABDA3CDBB0DDB49D /* XCTestCase+Specta.m in Sources */,
-				F41B8BA820BD4715003ED723 /* BOHUDManager.m in Sources */,
-				F41B8B7720BD4715003ED723 /* BOCoordinateTransformation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2002,31 +1684,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8B6620BD4715003ED723 /* DESUtil.m in Sources */,
-				F41B8B3C20BD4715003ED723 /* UIImage+Dashed.m in Sources */,
-				F41B8B5820BD4715003ED723 /* NSObject+SXRuntime.m in Sources */,
+				F41B8CC120BD548A003ED723 /* BONoticeBar.m in Sources */,
+				F41B8C6620BD548A003ED723 /* UIViewExt.m in Sources */,
+				F41B8C1220BD548A003ED723 /* BOAssistor.m in Sources */,
+				F41B8C8920BD548A003ED723 /* UIImage+Dashed.m in Sources */,
+				F41B8C9020BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
+				F41B8C2E20BD548A003ED723 /* BOCoordinateTransformation.m in Sources */,
 				F7474BA8C598AEBD11BF575991FAB7D0 /* Pods-SJCategory_Example-dummy.m in Sources */,
-				F41B8B4A20BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */,
-				F41B8B4320BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
-				F41B8A8620BD4715003ED723 /* EaseStartHelper.m in Sources */,
-				F41B8BA520BD4715003ED723 /* BOHUDManager.m in Sources */,
-				F41B8B9020BD4715003ED723 /* BOAssistor.m in Sources */,
-				F41B8AA920BD4715003ED723 /* ISGProtocolView.m in Sources */,
-				F41B8B9720BD4715003ED723 /* BOTimeStampAssistor.m in Sources */,
-				F41B8AE820BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
-				F41B8ADA20BD4715003ED723 /* IntroductoryPageView.m in Sources */,
-				F41B8A8D20BD4715003ED723 /* EaseStartView.m in Sources */,
-				F41B8B1920BD4715003ED723 /* UIViewExt.m in Sources */,
-				F41B8AB020BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
-				F41B8A4720BD4714003ED723 /* ISGNoDataView.m in Sources */,
-				F41B8B7420BD4715003ED723 /* BOCoordinateTransformation.m in Sources */,
-				F41B8A4E20BD4714003ED723 /* MenuView.m in Sources */,
-				F41B8AFD20BD4715003ED723 /* UIColor+Hex.m in Sources */,
-				F41B8A9420BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
-				F41B8AF620BD4715003ED723 /* NSString+MD5Addition.m in Sources */,
-				F41B8B8220BD4715003ED723 /* BONoticeBar.m in Sources */,
-				F41B8B2E20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
-				F41B8ACC20BD4715003ED723 /* GTMBase64.m in Sources */,
+				F41B8CA520BD548A003ED723 /* NSObject+SXRuntime.m in Sources */,
+				F41B8C1920BD548A003ED723 /* BOHUDManager.m in Sources */,
+				F41B8C9720BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */,
+				F41B8C4A20BD548A003ED723 /* UIColor+Hex.m in Sources */,
+				F41B8C3C20BD548A003ED723 /* NSString+MD5Addition.m in Sources */,
+				F41B8C0420BD548A003ED723 /* GTMBase64.m in Sources */,
+				F41B8CC820BD548A003ED723 /* BOTimeStampAssistor.m in Sources */,
+				F41B8CB320BD548A003ED723 /* DESUtil.m in Sources */,
+				F41B8C7B20BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2034,65 +1707,56 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F41B8C1620BD548A003ED723 /* BOHUDManager.m in Sources */,
+				F41B8C4720BD548A003ED723 /* UIColor+Hex.m in Sources */,
+				F41B8CBE20BD548A003ED723 /* BONoticeBar.m in Sources */,
 				9E4463D68D13C127762B1ACB8249B64C /* EXPBlockDefinedMatcher.m in Sources */,
-				F41B8A8A20BD4715003ED723 /* EaseStartView.m in Sources */,
+				F41B8C9420BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */,
 				01F278A54C85C2C865DDAD4090C559B6 /* EXPDoubleTuple.m in Sources */,
 				D1768C977F0CD5B420D1A1D2375CDBD4 /* Expecta-dummy.m in Sources */,
 				99E6D51A8A4E3FFB7601D182D995A3BA /* ExpectaObject.m in Sources */,
 				1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */,
+				F41B8C3920BD548A003ED723 /* NSString+MD5Addition.m in Sources */,
 				BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */,
 				5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */,
+				F41B8C0120BD548A003ED723 /* GTMBase64.m in Sources */,
 				150503B99F77D3D8897EFFC68C09A351 /* EXPMatcherHelpers.m in Sources */,
-				F41B8B7120BD4715003ED723 /* BOCoordinateTransformation.m in Sources */,
 				9A0ADF06F5B6BC3A70EDE1285BAF9346 /* EXPMatchers+beCloseTo.m in Sources */,
 				8220368E5F7EA70947BAD2B6F216C61B /* EXPMatchers+beFalsy.m in Sources */,
 				A037AD9C808583B3EC9F49B3EEDA588A /* EXPMatchers+beginWith.m in Sources */,
 				FF394D6FEA84206182301180AE4CB957 /* EXPMatchers+beGreaterThan.m in Sources */,
-				F41B8B1620BD4715003ED723 /* UIViewExt.m in Sources */,
-				F41B8B4720BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */,
+				F41B8CA220BD548A003ED723 /* NSObject+SXRuntime.m in Sources */,
 				C14CD98EE4DDC0B7689F058D5B79CC47 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */,
-				F41B8A4420BD4714003ED723 /* ISGNoDataView.m in Sources */,
-				F41B8B6320BD4715003ED723 /* DESUtil.m in Sources */,
 				CD22121B77F0F8E2B6A58AF6226038C2 /* EXPMatchers+beIdenticalTo.m in Sources */,
-				F41B8BA220BD4715003ED723 /* BOHUDManager.m in Sources */,
-				F41B8B4020BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
+				F41B8C7820BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
 				778C9F1A1715E05313578E39AB46726E /* EXPMatchers+beInstanceOf.m in Sources */,
-				F41B8AC920BD4715003ED723 /* GTMBase64.m in Sources */,
+				F41B8C2B20BD548A003ED723 /* BOCoordinateTransformation.m in Sources */,
 				508B6D0572C0C3B4A3E019B814595D4A /* EXPMatchers+beInTheRangeOf.m in Sources */,
 				DF883524C3F35145D74166C01BCFCFC3 /* EXPMatchers+beKindOf.m in Sources */,
 				47D171E32EAE4FB61A9971B9BC00226D /* EXPMatchers+beLessThan.m in Sources */,
-				F41B8AA620BD4715003ED723 /* ISGProtocolView.m in Sources */,
 				CE7E4C141657D23213C7FAE616D7FA75 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */,
-				F41B8AFA20BD4715003ED723 /* UIColor+Hex.m in Sources */,
 				CD66900813CFE317343F5A4053AE73EC /* EXPMatchers+beNil.m in Sources */,
+				F41B8CC520BD548A003ED723 /* BOTimeStampAssistor.m in Sources */,
 				2916D75F69E777954F5BF46AE63C52C0 /* EXPMatchers+beSubclassOf.m in Sources */,
 				AC0AB78F3A7629ED1C7F3F82BBB3F471 /* EXPMatchers+beSupersetOf.m in Sources */,
+				F41B8CB020BD548A003ED723 /* DESUtil.m in Sources */,
 				98571BE17A46245CA1717CF9157A0807 /* EXPMatchers+beTruthy.m in Sources */,
+				F41B8C6320BD548A003ED723 /* UIViewExt.m in Sources */,
 				51FCC9EDD6B60BF63B5EF7CAC94CCF23 /* EXPMatchers+conformTo.m in Sources */,
-				F41B8B3920BD4715003ED723 /* UIImage+Dashed.m in Sources */,
+				F41B8C8D20BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
 				9EA076D25036A0F4765FF3FB57CF4A6A /* EXPMatchers+contain.m in Sources */,
+				F41B8C8620BD548A003ED723 /* UIImage+Dashed.m in Sources */,
 				285C6F6BE59E632CB219CD98B4EDC1AA /* EXPMatchers+endWith.m in Sources */,
+				F41B8C0F20BD548A003ED723 /* BOAssistor.m in Sources */,
 				E6D59CAA2A6E134A4643254406ED11F2 /* EXPMatchers+equal.m in Sources */,
-				F41B8AD720BD4715003ED723 /* IntroductoryPageView.m in Sources */,
-				F41B8A4B20BD4714003ED723 /* MenuView.m in Sources */,
 				C676818DADAC76EE2FDC5533CBF3648A /* EXPMatchers+haveCountOf.m in Sources */,
-				F41B8AE520BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
-				F41B8B7F20BD4715003ED723 /* BONoticeBar.m in Sources */,
-				F41B8A8320BD4715003ED723 /* EaseStartHelper.m in Sources */,
 				BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */,
-				F41B8AAD20BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
 				9F51005FE4BF10FA9906B02DAD609C6E /* EXPMatchers+postNotification.m in Sources */,
-				F41B8B2B20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
 				361B58CE2A28E03CA83A73617ED739F2 /* EXPMatchers+raise.m in Sources */,
 				870CAAA15357EFF9E1619737DEE56067 /* EXPMatchers+raiseWithReason.m in Sources */,
 				A0612BA825C81CE45266B214DF3A8BCB /* EXPMatchers+respondTo.m in Sources */,
 				AE7BBD46BA00A9AC69249ADA56402162 /* EXPUnsupportedObject.m in Sources */,
-				F41B8B8D20BD4715003ED723 /* BOAssistor.m in Sources */,
-				F41B8B9420BD4715003ED723 /* BOTimeStampAssistor.m in Sources */,
 				A6CC81FC886EE8FF27EF4DD48D6F8F56 /* NSValue+Expecta.m in Sources */,
-				F41B8B5520BD4715003ED723 /* NSObject+SXRuntime.m in Sources */,
-				F41B8AF320BD4715003ED723 /* NSString+MD5Addition.m in Sources */,
-				F41B8A9120BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2100,33 +1764,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8B3A20BD4715003ED723 /* UIImage+Dashed.m in Sources */,
-				F41B8B2C20BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
-				F41B8AAE20BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
-				F41B8B6420BD4715003ED723 /* DESUtil.m in Sources */,
-				F41B8AFB20BD4715003ED723 /* UIColor+Hex.m in Sources */,
-				F41B8AD820BD4715003ED723 /* IntroductoryPageView.m in Sources */,
-				F41B8A8B20BD4715003ED723 /* EaseStartView.m in Sources */,
-				F41B8ACA20BD4715003ED723 /* GTMBase64.m in Sources */,
-				F41B8A4520BD4714003ED723 /* ISGNoDataView.m in Sources */,
-				F41B8B1720BD4715003ED723 /* UIViewExt.m in Sources */,
-				F41B8B7220BD4715003ED723 /* BOCoordinateTransformation.m in Sources */,
-				F41B8B4820BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */,
-				F41B8B8020BD4715003ED723 /* BONoticeBar.m in Sources */,
-				F41B8AE620BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
+				F41B8C8720BD548A003ED723 /* UIImage+Dashed.m in Sources */,
+				F41B8C9520BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */,
+				F41B8C7920BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
+				F41B8CC620BD548A003ED723 /* BOTimeStampAssistor.m in Sources */,
 				2CC183AE5C5A4EA8EE0E14768F464BBB /* Expecta+Snapshots-dummy.m in Sources */,
-				F41B8AA720BD4715003ED723 /* ISGProtocolView.m in Sources */,
-				F41B8A4C20BD4714003ED723 /* MenuView.m in Sources */,
-				F41B8BA320BD4715003ED723 /* BOHUDManager.m in Sources */,
-				F41B8B5620BD4715003ED723 /* NSObject+SXRuntime.m in Sources */,
-				F41B8A9220BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
-				F41B8B8E20BD4715003ED723 /* BOAssistor.m in Sources */,
-				F41B8B9520BD4715003ED723 /* BOTimeStampAssistor.m in Sources */,
-				F41B8B4120BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
-				F41B8A8420BD4715003ED723 /* EaseStartHelper.m in Sources */,
+				F41B8CA320BD548A003ED723 /* NSObject+SXRuntime.m in Sources */,
 				6C88FB17C3AE49E50ABF4C36176B55BB /* ExpectaObject+FBSnapshotTest.m in Sources */,
-				F41B8AF420BD4715003ED723 /* NSString+MD5Addition.m in Sources */,
+				F41B8CBF20BD548A003ED723 /* BONoticeBar.m in Sources */,
+				F41B8C6420BD548A003ED723 /* UIViewExt.m in Sources */,
+				F41B8C8E20BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
+				F41B8C1720BD548A003ED723 /* BOHUDManager.m in Sources */,
 				0D3FBF37E9E7829108F70F4D5658918A /* EXPMatchers+FBSnapshotTest.m in Sources */,
+				F41B8C4820BD548A003ED723 /* UIColor+Hex.m in Sources */,
+				F41B8C2C20BD548A003ED723 /* BOCoordinateTransformation.m in Sources */,
+				F41B8C0220BD548A003ED723 /* GTMBase64.m in Sources */,
+				F41B8C3A20BD548A003ED723 /* NSString+MD5Addition.m in Sources */,
+				F41B8CB120BD548A003ED723 /* DESUtil.m in Sources */,
+				F41B8C1020BD548A003ED723 /* BOAssistor.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2134,31 +1789,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8B6820BD4715003ED723 /* DESUtil.m in Sources */,
-				F41B8B3E20BD4715003ED723 /* UIImage+Dashed.m in Sources */,
-				F41B8B5A20BD4715003ED723 /* NSObject+SXRuntime.m in Sources */,
+				F41B8CC320BD548A003ED723 /* BONoticeBar.m in Sources */,
+				F41B8C6820BD548A003ED723 /* UIViewExt.m in Sources */,
+				F41B8C1420BD548A003ED723 /* BOAssistor.m in Sources */,
+				F41B8C8B20BD548A003ED723 /* UIImage+Dashed.m in Sources */,
+				F41B8C9220BD548A003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
+				F41B8C3020BD548A003ED723 /* BOCoordinateTransformation.m in Sources */,
 				A1273302A260E0CABE6E556DD9C52ECB /* SJCategory-dummy.m in Sources */,
-				F41B8B4C20BD4715003ED723 /* UINavigation+SXFixSpace.m in Sources */,
-				F41B8B4520BD4715003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
-				F41B8A8820BD4715003ED723 /* EaseStartHelper.m in Sources */,
-				F41B8BA720BD4715003ED723 /* BOHUDManager.m in Sources */,
-				F41B8B9220BD4715003ED723 /* BOAssistor.m in Sources */,
-				F41B8AAB20BD4715003ED723 /* ISGProtocolView.m in Sources */,
-				F41B8B9920BD4715003ED723 /* BOTimeStampAssistor.m in Sources */,
-				F41B8AEA20BD4715003ED723 /* IntroductoryPageHelper.m in Sources */,
-				F41B8ADC20BD4715003ED723 /* IntroductoryPageView.m in Sources */,
-				F41B8A8F20BD4715003ED723 /* EaseStartView.m in Sources */,
-				F41B8B1B20BD4715003ED723 /* UIViewExt.m in Sources */,
-				F41B8AB220BD4715003ED723 /* EnlargeAreaButton.m in Sources */,
-				F41B8A4920BD4714003ED723 /* ISGNoDataView.m in Sources */,
-				F41B8B7620BD4715003ED723 /* BOCoordinateTransformation.m in Sources */,
-				F41B8A5020BD4715003ED723 /* MenuView.m in Sources */,
-				F41B8AFF20BD4715003ED723 /* UIColor+Hex.m in Sources */,
-				F41B8A9620BD4715003ED723 /* ISGPlaceholderTextView.m in Sources */,
-				F41B8AF820BD4715003ED723 /* NSString+MD5Addition.m in Sources */,
-				F41B8B8420BD4715003ED723 /* BONoticeBar.m in Sources */,
-				F41B8B3020BD4715003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
-				F41B8ACE20BD4715003ED723 /* GTMBase64.m in Sources */,
+				F41B8CA720BD548A003ED723 /* NSObject+SXRuntime.m in Sources */,
+				F41B8C1B20BD548A003ED723 /* BOHUDManager.m in Sources */,
+				F41B8C9920BD548A003ED723 /* UINavigation+SXFixSpace.m in Sources */,
+				F41B8C4C20BD548A003ED723 /* UIColor+Hex.m in Sources */,
+				F41B8C3E20BD548A003ED723 /* NSString+MD5Addition.m in Sources */,
+				F41B8C0620BD548A003ED723 /* GTMBase64.m in Sources */,
+				F41B8CCA20BD548A003ED723 /* BOTimeStampAssistor.m in Sources */,
+				F41B8CB520BD548A003ED723 /* DESUtil.m in Sources */,
+				F41B8C7D20BD548A003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

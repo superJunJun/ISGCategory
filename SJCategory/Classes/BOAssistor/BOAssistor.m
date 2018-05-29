@@ -8,6 +8,8 @@
 //
 
 #import "BOAssistor.h"
+#import "UIColor+Hex.h"
+#import <UIKit/UIApplication.h>
 
 #define currentDeviceSystemVersion            [[[UIDevice currentDevice] systemVersion] floatValue]
 
@@ -325,6 +327,7 @@
                 
                 [button setTitle:@"重新发送" forState:UIControlStateNormal];
                 button.titleLabel.font = [BOAssistor defaultTextStringFontWithSize:14];
+                [button setTitleColor:[UIColor colorWithHex:0xd23023] forState:UIControlStateNormal];
                 button.userInteractionEnabled = YES;
                 
                 [BOAssistor setDefaultCountDownValue];
@@ -337,6 +340,7 @@
                 [button setTitle:[NSString stringWithFormat:@"%@秒后可重新发送",strTime] forState:UIControlStateNormal];
                 button.titleLabel.font = [BOAssistor defaultTextStringFontWithSize:12];
                 button.userInteractionEnabled = NO;
+                [button setTitleColor:[UIColor colorWithHex:0x666666] forState:UIControlStateNormal];
             });
             timeout--;
             
