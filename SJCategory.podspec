@@ -30,13 +30,13 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SJCategory/Classes/**/*'
-  
+  s.source_files  = "SJCategory/Classes/**/*.{h,m}"
+
   # s.resource_bundles = {
   #   'SJCategory' => ['SJCategory/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'Foundation'
+  s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
   s.dependency 'MBProgressHUD', '~> 1.1.0'
 end
