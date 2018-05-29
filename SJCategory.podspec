@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJCategory'
-  s.version          = '0.1.1'
-  s.summary          = '自定义类别'
+  s.version          = '1.0.1'
+  s.summary          = '常用类别，常用工具类，HUD，地理坐标转换，DES，介绍页'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
