@@ -3,19 +3,13 @@
 //
 //  常用的辅助功能
 //
-//  Created by superjunjun on 2017/4/15.
-//  Copyright © 2017年 superjunjun. All rights reserved.
-//
 
 #import "BOAssistor.h"
-#import "UIColor+Hex.h"
-#import <UIKit/UIApplication.h>
+#import "NSString+MD5Addition.h"
 
 #define currentDeviceSystemVersion            [[[UIDevice currentDevice] systemVersion] floatValue]
 
 @implementation BOAssistor
-
-#pragma mark - Regular Expression
 
 + (BOOL)resourceString:(NSString *)resStr evalueWithPredicateRegex:(NSString *)regex
 {
@@ -23,120 +17,62 @@
     return [predicate evaluateWithObject:resStr];
 }
 
-+ (BOOL)personNameIsValid:(NSString *)name
++ (BOOL)phoneNumberIsValid:(NSString *)phoneNumber
 {
-    NSString *regex = @"^[\u4e00-\u9fa5]{2,15}$";
-    return [self resourceString:name evalueWithPredicateRegex:regex];
+    NSString *regex = @"^(([1][3-8]\\d{9})|((\\d{3}-\\d{8})|(\\d{4}-\\d{7})))$";
+    return [self resourceString:phoneNumber evalueWithPredicateRegex:regex];
 }
 
-+ (BOOL)postCodeIsValid:(NSString *)postCode
-{
-    NSString *regex = @"^[1-9]{1}(\\d+){5}$";
-    return [self resourceString:postCode evalueWithPredicateRegex:regex];
-}
-
-+ (BOOL)cellPhoneNumberIsValid:(NSString *)cellPhoneNumber
-{
-    NSString *regex = @"^[1][3-8]\\d{9}$";
-    return [self resourceString:cellPhoneNumber evalueWithPredicateRegex:regex];
-}
-
-+ (BOOL)emailIsValid:(NSString *)email
-{
-    NSString *regex = @"^(\\w)+(\\.\\w+)*@(\\w)+((\\.\\w+)+)$";
-    return [self resourceString:email evalueWithPredicateRegex:regex];
-}
-
-+ (BOOL)usernameIsValidLocalFunc:(NSString *)username
-{
-    NSString *regex = @"^[a-zA-Z|\u4e00-\u9fa5][a-zA-Z0-9\u4e00-\u9fa5]{1,19}$";
-    return [self resourceString:username evalueWithPredicateRegex:regex];
-}
-
-+ (BOOL)emoveUserNickNameIsValid:(NSString *)nickName
-{
-    if([self stringTrim:nickName].length > 0)
-    {
-        return (nickName.length >= 1 && nickName.length <= 15);
-    }
-    else
-    {
-        return NO;
-    }
-}
-
-+ (BOOL)emoveUserSignatureIsValid:(NSString *)signature
-{
-    if([self stringTrim:signature].length > 0)
-    {
-        return signature.length <= 15;
-    }
-    else
-    {
-        return NO;
-    }
-}
-
-+ (BOOL)usernameIsValid:(NSString *)username
-{
-    //字符开头，限4-20字符，1个汉字为2个字符
-    int finalLength = (int)[self chineseCharactersLengthInString:username];
-    if(finalLength >= 4 && finalLength <= 20)
-    {
-        return [self usernameIsValidLocalFunc:username];
++ (BOOL)idCardIsValid:(NSString *)idCard {
+    idCard = [self TrimmingWhiteSpaceAndNewLineByString:idCard];
+    if (idCard.length == 15 || idCard.length == 18) {
+        return YES;
     }
     return NO;
 }
 
-+ (BOOL)phoneNumberIsValid:(NSString *)phoneNumber
-{
-//    NSString *regex = @"^(([1][3-8]\\d{9})|((\\d{3}-\\d{8})|(\\d{4}-\\d{7})))$";
-//    return [self resourceString:phoneNumber evalueWithPredicateRegex:regex];
-    return phoneNumber.length == 11;
-}
-
-+ (BOOL)passwordLengthIsValid:(NSString *)password
-{
-    //6~48
-    return (password.length >= 6 && password.length <= 48);
-}
-
-+ (BOOL)passwordIsValid:(NSString *)password
-{
-    NSString *regex = @"[0-9a-zA-Z]{6,20}";
-    return [self resourceString:password evalueWithPredicateRegex:regex];
-}
-
-+ (NSUInteger)chineseCharactersLengthInString:(NSString *)string
-{
-    NSUInteger len = string.length;
-    // 汉字字符集
-    NSString *pattern  = @"[\u4e00-\u9fa5]";
-    NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:pattern options:NSRegularExpressionCaseInsensitive error:nil];
-    // 计算中文字符的个数
-    NSInteger numMatch = [regex numberOfMatchesInString:string options:NSMatchingReportProgress range:NSMakeRange(0, len)];
-    return len + numMatch;
-}
-
-//@"/^[".chr(0xa1)."-".chr(0xff)."A-Za-z0-9_]+$/"   //GB2312汉字字母数字下划线正则表达式
-//@"/^[/x{4e00}-/x{9fa5}A-Za-z0-9_]+$/u"            //UTF-8汉字字母数字下划线正则表达式
-+ (NSString *)stringTrim:(NSString *)sourceString
-{
-    if (sourceString.length>1) {
-        NSString *firstChar = [sourceString substringWithRange:NSMakeRange(0, 1)];
-        if ([firstChar isEqualToString:@"<"]) {
-            NSMutableAttributedString * attrStr = [[NSMutableAttributedString alloc] initWithData:[sourceString dataUsingEncoding:NSUnicodeStringEncoding] options:@{ NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType ,NSFontAttributeName : [BOAssistor defaultTextStringFontWithSize:13]} documentAttributes:nil error:nil];
-            sourceString = [attrStr string];
-        }
++ (BOOL)bankCardIsValid:(NSString *)bankCard {
+    if (bankCard.length >= 16 && bankCard.length <= 21 ) {
+        return YES;
     }
-    
-    NSCharacterSet *set = [NSCharacterSet characterSetWithCharactersInString:@"@／：；（）¥「」＂、[]{}#%-*+=_\\|~＜＞$€^•'@#$%^&*()_+'\"+"];
-    NSString *trimmedString = [sourceString stringByTrimmingCharactersInSet:set];
-    NSString *trimmedString1 = [trimmedString stringByReplacingOccurrencesOfString:@"&nbsp;" withString:@""];
-    NSString *trimmedString2 = [trimmedString1 stringByReplacingOccurrencesOfString:@"<br />" withString:@""];
+    return NO;
+}
 
-    return trimmedString2;
++ (BOOL)realNameIsValid:(NSString *)realName {
+    realName = [self TrimmingWhiteSpaceAndNewLineByString:realName];
+    if (realName.length == 0) {
+        return NO;
+    }
+    NSRange range1 = [realName rangeOfString:@"·"];
+    NSRange range2 = [realName rangeOfString:@"•"];
+    if(range1.location != NSNotFound ||   // 中文 ·
+       range2.location != NSNotFound )    // 英文 •
+    {
+        //一般中间带 `•`的名字长度不会超过15位，如果有那就设高一点
+        if ([realName length] < 2 || [realName length] > 15)
+        {
+            return NO;
+        }
+        NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"^[\u4e00-\u9fa5]+[·•][\u4e00-\u9fa5]+$" options:0 error:NULL];
+        NSTextCheckingResult *match = [regex firstMatchInString:realName options:0 range:NSMakeRange(0, [realName length])];
+        NSUInteger count = [match numberOfRanges];
+        return count == 1;
+    }
+    else
+    {
+        //一般正常的名字长度不会少于2位并且不超过8位，如果有那就设高一点
+        if ([realName length] < 2 || [realName length] > 8) {
+            return NO;
+        }
+        NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"^[\u4e00-\u9fa5]+$" options:0 error:NULL];
+        NSTextCheckingResult *match = [regex firstMatchInString:realName options:0 range:NSMakeRange(0, [realName length])];
+        NSUInteger count = [match numberOfRanges];
+        return count == 1;
+    }
+}
 
++ (NSString *)TrimmingWhiteSpaceAndNewLineByString:(NSString *)string {
+    return [string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
 }
 
 + (NSString *)filterHTML:(NSString *)html
@@ -163,44 +99,6 @@
     return html;
 }
 
-+ (BOOL)isImageFilePath:(NSString *)imagePath
-{
-    NSString *pathExtension = imagePath.pathExtension.lowercaseString;
-    if([pathExtension isEqualToString:@"png"]
-       || [pathExtension isEqualToString:@"jpg"]
-       || [pathExtension isEqualToString:@"jpe"]
-       || [pathExtension isEqualToString:@"jpeg"]
-       || [pathExtension isEqualToString:@"gif"])
-    {
-        return YES;
-    }
-    return NO;
-}
-
-#pragma mark - Supported Font
-
-+ (NSArray *)appUrlSchemes
-{
-    NSDictionary *info = [[NSBundle mainBundle] infoDictionary];
-    NSArray *urlDics = [info objectForKey:@"CFBundleURLTypes"];
-    NSDictionary *urlDic = urlDics[0];
-    NSArray *urlSchemes = [urlDic objectForKey:@"CFBundleURLSchemes"];;
-    
-    return urlSchemes;
-}
-
-+ (NSString *)appBundleShortVersion
-{
-    NSDictionary *info = [NSBundle mainBundle].infoDictionary;
-    return info[@"CFBundleShortVersionString"];
-}
-
-+ (NSString *)appBundleID
-{
-    NSDictionary *info = [NSBundle mainBundle].infoDictionary;
-    return info[@"CFBundleIdentifier"];
-}
-
 
 + (CGSize)string:(NSString *)string sizeWithFont:(UIFont *)font
 {
@@ -224,16 +122,8 @@
     }
     else
     {
-        return CGSizeZero;
+        return [string sizeWithFont:font constrainedToSize:limitedSize lineBreakMode:mode];
     }
-}
-
-#pragma mark - TimeInterval
-+ (NSString *)getTimeStringWithTimeStamp:(NSTimeInterval)time format:(NSString *)format
-{
-    NSDateFormatter *dateFormatter = [NSDateFormatter new];
-    dateFormatter.dateFormat = format;
-    return [dateFormatter stringFromDate:[NSDate dateWithTimeIntervalSince1970:time]];
 }
 
 #pragma mark - LocalProvideFont
@@ -347,6 +237,7 @@
         }
     });
     dispatch_resume(timer);
+    
 }
 
 + (void)setDefaultCountDownValue {
@@ -354,34 +245,55 @@
     [[NSUserDefaults standardUserDefaults] synchronize];
 }
 
-#pragma mark - 导航相关
-+ (UIViewController *)topViewController {
-    id<UIApplicationDelegate> appDelegate = [UIApplication sharedApplication].delegate;
-    UIViewController *rootViewController = appDelegate.window.rootViewController;
-    return [self topViewControllerFromViewController:rootViewController];
++ (UINavigationController *)getCurrentNav
+{
+    UITabBarController *tabbarVC = (UITabBarController *)[[UIApplication sharedApplication] delegate].window.rootViewController;;
+
+//    UITabBarController *tabbarVC = (UITabBarController *)[[UIApplication sharedApplication] delegate].window.rootViewController;;
+    UINavigationController *nav = (UINavigationController *)tabbarVC.selectedViewController;
+    return nav;
 }
 
-+ (UINavigationController *)topNavigationViewController {
-    if (![[self topViewController] navigationController]) {
-        return [[UINavigationController alloc] initWithRootViewController:[self topViewController]];
+//+ (UITabBarController *)getCurrentTab
+//{
+//    UITabBarController *tabbarVC = (UITabBarController *)[[UIApplication sharedApplication] delegate].window.rootViewController;;
+//    
+//    //    UITabBarController *tabbarVC = (UITabBarController *)[[UIApplication sharedApplication] delegate].window.rootViewController;;
+//    UINavigationController *nav = (UINavigationController *)tabbarVC.selectedViewController;
+//    return nav;
+//}
+
++ (UIViewController *)getPresentedViewController
+{
+    UIViewController *appRootVC = [UIApplication sharedApplication].keyWindow.rootViewController;
+    UIViewController *topVC = appRootVC;
+    if (topVC.presentedViewController) {
+        topVC = topVC.presentedViewController;
     }
-    return [[self topViewController] navigationController];
+    return topVC;
 }
 
-+ (UIViewController *)topViewControllerFromViewController:(UIViewController *)viewController {
-    if ([viewController isKindOfClass:[UINavigationController class]]) {
-        UINavigationController *navigationController = (UINavigationController *)viewController;
-        return [self topViewControllerFromViewController:[navigationController topViewController]];
-    } else if ([viewController isKindOfClass:[UITabBarController class]]) {
-        UITabBarController *tabBarController = (UITabBarController *)viewController;
-        return [self topViewControllerFromViewController:tabBarController.selectedViewController];
-    } else if (viewController.presentedViewController != nil && !viewController.presentedViewController.isBeingDismissed) {
-        return [self topViewControllerFromViewController:viewController.presentedViewController];
++ (NSString *)changeNull:(id)object {
+    if ([self isNull:object]) {
+        return @"";
+    } else {
+        return [NSString stringWithFormat:@"%@",object];
     }
-    return viewController;
 }
 
-#pragma mark -
-
+//完整判断方法
++ (BOOL)isNull:(id)object
+{
+    // 判断是否为空串
+    if ([object isEqual:[NSNull null]]) {
+        return YES;
+    } else if ([object isKindOfClass:[NSNull class]]) {
+        return YES;
+    } else if (object==nil) {
+        return YES;
+    }
+    
+    return NO;
+}
 
 @end

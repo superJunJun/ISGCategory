@@ -3,29 +3,32 @@
 //
 //  常用的辅助功能
 //
-//  Created by superjunjun on 2017/4/15.
-//  Copyright © 2017年 superjunjun. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
 
 @interface BOAssistor : NSObject
 
-//字符有效性验证
-+ (BOOL)personNameIsValid:(NSString *)name;
-+ (BOOL)usernameIsValid:(NSString *)username;
-+ (BOOL)postCodeIsValid:(NSString *)postCode;
-+ (BOOL)emailIsValid:(NSString *)email;
-+ (BOOL)cellPhoneNumberIsValid:(NSString *)cellPhoneNumber;
+//格式有效性验证
 + (BOOL)phoneNumberIsValid:(NSString *)phoneNumber;
-+ (BOOL)passwordLengthIsValid:(NSString *)password;//4~48
-+ (BOOL)passwordIsValid:(NSString *)password;
-+ (BOOL)emoveUserNickNameIsValid:(NSString *)nickName;
-+ (BOOL)emoveUserSignatureIsValid:(NSString *)signature;
++ (BOOL)idCardIsValid:(NSString *)idCard;
++ (BOOL)bankCardIsValid:(NSString *)bankCard;
+/**
+ 判断是否是有效的中文名
+ 
+ @param realName 名字
+ @return 如果是在如下规则下符合的中文名则返回`YES`，否则返回`NO`
+ 限制规则：
+ 1. 首先是名字要大于2个汉字，小于8个汉字
+ 2. 如果是中间带`{•|·}`的名字，则限制长度15位（新疆人的名字有15位左右的，之前公司实名认证就遇到过），如果有更长的，请自行修改长度限制
+ 3. 如果是不带小点的正常名字，限制长度为8位，若果觉得不适，请自行修改位数限制
+ *PS: `•`或`·`具体是那个点具体处理需要注意*
+ */
++ (BOOL)realNameIsValid:(NSString *)realName;
+
 + (NSString *)stringWithNilOrNull:(id)str;
 
-//清理字符串
-+ (NSString *)stringTrim:(NSString *)resStr;
+//移除开头和结尾的空格和换行
++ (NSString *)TrimmingWhiteSpaceAndNewLineByString:(NSString *)string;
 
 //清理html字符串
 + (NSString *)filterHTML:(NSString *)html;
@@ -34,25 +37,12 @@
 + (CGSize)string:(NSString *)string sizeWithFont:(UIFont *)font;
 + (CGSize)string:(NSString *)string sizeWithFont:(UIFont *)font constrainedToWidth:(CGFloat)width lineBreakMode:(NSLineBreakMode)mode;
 
-//字符串中汉字数量
-+ (NSUInteger)chineseCharactersLengthInString:(NSString *)string;
-
-+ (NSArray *)appUrlSchemes;
-+ (NSString *)appBundleShortVersion;
-+ (NSString *)appBundleID;
-
-//判定是否为图片地址
-+ (BOOL)isImageFilePath:(NSString *)imagePath;
-
 //设置为苹方字体
 + (UIFont *)defaultTextStringFontWithSize:(CGFloat)fontSize;
 + (UIFont *)mediumTextStringFontWithSize:(CGFloat)fontSize;
 
 // 调用电话
 + (void)callPhoneStr:(NSString*)phoneStr withVC:(UIViewController *)selfvc;
-
-//时间戳转时间
-+ (NSString *)getTimeStringWithTimeStamp:(NSTimeInterval)time format:(NSString *)format;
 
 /**
  获取验证码的定时器
@@ -66,7 +56,9 @@
  */
 + (void)setDefaultCountDownValue;
 
-+ (UIViewController *)topViewController;
-+ (UINavigationController *)topNavigationViewController;
++ (UINavigationController *)getCurrentNav;
++ (UIViewController *)getPresentedViewController;
+
++ (NSString *)changeNull:(id)object;
 
 @end
