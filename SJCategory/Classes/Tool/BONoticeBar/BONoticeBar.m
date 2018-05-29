@@ -5,6 +5,8 @@
 //
 
 #import "BONoticeBar.h"
+#import "UIViewExt.h"
+#import "UIColor+Hex.h"
 
 #define nNoticeTextBarHoldDuration      2.0f
 

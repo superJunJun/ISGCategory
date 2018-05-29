@@ -8,7 +8,7 @@
 //
 
 #import "BOAssistor.h"
-//#import "NSString+MD5Addition.h"
+#import "UIColor+Hex.h"
 
 #define currentDeviceSystemVersion            [[[UIDevice currentDevice] systemVersion] floatValue]
 
