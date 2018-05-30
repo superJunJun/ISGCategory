@@ -24,24 +24,6 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		C44CB95740C702770CACDA59 /* Pods_SJCategory_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239E2BF4A7C5619EC5D2E012 /* Pods_SJCategory_Tests.framework */; };
-		F41B912B20BED6D8003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B910920BED6D8003ED723 /* BOTimeStampAssistor.m */; };
-		F41B912C20BED6D8003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B910A20BED6D8003ED723 /* NSString+MD5Addition.m */; };
-		F41B912D20BED6D8003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B910E20BED6D8003ED723 /* UIColor+Hex.m */; };
-		F41B912E20BED6D8003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B910F20BED6D8003ED723 /* BOHUDManager.m */; };
-		F41B912F20BED6D8003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B911520BED6D8003ED723 /* UIViewExt.m */; };
-		F41B913020BED6D8003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B911920BED6D8003ED723 /* BOCoordinateTransformation.m */; };
-		F41B913120BED6D8003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B911A20BED6D8003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B913220BED6D8003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B911C20BED6D8003ED723 /* BOAssistor.m */; };
-		F41B913320BED6D8003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B911D20BED6D8003ED723 /* DESUtil.m */; };
-		F41B913420BED6D8003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B911E20BED6D8003ED723 /* BONoticeBar.m */; };
-		F41B913520BED6D8003ED723 /* 40x-Cancelmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F41B912020BED6D8003ED723 /* 40x-Cancelmark@2x.png */; };
-		F41B913620BED6D8003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B912120BED6D8003ED723 /* UIImage+Dashed.m */; };
-		F41B913720BED6D8003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B912220BED6D8003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B913820BED6D8003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B912320BED6D8003ED723 /* GTMBase64.m */; };
-		F41B913920BED6D8003ED723 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = F41B912620BED6D8003ED723 /* .gitkeep */; };
-		F41B913A20BED6D8003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B912720BED6D8003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B913B20BED6D8003ED723 /* 40x-Checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F41B912920BED6D8003ED723 /* 40x-Checkmark@2x.png */; };
-		F41B913C20BED6D8003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B912A20BED6D8003ED723 /* NSObject+SXRuntime.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,41 +67,6 @@
 		A6A3B6022454EDDF77E7DE1B /* SJCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SJCategory.podspec; path = ../SJCategory.podspec; sourceTree = "<group>"; };
 		B1C929EF9A31FFA27EFFD316 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B693752BCB9E2E4F163A9F53 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F41B910720BED6D8003ED723 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
-		F41B910820BED6D8003ED723 /* BOCoordinateTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOCoordinateTransformation.h; sourceTree = "<group>"; };
-		F41B910920BED6D8003ED723 /* BOTimeStampAssistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOTimeStampAssistor.m; sourceTree = "<group>"; };
-		F41B910A20BED6D8003ED723 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
-		F41B910B20BED6D8003ED723 /* DESUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESUtil.h; sourceTree = "<group>"; };
-		F41B910C20BED6D8003ED723 /* BOAssistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOAssistor.h; sourceTree = "<group>"; };
-		F41B910D20BED6D8003ED723 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMacro.h; sourceTree = "<group>"; };
-		F41B910E20BED6D8003ED723 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		F41B910F20BED6D8003ED723 /* BOHUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOHUDManager.m; sourceTree = "<group>"; };
-		F41B911020BED6D8003ED723 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		F41B911120BED6D8003ED723 /* UIImage+Dashed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Dashed.h"; sourceTree = "<group>"; };
-		F41B911220BED6D8003ED723 /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
-		F41B911320BED6D8003ED723 /* BONoticeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BONoticeBar.h; sourceTree = "<group>"; };
-		F41B911420BED6D8003ED723 /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
-		F41B911520BED6D8003ED723 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
-		F41B911620BED6D8003ED723 /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
-		F41B911720BED6D8003ED723 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
-		F41B911820BED6D8003ED723 /* BOTimeStampAssistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOTimeStampAssistor.h; sourceTree = "<group>"; };
-		F41B911920BED6D8003ED723 /* BOCoordinateTransformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOCoordinateTransformation.m; sourceTree = "<group>"; };
-		F41B911A20BED6D8003ED723 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
-		F41B911B20BED6D8003ED723 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		F41B911C20BED6D8003ED723 /* BOAssistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOAssistor.m; sourceTree = "<group>"; };
-		F41B911D20BED6D8003ED723 /* DESUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESUtil.m; sourceTree = "<group>"; };
-		F41B911E20BED6D8003ED723 /* BONoticeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BONoticeBar.m; sourceTree = "<group>"; };
-		F41B911F20BED6D8003ED723 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		F41B912020BED6D8003ED723 /* 40x-Cancelmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40x-Cancelmark@2x.png"; sourceTree = "<group>"; };
-		F41B912120BED6D8003ED723 /* UIImage+Dashed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Dashed.m"; sourceTree = "<group>"; };
-		F41B912220BED6D8003ED723 /* UINavigationController+SXFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXFullScreen.m"; sourceTree = "<group>"; };
-		F41B912320BED6D8003ED723 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		F41B912420BED6D8003ED723 /* BOHUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOHUDManager.h; sourceTree = "<group>"; };
-		F41B912620BED6D8003ED723 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		F41B912720BED6D8003ED723 /* UINavigation+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+SXFixSpace.m"; sourceTree = "<group>"; };
-		F41B912820BED6D8003ED723 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
-		F41B912920BED6D8003ED723 /* 40x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40x-Checkmark@2x.png"; sourceTree = "<group>"; };
-		F41B912A20BED6D8003ED723 /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,7 +98,6 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				F41B910620BED6D8003ED723 /* SJCategory */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for SJCategory */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -250,57 +196,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		F41B910620BED6D8003ED723 /* SJCategory */ = {
-			isa = PBXGroup;
-			children = (
-				F41B910720BED6D8003ED723 /* UIButton+ImageTitleSpacing.h */,
-				F41B910820BED6D8003ED723 /* BOCoordinateTransformation.h */,
-				F41B910920BED6D8003ED723 /* BOTimeStampAssistor.m */,
-				F41B910A20BED6D8003ED723 /* NSString+MD5Addition.m */,
-				F41B910B20BED6D8003ED723 /* DESUtil.h */,
-				F41B910C20BED6D8003ED723 /* BOAssistor.h */,
-				F41B910D20BED6D8003ED723 /* CommonMacro.h */,
-				F41B910E20BED6D8003ED723 /* UIColor+Hex.m */,
-				F41B910F20BED6D8003ED723 /* BOHUDManager.m */,
-				F41B911020BED6D8003ED723 /* GTMBase64.h */,
-				F41B911120BED6D8003ED723 /* UIImage+Dashed.h */,
-				F41B911220BED6D8003ED723 /* UINavigationController+SXFullScreen.h */,
-				F41B911320BED6D8003ED723 /* BONoticeBar.h */,
-				F41B911420BED6D8003ED723 /* NSObject+SXRuntime.h */,
-				F41B911520BED6D8003ED723 /* UIViewExt.m */,
-				F41B911620BED6D8003ED723 /* UINavigation+SXFixSpace.h */,
-				F41B911720BED6D8003ED723 /* NSString+MD5Addition.h */,
-				F41B911820BED6D8003ED723 /* BOTimeStampAssistor.h */,
-				F41B911920BED6D8003ED723 /* BOCoordinateTransformation.m */,
-				F41B911A20BED6D8003ED723 /* UIButton+ImageTitleSpacing.m */,
-				F41B911B20BED6D8003ED723 /* UIColor+Hex.h */,
-				F41B911C20BED6D8003ED723 /* BOAssistor.m */,
-				F41B911D20BED6D8003ED723 /* DESUtil.m */,
-				F41B911E20BED6D8003ED723 /* BONoticeBar.m */,
-				F41B911F20BED6D8003ED723 /* GTMDefines.h */,
-				F41B912020BED6D8003ED723 /* 40x-Cancelmark@2x.png */,
-				F41B912120BED6D8003ED723 /* UIImage+Dashed.m */,
-				F41B912220BED6D8003ED723 /* UINavigationController+SXFullScreen.m */,
-				F41B912320BED6D8003ED723 /* GTMBase64.m */,
-				F41B912420BED6D8003ED723 /* BOHUDManager.h */,
-				F41B912520BED6D8003ED723 /* Assets */,
-				F41B912720BED6D8003ED723 /* UINavigation+SXFixSpace.m */,
-				F41B912820BED6D8003ED723 /* UIViewExt.h */,
-				F41B912920BED6D8003ED723 /* 40x-Checkmark@2x.png */,
-				F41B912A20BED6D8003ED723 /* NSObject+SXRuntime.m */,
-			);
-			name = SJCategory;
-			path = ../SJCategory;
-			sourceTree = "<group>";
-		};
-		F41B912520BED6D8003ED723 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				F41B912620BED6D8003ED723 /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -384,11 +279,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B913520BED6D8003ED723 /* 40x-Cancelmark@2x.png in Resources */,
-				F41B913B20BED6D8003ED723 /* 40x-Checkmark@2x.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				F41B913920BED6D8003ED723 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -520,24 +412,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B913620BED6D8003ED723 /* UIImage+Dashed.m in Sources */,
-				F41B913720BED6D8003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
-				F41B912F20BED6D8003ED723 /* UIViewExt.m in Sources */,
-				F41B913820BED6D8003ED723 /* GTMBase64.m in Sources */,
 				6003F59E195388D20070C39A /* SJAppDelegate.m in Sources */,
-				F41B912E20BED6D8003ED723 /* BOHUDManager.m in Sources */,
-				F41B912D20BED6D8003ED723 /* UIColor+Hex.m in Sources */,
-				F41B913C20BED6D8003ED723 /* NSObject+SXRuntime.m in Sources */,
-				F41B912C20BED6D8003ED723 /* NSString+MD5Addition.m in Sources */,
-				F41B912B20BED6D8003ED723 /* BOTimeStampAssistor.m in Sources */,
-				F41B913A20BED6D8003ED723 /* UINavigation+SXFixSpace.m in Sources */,
-				F41B913420BED6D8003ED723 /* BONoticeBar.m in Sources */,
-				F41B913320BED6D8003ED723 /* DESUtil.m in Sources */,
-				F41B913220BED6D8003ED723 /* BOAssistor.m in Sources */,
 				6003F5A7195388D20070C39A /* SJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				F41B913120BED6D8003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
-				F41B913020BED6D8003ED723 /* BOCoordinateTransformation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
