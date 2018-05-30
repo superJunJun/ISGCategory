@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJCategory'
-  s.version          = '1.2.0'
+  s.version          = '1.2.1'
   s.summary          = '常用类别，常用工具类，HUD，地理坐标转换，DES，介绍页'
 
 # This description is used to generate tags and improve search results.
@@ -30,11 +30,67 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files  = "SJCategory/Classes/**/*.{h,m}"
+    s.public_header_files = 'SJCategory/CommonMacro.h'
+    s.source_files = 'SJCategory/CommonMacro.h'
 
   # s.resource_bundles = {
   #   'SJCategory' => ['SJCategory/Assets/*.png']
   # }
+
+    s.subspec 'BOAssistor' do |ss|
+    ss.source_files = 'SJCategory/BOAssistor.{h,m}'
+    ss.public_header_files = 'SJCategory/BOAssistor.h'
+    end
+
+    s.subspec 'BOCoordinate' do |ss|
+    ss.source_files = 'SJCategory/BOCoordinateTransformation.{h,m}'
+    ss.public_header_files = 'SJCategory/BOCoordinateTransformation.h'
+    end
+
+    s.subspec 'BOHUDManager' do |ss|
+    ss.source_files = 'SJCategory/BOHUDManager.{h,m}','SJCategory/40x-{Cancel,Check}mark@2x.{png}'
+    ss.public_header_files = 'SJCategory/BOHUDManager.h'
+    end
+
+    s.subspec 'BONoticeBar' do |ss|
+    ss.source_files = 'SJCategory/BONoticeBar.{h,m}'
+    ss.public_header_files = 'SJCategory/BONoticeBar.h'
+    end
+
+    s.subspec 'BOTimeStamp' do |ss|
+    ss.source_files = 'SJCategory/BOTimeStampAssistor.{h,m}'
+    ss.public_header_files = 'SJCategory/BOTimeStampAssistor.h'
+    end
+
+    s.subspec 'Category' do |ss|
+    ss.source_files = 'SJCategory/NSObject+SXRuntime.{h,m}',
+    'SJCategory/NSString+MD5Addition.{h,m}',
+    'SJCategory/UIButton+ImageTitleSpacing.{h,m}',
+    'SJCategory/UIColor+Hex.{h,m}',
+    'SJCategory/UIImage+Dashed.{h,m}',
+    'SJCategory/UINavigation+SXFixSpace.{h,m}',
+    'SJCategory/UINavigationController+SXFullScreen.{h,m}',
+    'SJCategory/UIViewExt.{h,m}'
+
+    ss.public_header_files = 'SJCategory/NSObject+SXRuntime.h',
+    'SJCategory/NSString+MD5Addition.h',
+    'SJCategory/UIButton+ImageTitleSpacing.h',
+    'SJCategory/UIColor+Hex.h',
+    'SJCategory/UIImage+Dashed.h',
+    'SJCategory/UINavigation+SXFixSpace.h',
+    'SJCategory/UINavigationController+SXFullScreen.h',
+    'SJCategory/UIViewExt.h'
+    end
+
+    s.subspec 'DESUtil' do |ss|
+    ss.source_files = 'SJCategory/DESUtil.{h,m}'
+    ss.public_header_files = 'SJCategory/DESUtil.h'
+    end
+
+    s.subspec 'GTMBase64' do |ss|
+    ss.source_files = 'SJCategory/GTMBase64.{h,m}','SJCategory/GTMDefines.h'
+    ss.public_header_files = 'SJCategory/GTMBase64.h','SJCategory/GTMDefines.h'
+    end
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
