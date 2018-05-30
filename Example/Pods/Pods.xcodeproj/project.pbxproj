@@ -146,230 +146,6 @@
 		EDF3CEAAF7922F570A5AD95B005C84F8 /* EXPMatchers+FBSnapshotTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B959D8DDAA2ED93C94CF628C922CD14 /* EXPMatchers+FBSnapshotTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F052ECCD91D2A3EE96DDCD0A1F428B84 /* Specta-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 569D7D67B8190C8E46DBE30950EBDEA6 /* Specta-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F0873AA02837D34381D156267B9EB005 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = C685971A6CB0538D27790478B960CFD8 /* FBSnapshotTestCasePlatform.m */; };
-		F41B8D2220BD5F93003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CF920BD5F92003ED723 /* GTMBase64.h */; };
-		F41B8D2320BD5F93003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CF920BD5F92003ED723 /* GTMBase64.h */; };
-		F41B8D2420BD5F93003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CF920BD5F92003ED723 /* GTMBase64.h */; };
-		F41B8D2520BD5F93003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CF920BD5F92003ED723 /* GTMBase64.h */; };
-		F41B8D2620BD5F93003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CF920BD5F92003ED723 /* GTMBase64.h */; };
-		F41B8D2720BD5F93003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CF920BD5F92003ED723 /* GTMBase64.h */; };
-		F41B8D2820BD5F93003ED723 /* GTMBase64.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CF920BD5F92003ED723 /* GTMBase64.h */; };
-		F41B8D2920BD5F93003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CFA20BD5F92003ED723 /* GTMDefines.h */; };
-		F41B8D2A20BD5F93003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CFA20BD5F92003ED723 /* GTMDefines.h */; };
-		F41B8D2B20BD5F93003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CFA20BD5F92003ED723 /* GTMDefines.h */; };
-		F41B8D2C20BD5F93003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CFA20BD5F92003ED723 /* GTMDefines.h */; };
-		F41B8D2D20BD5F93003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CFA20BD5F92003ED723 /* GTMDefines.h */; };
-		F41B8D2E20BD5F93003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CFA20BD5F92003ED723 /* GTMDefines.h */; };
-		F41B8D2F20BD5F93003ED723 /* GTMDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8CFA20BD5F92003ED723 /* GTMDefines.h */; };
-		F41B8D3020BD5F93003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8CFB20BD5F92003ED723 /* GTMBase64.m */; };
-		F41B8D3120BD5F93003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8CFB20BD5F92003ED723 /* GTMBase64.m */; };
-		F41B8D3220BD5F93003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8CFB20BD5F92003ED723 /* GTMBase64.m */; };
-		F41B8D3320BD5F93003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8CFB20BD5F92003ED723 /* GTMBase64.m */; };
-		F41B8D3420BD5F93003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8CFB20BD5F92003ED723 /* GTMBase64.m */; };
-		F41B8D3520BD5F93003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8CFB20BD5F92003ED723 /* GTMBase64.m */; };
-		F41B8D3620BD5F93003ED723 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8CFB20BD5F92003ED723 /* GTMBase64.m */; };
-		F41B8D4520BD5F93003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0020BD5F93003ED723 /* BOHUDManager.m */; };
-		F41B8D4620BD5F93003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0020BD5F93003ED723 /* BOHUDManager.m */; };
-		F41B8D4720BD5F93003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0020BD5F93003ED723 /* BOHUDManager.m */; };
-		F41B8D4820BD5F93003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0020BD5F93003ED723 /* BOHUDManager.m */; };
-		F41B8D4920BD5F93003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0020BD5F93003ED723 /* BOHUDManager.m */; };
-		F41B8D4A20BD5F93003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0020BD5F93003ED723 /* BOHUDManager.m */; };
-		F41B8D4B20BD5F93003ED723 /* BOHUDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0020BD5F93003ED723 /* BOHUDManager.m */; };
-		F41B8D4C20BD5F93003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0220BD5F93003ED723 /* BOHUDManager.h */; };
-		F41B8D4D20BD5F93003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0220BD5F93003ED723 /* BOHUDManager.h */; };
-		F41B8D4E20BD5F93003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0220BD5F93003ED723 /* BOHUDManager.h */; };
-		F41B8D4F20BD5F93003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0220BD5F93003ED723 /* BOHUDManager.h */; };
-		F41B8D5020BD5F93003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0220BD5F93003ED723 /* BOHUDManager.h */; };
-		F41B8D5120BD5F93003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0220BD5F93003ED723 /* BOHUDManager.h */; };
-		F41B8D5220BD5F93003ED723 /* BOHUDManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0220BD5F93003ED723 /* BOHUDManager.h */; };
-		F41B8D5320BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0520BD5F93003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8D5420BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0520BD5F93003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8D5520BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0520BD5F93003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8D5620BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0520BD5F93003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8D5720BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0520BD5F93003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8D5820BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0520BD5F93003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8D5920BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0520BD5F93003ED723 /* BOCoordinateTransformation.h */; };
-		F41B8D5A20BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0620BD5F93003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8D5B20BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0620BD5F93003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8D5C20BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0620BD5F93003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8D5D20BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0620BD5F93003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8D5E20BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0620BD5F93003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8D5F20BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0620BD5F93003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8D6020BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0620BD5F93003ED723 /* BOCoordinateTransformation.m */; };
-		F41B8D6120BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0820BD5F93003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8D6220BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0820BD5F93003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8D6320BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0820BD5F93003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8D6420BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0820BD5F93003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8D6520BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0820BD5F93003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8D6620BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0820BD5F93003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8D6720BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0820BD5F93003ED723 /* UIButton+ImageTitleSpacing.h */; };
-		F41B8D6820BD5F93003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0920BD5F93003ED723 /* NSString+MD5Addition.m */; };
-		F41B8D6920BD5F93003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0920BD5F93003ED723 /* NSString+MD5Addition.m */; };
-		F41B8D6A20BD5F93003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0920BD5F93003ED723 /* NSString+MD5Addition.m */; };
-		F41B8D6B20BD5F93003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0920BD5F93003ED723 /* NSString+MD5Addition.m */; };
-		F41B8D6C20BD5F93003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0920BD5F93003ED723 /* NSString+MD5Addition.m */; };
-		F41B8D6D20BD5F93003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0920BD5F93003ED723 /* NSString+MD5Addition.m */; };
-		F41B8D6E20BD5F93003ED723 /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0920BD5F93003ED723 /* NSString+MD5Addition.m */; };
-		F41B8D7620BD5F93003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0B20BD5F93003ED723 /* UIColor+Hex.m */; };
-		F41B8D7720BD5F93003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0B20BD5F93003ED723 /* UIColor+Hex.m */; };
-		F41B8D7820BD5F93003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0B20BD5F93003ED723 /* UIColor+Hex.m */; };
-		F41B8D7920BD5F93003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0B20BD5F93003ED723 /* UIColor+Hex.m */; };
-		F41B8D7A20BD5F93003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0B20BD5F93003ED723 /* UIColor+Hex.m */; };
-		F41B8D7B20BD5F93003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0B20BD5F93003ED723 /* UIColor+Hex.m */; };
-		F41B8D7C20BD5F93003ED723 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0B20BD5F93003ED723 /* UIColor+Hex.m */; };
-		F41B8D7D20BD5F93003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0C20BD5F93003ED723 /* UIImage+Dashed.h */; };
-		F41B8D7E20BD5F93003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0C20BD5F93003ED723 /* UIImage+Dashed.h */; };
-		F41B8D7F20BD5F93003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0C20BD5F93003ED723 /* UIImage+Dashed.h */; };
-		F41B8D8020BD5F93003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0C20BD5F93003ED723 /* UIImage+Dashed.h */; };
-		F41B8D8120BD5F93003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0C20BD5F93003ED723 /* UIImage+Dashed.h */; };
-		F41B8D8220BD5F93003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0C20BD5F93003ED723 /* UIImage+Dashed.h */; };
-		F41B8D8320BD5F93003ED723 /* UIImage+Dashed.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0C20BD5F93003ED723 /* UIImage+Dashed.h */; };
-		F41B8D8420BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0D20BD5F93003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8D8520BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0D20BD5F93003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8D8620BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0D20BD5F93003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8D8720BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0D20BD5F93003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8D8820BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0D20BD5F93003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8D8920BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0D20BD5F93003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8D8A20BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0D20BD5F93003ED723 /* UINavigationController+SXFullScreen.h */; };
-		F41B8D8B20BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0E20BD5F93003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8D8C20BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0E20BD5F93003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8D8D20BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0E20BD5F93003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8D8E20BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0E20BD5F93003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8D8F20BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0E20BD5F93003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8D9020BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0E20BD5F93003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8D9120BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D0E20BD5F93003ED723 /* NSObject+SXRuntime.h */; };
-		F41B8D9220BD5F94003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0F20BD5F93003ED723 /* UIViewExt.m */; };
-		F41B8D9320BD5F94003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0F20BD5F93003ED723 /* UIViewExt.m */; };
-		F41B8D9420BD5F94003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0F20BD5F93003ED723 /* UIViewExt.m */; };
-		F41B8D9520BD5F94003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0F20BD5F93003ED723 /* UIViewExt.m */; };
-		F41B8D9620BD5F94003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0F20BD5F93003ED723 /* UIViewExt.m */; };
-		F41B8D9720BD5F94003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0F20BD5F93003ED723 /* UIViewExt.m */; };
-		F41B8D9820BD5F94003ED723 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D0F20BD5F93003ED723 /* UIViewExt.m */; };
-		F41B8D9920BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1020BD5F93003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8D9A20BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1020BD5F93003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8D9B20BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1020BD5F93003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8D9C20BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1020BD5F93003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8D9D20BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1020BD5F93003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8D9E20BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1020BD5F93003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8D9F20BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1020BD5F93003ED723 /* UINavigation+SXFixSpace.h */; };
-		F41B8DA020BD5F94003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1120BD5F93003ED723 /* NSString+MD5Addition.h */; };
-		F41B8DA120BD5F94003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1120BD5F93003ED723 /* NSString+MD5Addition.h */; };
-		F41B8DA220BD5F94003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1120BD5F93003ED723 /* NSString+MD5Addition.h */; };
-		F41B8DA320BD5F94003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1120BD5F93003ED723 /* NSString+MD5Addition.h */; };
-		F41B8DA420BD5F94003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1120BD5F93003ED723 /* NSString+MD5Addition.h */; };
-		F41B8DA520BD5F94003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1120BD5F93003ED723 /* NSString+MD5Addition.h */; };
-		F41B8DA620BD5F94003ED723 /* NSString+MD5Addition.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1120BD5F93003ED723 /* NSString+MD5Addition.h */; };
-		F41B8DA720BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1220BD5F93003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8DA820BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1220BD5F93003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8DA920BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1220BD5F93003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8DAA20BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1220BD5F93003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8DAB20BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1220BD5F93003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8DAC20BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1220BD5F93003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8DAD20BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1220BD5F93003ED723 /* UIButton+ImageTitleSpacing.m */; };
-		F41B8DAE20BD5F94003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1320BD5F93003ED723 /* UIColor+Hex.h */; };
-		F41B8DAF20BD5F94003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1320BD5F93003ED723 /* UIColor+Hex.h */; };
-		F41B8DB020BD5F94003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1320BD5F93003ED723 /* UIColor+Hex.h */; };
-		F41B8DB120BD5F94003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1320BD5F93003ED723 /* UIColor+Hex.h */; };
-		F41B8DB220BD5F94003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1320BD5F93003ED723 /* UIColor+Hex.h */; };
-		F41B8DB320BD5F94003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1320BD5F93003ED723 /* UIColor+Hex.h */; };
-		F41B8DB420BD5F94003ED723 /* UIColor+Hex.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1320BD5F93003ED723 /* UIColor+Hex.h */; };
-		F41B8DB520BD5F94003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1420BD5F93003ED723 /* UIImage+Dashed.m */; };
-		F41B8DB620BD5F94003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1420BD5F93003ED723 /* UIImage+Dashed.m */; };
-		F41B8DB720BD5F94003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1420BD5F93003ED723 /* UIImage+Dashed.m */; };
-		F41B8DB820BD5F94003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1420BD5F93003ED723 /* UIImage+Dashed.m */; };
-		F41B8DB920BD5F94003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1420BD5F93003ED723 /* UIImage+Dashed.m */; };
-		F41B8DBA20BD5F94003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1420BD5F93003ED723 /* UIImage+Dashed.m */; };
-		F41B8DBB20BD5F94003ED723 /* UIImage+Dashed.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1420BD5F93003ED723 /* UIImage+Dashed.m */; };
-		F41B8DBC20BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1520BD5F93003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8DBD20BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1520BD5F93003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8DBE20BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1520BD5F93003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8DBF20BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1520BD5F93003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8DC020BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1520BD5F93003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8DC120BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1520BD5F93003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8DC220BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1520BD5F93003ED723 /* UINavigationController+SXFullScreen.m */; };
-		F41B8DC320BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1620BD5F93003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8DC420BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1620BD5F93003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8DC520BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1620BD5F93003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8DC620BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1620BD5F93003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8DC720BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1620BD5F93003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8DC820BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1620BD5F93003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8DC920BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1620BD5F93003ED723 /* UINavigation+SXFixSpace.m */; };
-		F41B8DCA20BD5F94003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1720BD5F93003ED723 /* UIViewExt.h */; };
-		F41B8DCB20BD5F94003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1720BD5F93003ED723 /* UIViewExt.h */; };
-		F41B8DCC20BD5F94003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1720BD5F93003ED723 /* UIViewExt.h */; };
-		F41B8DCD20BD5F94003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1720BD5F93003ED723 /* UIViewExt.h */; };
-		F41B8DCE20BD5F94003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1720BD5F93003ED723 /* UIViewExt.h */; };
-		F41B8DCF20BD5F94003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1720BD5F93003ED723 /* UIViewExt.h */; };
-		F41B8DD020BD5F94003ED723 /* UIViewExt.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1720BD5F93003ED723 /* UIViewExt.h */; };
-		F41B8DD120BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1820BD5F93003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8DD220BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1820BD5F93003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8DD320BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1820BD5F93003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8DD420BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1820BD5F93003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8DD520BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1820BD5F93003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8DD620BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1820BD5F93003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8DD720BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1820BD5F93003ED723 /* NSObject+SXRuntime.m */; };
-		F41B8DD820BD5F94003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1A20BD5F93003ED723 /* DESUtil.h */; };
-		F41B8DD920BD5F94003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1A20BD5F93003ED723 /* DESUtil.h */; };
-		F41B8DDA20BD5F94003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1A20BD5F93003ED723 /* DESUtil.h */; };
-		F41B8DDB20BD5F94003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1A20BD5F93003ED723 /* DESUtil.h */; };
-		F41B8DDC20BD5F94003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1A20BD5F93003ED723 /* DESUtil.h */; };
-		F41B8DDD20BD5F94003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1A20BD5F93003ED723 /* DESUtil.h */; };
-		F41B8DDE20BD5F94003ED723 /* DESUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1A20BD5F93003ED723 /* DESUtil.h */; };
-		F41B8DDF20BD5F94003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1B20BD5F93003ED723 /* DESUtil.m */; };
-		F41B8DE020BD5F94003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1B20BD5F93003ED723 /* DESUtil.m */; };
-		F41B8DE120BD5F94003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1B20BD5F93003ED723 /* DESUtil.m */; };
-		F41B8DE220BD5F94003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1B20BD5F93003ED723 /* DESUtil.m */; };
-		F41B8DE320BD5F94003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1B20BD5F93003ED723 /* DESUtil.m */; };
-		F41B8DE420BD5F94003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1B20BD5F93003ED723 /* DESUtil.m */; };
-		F41B8DE520BD5F94003ED723 /* DESUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1B20BD5F93003ED723 /* DESUtil.m */; };
-		F41B8DE620BD5F94003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1D20BD5F93003ED723 /* BONoticeBar.h */; };
-		F41B8DE720BD5F94003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1D20BD5F93003ED723 /* BONoticeBar.h */; };
-		F41B8DE820BD5F94003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1D20BD5F93003ED723 /* BONoticeBar.h */; };
-		F41B8DE920BD5F94003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1D20BD5F93003ED723 /* BONoticeBar.h */; };
-		F41B8DEA20BD5F94003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1D20BD5F93003ED723 /* BONoticeBar.h */; };
-		F41B8DEB20BD5F94003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1D20BD5F93003ED723 /* BONoticeBar.h */; };
-		F41B8DEC20BD5F94003ED723 /* BONoticeBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D1D20BD5F93003ED723 /* BONoticeBar.h */; };
-		F41B8DED20BD5F94003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1E20BD5F93003ED723 /* BONoticeBar.m */; };
-		F41B8DEE20BD5F94003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1E20BD5F93003ED723 /* BONoticeBar.m */; };
-		F41B8DEF20BD5F94003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1E20BD5F93003ED723 /* BONoticeBar.m */; };
-		F41B8DF020BD5F94003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1E20BD5F93003ED723 /* BONoticeBar.m */; };
-		F41B8DF120BD5F94003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1E20BD5F93003ED723 /* BONoticeBar.m */; };
-		F41B8DF220BD5F94003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1E20BD5F93003ED723 /* BONoticeBar.m */; };
-		F41B8DF320BD5F94003ED723 /* BONoticeBar.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D1E20BD5F93003ED723 /* BONoticeBar.m */; };
-		F41B8DF420BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D2020BD5F93003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8DF520BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D2020BD5F93003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8DF620BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D2020BD5F93003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8DF720BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D2020BD5F93003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8DF820BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D2020BD5F93003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8DF920BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D2020BD5F93003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8DFA20BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8D2020BD5F93003ED723 /* BOTimeStampAssistor.m */; };
-		F41B8DFB20BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D2120BD5F93003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8DFC20BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D2120BD5F93003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8DFD20BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D2120BD5F93003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8DFE20BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D2120BD5F93003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8DFF20BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D2120BD5F93003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8E0020BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D2120BD5F93003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8E0120BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8D2120BD5F93003ED723 /* BOTimeStampAssistor.h */; };
-		F41B8E0420BD6027003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8E0220BD6026003ED723 /* BOAssistor.h */; };
-		F41B8E0520BD6027003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8E0220BD6026003ED723 /* BOAssistor.h */; };
-		F41B8E0620BD6027003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8E0220BD6026003ED723 /* BOAssistor.h */; };
-		F41B8E0720BD6027003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8E0220BD6026003ED723 /* BOAssistor.h */; };
-		F41B8E0820BD6027003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8E0220BD6026003ED723 /* BOAssistor.h */; };
-		F41B8E0920BD6027003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8E0220BD6026003ED723 /* BOAssistor.h */; };
-		F41B8E0A20BD6027003ED723 /* BOAssistor.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B8E0220BD6026003ED723 /* BOAssistor.h */; };
-		F41B8E0B20BD6027003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8E0320BD6027003ED723 /* BOAssistor.m */; };
-		F41B8E0C20BD6027003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8E0320BD6027003ED723 /* BOAssistor.m */; };
-		F41B8E0D20BD6027003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8E0320BD6027003ED723 /* BOAssistor.m */; };
-		F41B8E0E20BD6027003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8E0320BD6027003ED723 /* BOAssistor.m */; };
-		F41B8E0F20BD6027003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8E0320BD6027003ED723 /* BOAssistor.m */; };
-		F41B8E1020BD6027003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8E0320BD6027003ED723 /* BOAssistor.m */; };
-		F41B8E1120BD6027003ED723 /* BOAssistor.m in Sources */ = {isa = PBXBuildFile; fileRef = F41B8E0320BD6027003ED723 /* BOAssistor.m */; };
-		F41B90FF20BED002003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B90FE20BED002003ED723 /* CommonMacro.h */; };
-		F41B910020BED002003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B90FE20BED002003ED723 /* CommonMacro.h */; };
-		F41B910120BED002003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B90FE20BED002003ED723 /* CommonMacro.h */; };
-		F41B910220BED002003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B90FE20BED002003ED723 /* CommonMacro.h */; };
-		F41B910320BED002003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B90FE20BED002003ED723 /* CommonMacro.h */; };
-		F41B910420BED002003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B90FE20BED002003ED723 /* CommonMacro.h */; };
-		F41B910520BED002003ED723 /* CommonMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = F41B90FE20BED002003ED723 /* CommonMacro.h */; };
 		F47A1C5E5511ECB73ED0ECC6D6ACE265 /* Pods-SJCategory_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC2EA051487C9BE3A759DF8913CF770 /* Pods-SJCategory_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F7474BA8C598AEBD11BF575991FAB7D0 /* Pods-SJCategory_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86E6DF675997C7BFD7F475D189289DF6 /* Pods-SJCategory_Example-dummy.m */; };
 		F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */ = {isa = PBXBuildFile; fileRef = A9AD646C1FEAB8503FF6D57F404BC0E6 /* EXPMatchers+beTruthy.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -611,40 +387,6 @@
 		F0550288A3E4DA5B207A666BE8E62168 /* SPTCallSite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTCallSite.h; path = Specta/Specta/SPTCallSite.h; sourceTree = "<group>"; };
 		F2D3A79E58CE53867199D68A7690BE0C /* EXPMatchers+beLessThan.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beLessThan.h"; path = "Expecta/Matchers/EXPMatchers+beLessThan.h"; sourceTree = "<group>"; };
 		F3200F9ABB9BD242A2B304A1928A2D44 /* Pods-SJCategory_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SJCategory_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F41B8CF920BD5F92003ED723 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
-		F41B8CFA20BD5F92003ED723 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
-		F41B8CFB20BD5F92003ED723 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
-		F41B8D0020BD5F93003ED723 /* BOHUDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOHUDManager.m; sourceTree = "<group>"; };
-		F41B8D0120BD5F93003ED723 /* 40x-Cancelmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40x-Cancelmark@2x.png"; sourceTree = "<group>"; };
-		F41B8D0220BD5F93003ED723 /* BOHUDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOHUDManager.h; sourceTree = "<group>"; };
-		F41B8D0320BD5F93003ED723 /* 40x-Checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "40x-Checkmark@2x.png"; sourceTree = "<group>"; };
-		F41B8D0520BD5F93003ED723 /* BOCoordinateTransformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOCoordinateTransformation.h; sourceTree = "<group>"; };
-		F41B8D0620BD5F93003ED723 /* BOCoordinateTransformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOCoordinateTransformation.m; sourceTree = "<group>"; };
-		F41B8D0820BD5F93003ED723 /* UIButton+ImageTitleSpacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+ImageTitleSpacing.h"; sourceTree = "<group>"; };
-		F41B8D0920BD5F93003ED723 /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
-		F41B8D0B20BD5F93003ED723 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		F41B8D0C20BD5F93003ED723 /* UIImage+Dashed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Dashed.h"; sourceTree = "<group>"; };
-		F41B8D0D20BD5F93003ED723 /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
-		F41B8D0E20BD5F93003ED723 /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
-		F41B8D0F20BD5F93003ED723 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
-		F41B8D1020BD5F93003ED723 /* UINavigation+SXFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigation+SXFixSpace.h"; sourceTree = "<group>"; };
-		F41B8D1120BD5F93003ED723 /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
-		F41B8D1220BD5F93003ED723 /* UIButton+ImageTitleSpacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ImageTitleSpacing.m"; sourceTree = "<group>"; };
-		F41B8D1320BD5F93003ED723 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
-		F41B8D1420BD5F93003ED723 /* UIImage+Dashed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Dashed.m"; sourceTree = "<group>"; };
-		F41B8D1520BD5F93003ED723 /* UINavigationController+SXFullScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXFullScreen.m"; sourceTree = "<group>"; };
-		F41B8D1620BD5F93003ED723 /* UINavigation+SXFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigation+SXFixSpace.m"; sourceTree = "<group>"; };
-		F41B8D1720BD5F93003ED723 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
-		F41B8D1820BD5F93003ED723 /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
-		F41B8D1A20BD5F93003ED723 /* DESUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DESUtil.h; sourceTree = "<group>"; };
-		F41B8D1B20BD5F93003ED723 /* DESUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DESUtil.m; sourceTree = "<group>"; };
-		F41B8D1D20BD5F93003ED723 /* BONoticeBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BONoticeBar.h; sourceTree = "<group>"; };
-		F41B8D1E20BD5F93003ED723 /* BONoticeBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BONoticeBar.m; sourceTree = "<group>"; };
-		F41B8D2020BD5F93003ED723 /* BOTimeStampAssistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOTimeStampAssistor.m; sourceTree = "<group>"; };
-		F41B8D2120BD5F93003ED723 /* BOTimeStampAssistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOTimeStampAssistor.h; sourceTree = "<group>"; };
-		F41B8E0220BD6026003ED723 /* BOAssistor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BOAssistor.h; sourceTree = "<group>"; };
-		F41B8E0320BD6027003ED723 /* BOAssistor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BOAssistor.m; sourceTree = "<group>"; };
-		F41B90FE20BED002003ED723 /* CommonMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonMacro.h; path = SJCategory/Classes/CommonMacro.h; sourceTree = "<group>"; };
 		F65B541884B29F97FE5498A8EC1BC9CD /* Pods-SJCategory_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SJCategory_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		F6636C0229E54793FBCF41941077A50A /* EXPMatchers+beInstanceOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInstanceOf.h"; path = "Expecta/Matchers/EXPMatchers+beInstanceOf.h"; sourceTree = "<group>"; };
 		F6ACA95F6EDBB1752AADF70C323E1E5F /* EXPMatchers+contain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+contain.h"; path = "Expecta/Matchers/EXPMatchers+contain.h"; sourceTree = "<group>"; };
@@ -795,15 +537,6 @@
 		4E13003734372EEFC0E3026825A9ED52 /* SJCategory */ = {
 			isa = PBXGroup;
 			children = (
-				F41B90FE20BED002003ED723 /* CommonMacro.h */,
-				F41B8CFC20BD5F93003ED723 /* BOAssistor */,
-				F41B8D0420BD5F93003ED723 /* BOCoordinate */,
-				F41B8CFF20BD5F93003ED723 /* BOHUDManager */,
-				F41B8D1C20BD5F93003ED723 /* BONoticeBar */,
-				F41B8D1F20BD5F93003ED723 /* BOTimeStamp */,
-				F41B8D0720BD5F93003ED723 /* Category */,
-				F41B8D1920BD5F93003ED723 /* DESUtil */,
-				F41B8CF820BD5F92003ED723 /* GTMBase64 */,
 				C49D82F5294C2BB3486543AE2B10AD43 /* Support Files */,
 			);
 			name = SJCategory;
@@ -1092,103 +825,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		F41B8CF820BD5F92003ED723 /* GTMBase64 */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8CF920BD5F92003ED723 /* GTMBase64.h */,
-				F41B8CFA20BD5F92003ED723 /* GTMDefines.h */,
-				F41B8CFB20BD5F92003ED723 /* GTMBase64.m */,
-			);
-			name = GTMBase64;
-			path = SJCategory/Classes/GTMBase64;
-			sourceTree = "<group>";
-		};
-		F41B8CFC20BD5F93003ED723 /* BOAssistor */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8E0220BD6026003ED723 /* BOAssistor.h */,
-				F41B8E0320BD6027003ED723 /* BOAssistor.m */,
-			);
-			name = BOAssistor;
-			path = SJCategory/Classes/BOAssistor;
-			sourceTree = "<group>";
-		};
-		F41B8CFF20BD5F93003ED723 /* BOHUDManager */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8D0020BD5F93003ED723 /* BOHUDManager.m */,
-				F41B8D0120BD5F93003ED723 /* 40x-Cancelmark@2x.png */,
-				F41B8D0220BD5F93003ED723 /* BOHUDManager.h */,
-				F41B8D0320BD5F93003ED723 /* 40x-Checkmark@2x.png */,
-			);
-			name = BOHUDManager;
-			path = SJCategory/Classes/BOHUDManager;
-			sourceTree = "<group>";
-		};
-		F41B8D0420BD5F93003ED723 /* BOCoordinate */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8D0520BD5F93003ED723 /* BOCoordinateTransformation.h */,
-				F41B8D0620BD5F93003ED723 /* BOCoordinateTransformation.m */,
-			);
-			name = BOCoordinate;
-			path = SJCategory/Classes/BOCoordinate;
-			sourceTree = "<group>";
-		};
-		F41B8D0720BD5F93003ED723 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8D0820BD5F93003ED723 /* UIButton+ImageTitleSpacing.h */,
-				F41B8D0920BD5F93003ED723 /* NSString+MD5Addition.m */,
-				F41B8D0B20BD5F93003ED723 /* UIColor+Hex.m */,
-				F41B8D0C20BD5F93003ED723 /* UIImage+Dashed.h */,
-				F41B8D0D20BD5F93003ED723 /* UINavigationController+SXFullScreen.h */,
-				F41B8D0E20BD5F93003ED723 /* NSObject+SXRuntime.h */,
-				F41B8D0F20BD5F93003ED723 /* UIViewExt.m */,
-				F41B8D1020BD5F93003ED723 /* UINavigation+SXFixSpace.h */,
-				F41B8D1120BD5F93003ED723 /* NSString+MD5Addition.h */,
-				F41B8D1220BD5F93003ED723 /* UIButton+ImageTitleSpacing.m */,
-				F41B8D1320BD5F93003ED723 /* UIColor+Hex.h */,
-				F41B8D1420BD5F93003ED723 /* UIImage+Dashed.m */,
-				F41B8D1520BD5F93003ED723 /* UINavigationController+SXFullScreen.m */,
-				F41B8D1620BD5F93003ED723 /* UINavigation+SXFixSpace.m */,
-				F41B8D1720BD5F93003ED723 /* UIViewExt.h */,
-				F41B8D1820BD5F93003ED723 /* NSObject+SXRuntime.m */,
-			);
-			name = Category;
-			path = SJCategory/Classes/Category;
-			sourceTree = "<group>";
-		};
-		F41B8D1920BD5F93003ED723 /* DESUtil */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8D1A20BD5F93003ED723 /* DESUtil.h */,
-				F41B8D1B20BD5F93003ED723 /* DESUtil.m */,
-			);
-			name = DESUtil;
-			path = SJCategory/Classes/DESUtil;
-			sourceTree = "<group>";
-		};
-		F41B8D1C20BD5F93003ED723 /* BONoticeBar */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8D1D20BD5F93003ED723 /* BONoticeBar.h */,
-				F41B8D1E20BD5F93003ED723 /* BONoticeBar.m */,
-			);
-			name = BONoticeBar;
-			path = SJCategory/Classes/BONoticeBar;
-			sourceTree = "<group>";
-		};
-		F41B8D1F20BD5F93003ED723 /* BOTimeStamp */ = {
-			isa = PBXGroup;
-			children = (
-				F41B8D2020BD5F93003ED723 /* BOTimeStampAssistor.m */,
-				F41B8D2120BD5F93003ED723 /* BOTimeStampAssistor.h */,
-			);
-			name = BOTimeStamp;
-			path = SJCategory/Classes/BOTimeStamp;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1196,24 +832,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8D8E20BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */,
-				F41B8D2520BD5F93003ED723 /* GTMBase64.h in Headers */,
-				F41B8D2C20BD5F93003ED723 /* GTMDefines.h in Headers */,
 				4255BB6DA98AA3B3D94F28D90EDEF937 /* Pods-SJCategory_Example-umbrella.h in Headers */,
-				F41B910220BED002003ED723 /* CommonMacro.h in Headers */,
-				F41B8DA320BD5F94003ED723 /* NSString+MD5Addition.h in Headers */,
-				F41B8E0720BD6027003ED723 /* BOAssistor.h in Headers */,
-				F41B8D4F20BD5F93003ED723 /* BOHUDManager.h in Headers */,
-				F41B8D5620BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */,
-				F41B8DCD20BD5F94003ED723 /* UIViewExt.h in Headers */,
-				F41B8DDB20BD5F94003ED723 /* DESUtil.h in Headers */,
-				F41B8D8720BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8DE920BD5F94003ED723 /* BONoticeBar.h in Headers */,
-				F41B8DFE20BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */,
-				F41B8DB120BD5F94003ED723 /* UIColor+Hex.h in Headers */,
-				F41B8D6420BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
-				F41B8D9C20BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */,
-				F41B8D8020BD5F93003ED723 /* UIImage+Dashed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1221,24 +840,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8D8F20BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */,
-				F41B8D2620BD5F93003ED723 /* GTMBase64.h in Headers */,
-				F41B8D2D20BD5F93003ED723 /* GTMDefines.h in Headers */,
 				F47A1C5E5511ECB73ED0ECC6D6ACE265 /* Pods-SJCategory_Tests-umbrella.h in Headers */,
-				F41B910320BED002003ED723 /* CommonMacro.h in Headers */,
-				F41B8DA420BD5F94003ED723 /* NSString+MD5Addition.h in Headers */,
-				F41B8E0820BD6027003ED723 /* BOAssistor.h in Headers */,
-				F41B8D5020BD5F93003ED723 /* BOHUDManager.h in Headers */,
-				F41B8D5720BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */,
-				F41B8DCE20BD5F94003ED723 /* UIViewExt.h in Headers */,
-				F41B8DDC20BD5F94003ED723 /* DESUtil.h in Headers */,
-				F41B8D8820BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8DEA20BD5F94003ED723 /* BONoticeBar.h in Headers */,
-				F41B8DFF20BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */,
-				F41B8DB220BD5F94003ED723 /* UIColor+Hex.h in Headers */,
-				F41B8D6520BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
-				F41B8D9D20BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */,
-				F41B8D8120BD5F93003ED723 /* UIImage+Dashed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1249,34 +851,17 @@
 				F052ECCD91D2A3EE96DDCD0A1F428B84 /* Specta-umbrella.h in Headers */,
 				9605A166839E5B582E5F4A08E786DF1F /* Specta.h in Headers */,
 				7A27CAFCB586104AA102A9C161AD0978 /* SpectaDSL.h in Headers */,
-				F41B8D2820BD5F93003ED723 /* GTMBase64.h in Headers */,
-				F41B8D2F20BD5F93003ED723 /* GTMDefines.h in Headers */,
 				C1DF1378F608A031627FBF81B6A9C6E5 /* SpectaTypes.h in Headers */,
 				4A571204986D316637D43D3F93DCAC77 /* SpectaUtility.h in Headers */,
-				F41B8DD020BD5F94003ED723 /* UIViewExt.h in Headers */,
 				6A725E2BDA6D302C9F30439A6390689C /* SPTCallSite.h in Headers */,
-				F41B8DDE20BD5F94003ED723 /* DESUtil.h in Headers */,
-				F41B8D9120BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */,
-				F41B8DEC20BD5F94003ED723 /* BONoticeBar.h in Headers */,
 				A41034714C779552383D238C48FC4FDA /* SPTCompiledExample.h in Headers */,
 				86A40D9CFD9051779B220F53DE991DCA /* SPTExample.h in Headers */,
-				F41B8E0A20BD6027003ED723 /* BOAssistor.h in Headers */,
-				F41B8D8320BD5F93003ED723 /* UIImage+Dashed.h in Headers */,
-				F41B8D5920BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */,
 				8EDC47391C8554AD5C7A91C4D5AFC5F2 /* SPTExampleGroup.h in Headers */,
 				D7BF9558E071FDF8643CE2B50276B777 /* SPTExcludeGlobalBeforeAfterEach.h in Headers */,
-				F41B910520BED002003ED723 /* CommonMacro.h in Headers */,
-				F41B8D9F20BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */,
-				F41B8D6720BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
-				F41B8E0120BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */,
 				5D3A5E9359A70F84E5EC0C4CE701DDE5 /* SPTGlobalBeforeAfterEach.h in Headers */,
-				F41B8DB420BD5F94003ED723 /* UIColor+Hex.h in Headers */,
-				F41B8D5220BD5F93003ED723 /* BOHUDManager.h in Headers */,
 				87C61FE4EBA517506085582BD4175CCA /* SPTSharedExampleGroups.h in Headers */,
-				F41B8DA620BD5F94003ED723 /* NSString+MD5Addition.h in Headers */,
 				827762B596901D18DAD29830875E1922 /* SPTSpec.h in Headers */,
 				2E81617C064F3E68A7A2A9E6A370E073 /* SPTTestSuite.h in Headers */,
-				F41B8D8A20BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
 				86365A8DEDA7C9315120DED5EC7F23DC /* XCTest+Private.h in Headers */,
 				03890D59600D45E6E9463700F9B11FFE /* XCTestCase+Specta.h in Headers */,
 			);
@@ -1287,27 +872,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				214F8D721940BD9AA4BAB0E5AE2E8A1C /* EXPBlockDefinedMatcher.h in Headers */,
-				F41B8D2220BD5F93003ED723 /* GTMBase64.h in Headers */,
 				5D4700451D6C9DFC6D5FFB86671EA2AC /* EXPDefines.h in Headers */,
-				F41B8DAE20BD5F94003ED723 /* UIColor+Hex.h in Headers */,
 				39461DAB3DE2637F4AE2BA94F19DCF2B /* EXPDoubleTuple.h in Headers */,
 				0E86BBA3A65849769B47995A5E91C881 /* Expecta-umbrella.h in Headers */,
-				F41B8D4C20BD5F93003ED723 /* BOHUDManager.h in Headers */,
 				A0B36C4898CD3A75ED692AE1B945EFED /* Expecta.h in Headers */,
 				8B0A34DADDB56E70CF4A5177E65AA081 /* ExpectaObject.h in Headers */,
 				ABBDD0372C687211E68EDCE0166F3632 /* ExpectaSupport.h in Headers */,
-				F41B8DD820BD5F94003ED723 /* DESUtil.h in Headers */,
 				FD39ACDEA6F0B6D6DBB730547CE18BA6 /* EXPExpect.h in Headers */,
 				4CA4F8F64565882DCFA174872749C0EF /* EXPFloatTuple.h in Headers */,
-				F41B8D7D20BD5F93003ED723 /* UIImage+Dashed.h in Headers */,
-				F41B8D2920BD5F93003ED723 /* GTMDefines.h in Headers */,
 				1009851D0C0B3FCBC574C414CC4D31B0 /* EXPMatcher.h in Headers */,
 				E61E28B50602F353D95914765667969F /* EXPMatcherHelpers.h in Headers */,
 				4861F2FFD5A4306E7B7BD3CD0D8199AC /* EXPMatchers+beCloseTo.h in Headers */,
-				F41B8DFB20BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */,
 				B1487AC2DD502CCE46631C123E047D28 /* EXPMatchers+beFalsy.h in Headers */,
-				F41B8DA020BD5F94003ED723 /* NSString+MD5Addition.h in Headers */,
-				F41B8DCA20BD5F94003ED723 /* UIViewExt.h in Headers */,
 				8C14546CF091E0A5B1F0F37F576990B8 /* EXPMatchers+beginWith.h in Headers */,
 				7E81176499F06E523CE3039B08AB5051 /* EXPMatchers+beGreaterThan.h in Headers */,
 				BBC7D292529B7E5DB953171190E321AF /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */,
@@ -1317,32 +893,24 @@
 				41CC214541946B82A25CE427BB81ABEA /* EXPMatchers+beKindOf.h in Headers */,
 				E233F5CF4BF16CFB539804C4E995C355 /* EXPMatchers+beLessThan.h in Headers */,
 				AA5060419F1307F5F03ECBEA70DB186C /* EXPMatchers+beLessThanOrEqualTo.h in Headers */,
-				F41B8D9920BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */,
 				64C46AF200F2347115A0DF2799D6E403 /* EXPMatchers+beNil.h in Headers */,
 				CB99A2D7D003745153A564346DF8ABA8 /* EXPMatchers+beSubclassOf.h in Headers */,
 				FC6474103AA989EBD5368772037BE0BB /* EXPMatchers+beSupersetOf.h in Headers */,
 				F74F0174B426B7EAB501A3788E5D381F /* EXPMatchers+beTruthy.h in Headers */,
 				DC423A980C991970F4D637AC4C47D863 /* EXPMatchers+conformTo.h in Headers */,
-				F41B8D6120BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
-				F41B8D5320BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */,
 				E3355DB3F63F6FE79FD8DD6188B0B3A4 /* EXPMatchers+contain.h in Headers */,
 				87AE70A44BD8E8676B2A3EDB6E334138 /* EXPMatchers+endWith.h in Headers */,
 				425C4DFD1FAB011D70F825631144BC4C /* EXPMatchers+equal.h in Headers */,
-				F41B8DE620BD5F94003ED723 /* BONoticeBar.h in Headers */,
 				8F990515E868D90C15D2148DD1A22403 /* EXPMatchers+haveCountOf.h in Headers */,
 				597E5A323FD0306B81C3F7E9C8E5580D /* EXPMatchers+match.h in Headers */,
 				A2D3CFFEBD3AEA2164A535192492F3B8 /* EXPMatchers+postNotification.h in Headers */,
 				A8446D8224F103BE7F4A5237A60F0EFB /* EXPMatchers+raise.h in Headers */,
 				B3F189747A7A3CEDA9200CB2749AC7D8 /* EXPMatchers+raiseWithReason.h in Headers */,
-				F41B8D8420BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B90FF20BED002003ED723 /* CommonMacro.h in Headers */,
-				F41B8D8B20BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */,
 				DED9AE33B24B462D4B44FE94383B35F4 /* EXPMatchers+respondTo.h in Headers */,
 				9CAFC7DAE2E661FC92393E5CC55D1D61 /* EXPMatchers.h in Headers */,
 				60CD83FA1B2BF6E93B59834C1E0CBEF0 /* EXPUnsupportedObject.h in Headers */,
 				DB8F3665E9E382DF52E0DCB4DECE5EAE /* NSObject+Expecta.h in Headers */,
 				5922E3B61E351E2A21095BD92E4FE8AC /* NSValue+Expecta.h in Headers */,
-				F41B8E0420BD6027003ED723 /* BOAssistor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1350,31 +918,14 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8D8D20BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */,
-				F41B8DA220BD5F94003ED723 /* NSString+MD5Addition.h in Headers */,
 				8D49114979B44DF683A9A964565E0FE6 /* FBSnapshotTestCase-umbrella.h in Headers */,
-				F41B8DE820BD5F94003ED723 /* BONoticeBar.h in Headers */,
-				F41B8D4E20BD5F93003ED723 /* BOHUDManager.h in Headers */,
 				31328536635BDC034D4E43B11CA846BD /* FBSnapshotTestCase.h in Headers */,
-				F41B8D2B20BD5F93003ED723 /* GTMDefines.h in Headers */,
-				F41B8DDA20BD5F94003ED723 /* DESUtil.h in Headers */,
 				0676595134A6036819E78D0404919486 /* FBSnapshotTestCasePlatform.h in Headers */,
-				F41B910120BED002003ED723 /* CommonMacro.h in Headers */,
-				F41B8DCC20BD5F94003ED723 /* UIViewExt.h in Headers */,
 				889FE136349E95DFBE20F050685FB124 /* FBSnapshotTestController.h in Headers */,
-				F41B8DB020BD5F94003ED723 /* UIColor+Hex.h in Headers */,
-				F41B8DFD20BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */,
-				F41B8E0620BD6027003ED723 /* BOAssistor.h in Headers */,
-				F41B8D2420BD5F93003ED723 /* GTMBase64.h in Headers */,
 				5D95DC370FE619787EA993FF91CA51EE /* UIApplication+StrictKeyWindow.h in Headers */,
 				3849993FDFE7642E4BEF1096B047FB86 /* UIImage+Compare.h in Headers */,
-				F41B8D7F20BD5F93003ED723 /* UIImage+Dashed.h in Headers */,
-				F41B8D5520BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */,
-				F41B8D8620BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
 				26BBC63406C6863BE6DD27C64A70CB42 /* UIImage+Diff.h in Headers */,
 				D180489445C2C507332A6EE964ADA1E5 /* UIImage+Snapshot.h in Headers */,
-				F41B8D9B20BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */,
-				F41B8D6320BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1382,26 +933,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8DAF20BD5F94003ED723 /* UIColor+Hex.h in Headers */,
-				F41B8D9A20BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */,
 				DE4EF1ED618D31CA16938565A1CA0607 /* Expecta+Snapshots-umbrella.h in Headers */,
-				F41B8DD920BD5F94003ED723 /* DESUtil.h in Headers */,
-				F41B8DFC20BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */,
 				CDBF7F2D23165CAB8B3819A256A49F0A /* ExpectaObject+FBSnapshotTest.h in Headers */,
-				F41B8D5420BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */,
-				F41B8DCB20BD5F94003ED723 /* UIViewExt.h in Headers */,
-				F41B8D2A20BD5F93003ED723 /* GTMDefines.h in Headers */,
-				F41B8D7E20BD5F93003ED723 /* UIImage+Dashed.h in Headers */,
-				F41B8DA120BD5F94003ED723 /* NSString+MD5Addition.h in Headers */,
-				F41B8D6220BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
-				F41B8DE720BD5F94003ED723 /* BONoticeBar.h in Headers */,
-				F41B8D2320BD5F93003ED723 /* GTMBase64.h in Headers */,
-				F41B910020BED002003ED723 /* CommonMacro.h in Headers */,
-				F41B8D8C20BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */,
-				F41B8D4D20BD5F93003ED723 /* BOHUDManager.h in Headers */,
 				EDF3CEAAF7922F570A5AD95B005C84F8 /* EXPMatchers+FBSnapshotTest.h in Headers */,
-				F41B8D8520BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8E0520BD6027003ED723 /* BOAssistor.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1409,24 +943,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8D9020BD5F93003ED723 /* NSObject+SXRuntime.h in Headers */,
-				F41B8D2720BD5F93003ED723 /* GTMBase64.h in Headers */,
-				F41B8D2E20BD5F93003ED723 /* GTMDefines.h in Headers */,
 				19B4ECE3BAD2E84198870F02B8476CF4 /* SJCategory-umbrella.h in Headers */,
-				F41B910420BED002003ED723 /* CommonMacro.h in Headers */,
-				F41B8DA520BD5F94003ED723 /* NSString+MD5Addition.h in Headers */,
-				F41B8E0920BD6027003ED723 /* BOAssistor.h in Headers */,
-				F41B8D5120BD5F93003ED723 /* BOHUDManager.h in Headers */,
-				F41B8D5820BD5F93003ED723 /* BOCoordinateTransformation.h in Headers */,
-				F41B8DCF20BD5F94003ED723 /* UIViewExt.h in Headers */,
-				F41B8DDD20BD5F94003ED723 /* DESUtil.h in Headers */,
-				F41B8D8920BD5F93003ED723 /* UINavigationController+SXFullScreen.h in Headers */,
-				F41B8DEB20BD5F94003ED723 /* BONoticeBar.h in Headers */,
-				F41B8E0020BD5F94003ED723 /* BOTimeStampAssistor.h in Headers */,
-				F41B8DB320BD5F94003ED723 /* UIColor+Hex.h in Headers */,
-				F41B8D6620BD5F93003ED723 /* UIButton+ImageTitleSpacing.h in Headers */,
-				F41B8D9E20BD5F94003ED723 /* UINavigation+SXFixSpace.h in Headers */,
-				F41B8D8220BD5F93003ED723 /* UIImage+Dashed.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1597,28 +1114,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8E0D20BD6027003ED723 /* BOAssistor.m in Sources */,
-				F41B8D9420BD5F94003ED723 /* UIViewExt.m in Sources */,
 				47BA77226056D790A2964605F468D6EA /* FBSnapshotTestCase-dummy.m in Sources */,
-				F41B8D7820BD5F93003ED723 /* UIColor+Hex.m in Sources */,
-				F41B8DBE20BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
 				C516B672FFC9DB635E0E53DA8FC9CF88 /* FBSnapshotTestCase.m in Sources */,
-				F41B8D4720BD5F93003ED723 /* BOHUDManager.m in Sources */,
 				F0873AA02837D34381D156267B9EB005 /* FBSnapshotTestCasePlatform.m in Sources */,
-				F41B8D5C20BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */,
 				57C1DAC24BEE6C12B29AAE68DD3EBEC7 /* FBSnapshotTestController.m in Sources */,
 				754197D184C23A19146DB4C9B3B90050 /* SwiftSupport.swift in Sources */,
-				F41B8DD320BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */,
-				F41B8DA920BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
-				F41B8DE120BD5F94003ED723 /* DESUtil.m in Sources */,
-				F41B8DC520BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */,
 				47EC7BD047C906B92B85399E097E258E /* UIApplication+StrictKeyWindow.m in Sources */,
-				F41B8D6A20BD5F93003ED723 /* NSString+MD5Addition.m in Sources */,
-				F41B8DB720BD5F94003ED723 /* UIImage+Dashed.m in Sources */,
-				F41B8DEF20BD5F94003ED723 /* BONoticeBar.m in Sources */,
 				98CF4E57A36540E13153A545546A1D11 /* UIImage+Compare.m in Sources */,
-				F41B8D3220BD5F93003ED723 /* GTMBase64.m in Sources */,
-				F41B8DF620BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */,
 				75DF265A4FEC4E42582B8570194CB583 /* UIImage+Diff.m in Sources */,
 				E972E6647713D21A0F21BDAD1816AA29 /* UIImage+Snapshot.m in Sources */,
 			);
@@ -1628,22 +1130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8E0F20BD6027003ED723 /* BOAssistor.m in Sources */,
-				F41B8DF120BD5F94003ED723 /* BONoticeBar.m in Sources */,
-				F41B8D9620BD5F94003ED723 /* UIViewExt.m in Sources */,
-				F41B8DB920BD5F94003ED723 /* UIImage+Dashed.m in Sources */,
-				F41B8DC020BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
-				F41B8D5E20BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */,
 				63171771443F27C58A8B3D96CFC8C418 /* Pods-SJCategory_Tests-dummy.m in Sources */,
-				F41B8DD520BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */,
-				F41B8D4920BD5F93003ED723 /* BOHUDManager.m in Sources */,
-				F41B8DC720BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */,
-				F41B8D7A20BD5F93003ED723 /* UIColor+Hex.m in Sources */,
-				F41B8D6C20BD5F93003ED723 /* NSString+MD5Addition.m in Sources */,
-				F41B8D3420BD5F93003ED723 /* GTMBase64.m in Sources */,
-				F41B8DF820BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */,
-				F41B8DE320BD5F94003ED723 /* DESUtil.m in Sources */,
-				F41B8DAB20BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1652,30 +1139,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4D708563D06FCC4791D002723CBA985 /* Specta-dummy.m in Sources */,
-				F41B8DC920BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */,
-				F41B8DAD20BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
-				F41B8D7C20BD5F93003ED723 /* UIColor+Hex.m in Sources */,
-				F41B8DD720BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */,
 				D490834AA1304BF36991A257F3366648 /* SpectaDSL.m in Sources */,
-				F41B8DE520BD5F94003ED723 /* DESUtil.m in Sources */,
 				6F1C8C2851E8B7476992360408E05B40 /* SpectaUtility.m in Sources */,
-				F41B8D9820BD5F94003ED723 /* UIViewExt.m in Sources */,
 				146D2FD2E3B98DA591885219099F2A4A /* SPTCallSite.m in Sources */,
-				F41B8E1120BD6027003ED723 /* BOAssistor.m in Sources */,
 				255345DF9F3F6DDC70B0ABAF2775324B /* SPTCompiledExample.m in Sources */,
 				B376B4A777F62028AF0965D93658413E /* SPTExample.m in Sources */,
-				F41B8D6E20BD5F93003ED723 /* NSString+MD5Addition.m in Sources */,
-				F41B8DFA20BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */,
 				5386920B6032F8686000D909CFF26041 /* SPTExampleGroup.m in Sources */,
-				F41B8D3620BD5F93003ED723 /* GTMBase64.m in Sources */,
-				F41B8DF320BD5F94003ED723 /* BONoticeBar.m in Sources */,
-				F41B8DBB20BD5F94003ED723 /* UIImage+Dashed.m in Sources */,
-				F41B8D4B20BD5F93003ED723 /* BOHUDManager.m in Sources */,
 				9695B31D33EA0EC9CFB42B9D8ABC447D /* SPTSharedExampleGroups.m in Sources */,
 				FCDA06700D1989687F2471414453A57A /* SPTSpec.m in Sources */,
-				F41B8D6020BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */,
 				20A2A483CDC911D6DB2EAD12444D1406 /* SPTTestSuite.m in Sources */,
-				F41B8DC220BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
 				7F1209D2DD89FBCDABDA3CDBB0DDB49D /* XCTestCase+Specta.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1684,22 +1156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8E0E20BD6027003ED723 /* BOAssistor.m in Sources */,
-				F41B8DF020BD5F94003ED723 /* BONoticeBar.m in Sources */,
-				F41B8D9520BD5F94003ED723 /* UIViewExt.m in Sources */,
-				F41B8DB820BD5F94003ED723 /* UIImage+Dashed.m in Sources */,
-				F41B8DBF20BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
-				F41B8D5D20BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */,
 				F7474BA8C598AEBD11BF575991FAB7D0 /* Pods-SJCategory_Example-dummy.m in Sources */,
-				F41B8DD420BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */,
-				F41B8D4820BD5F93003ED723 /* BOHUDManager.m in Sources */,
-				F41B8DC620BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */,
-				F41B8D7920BD5F93003ED723 /* UIColor+Hex.m in Sources */,
-				F41B8D6B20BD5F93003ED723 /* NSString+MD5Addition.m in Sources */,
-				F41B8D3320BD5F93003ED723 /* GTMBase64.m in Sources */,
-				F41B8DF720BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */,
-				F41B8DE220BD5F94003ED723 /* DESUtil.m in Sources */,
-				F41B8DAA20BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1707,46 +1164,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8D4520BD5F93003ED723 /* BOHUDManager.m in Sources */,
-				F41B8D7620BD5F93003ED723 /* UIColor+Hex.m in Sources */,
-				F41B8DED20BD5F94003ED723 /* BONoticeBar.m in Sources */,
 				9E4463D68D13C127762B1ACB8249B64C /* EXPBlockDefinedMatcher.m in Sources */,
-				F41B8DC320BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */,
 				01F278A54C85C2C865DDAD4090C559B6 /* EXPDoubleTuple.m in Sources */,
 				D1768C977F0CD5B420D1A1D2375CDBD4 /* Expecta-dummy.m in Sources */,
 				99E6D51A8A4E3FFB7601D182D995A3BA /* ExpectaObject.m in Sources */,
 				1D676445A1446539D4B722E6EF0C802A /* ExpectaSupport.m in Sources */,
-				F41B8D6820BD5F93003ED723 /* NSString+MD5Addition.m in Sources */,
 				BFC7D32CFE8200730837306AFF61E5AD /* EXPExpect.m in Sources */,
 				5E4F55D319FF771D658CCE335E7CB498 /* EXPFloatTuple.m in Sources */,
-				F41B8D3020BD5F93003ED723 /* GTMBase64.m in Sources */,
 				150503B99F77D3D8897EFFC68C09A351 /* EXPMatcherHelpers.m in Sources */,
 				9A0ADF06F5B6BC3A70EDE1285BAF9346 /* EXPMatchers+beCloseTo.m in Sources */,
 				8220368E5F7EA70947BAD2B6F216C61B /* EXPMatchers+beFalsy.m in Sources */,
 				A037AD9C808583B3EC9F49B3EEDA588A /* EXPMatchers+beginWith.m in Sources */,
 				FF394D6FEA84206182301180AE4CB957 /* EXPMatchers+beGreaterThan.m in Sources */,
-				F41B8DD120BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */,
 				C14CD98EE4DDC0B7689F058D5B79CC47 /* EXPMatchers+beGreaterThanOrEqualTo.m in Sources */,
 				CD22121B77F0F8E2B6A58AF6226038C2 /* EXPMatchers+beIdenticalTo.m in Sources */,
-				F41B8DA720BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
 				778C9F1A1715E05313578E39AB46726E /* EXPMatchers+beInstanceOf.m in Sources */,
-				F41B8D5A20BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */,
-				F41B8E0B20BD6027003ED723 /* BOAssistor.m in Sources */,
 				508B6D0572C0C3B4A3E019B814595D4A /* EXPMatchers+beInTheRangeOf.m in Sources */,
 				DF883524C3F35145D74166C01BCFCFC3 /* EXPMatchers+beKindOf.m in Sources */,
 				47D171E32EAE4FB61A9971B9BC00226D /* EXPMatchers+beLessThan.m in Sources */,
 				CE7E4C141657D23213C7FAE616D7FA75 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */,
 				CD66900813CFE317343F5A4053AE73EC /* EXPMatchers+beNil.m in Sources */,
-				F41B8DF420BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */,
 				2916D75F69E777954F5BF46AE63C52C0 /* EXPMatchers+beSubclassOf.m in Sources */,
 				AC0AB78F3A7629ED1C7F3F82BBB3F471 /* EXPMatchers+beSupersetOf.m in Sources */,
-				F41B8DDF20BD5F94003ED723 /* DESUtil.m in Sources */,
 				98571BE17A46245CA1717CF9157A0807 /* EXPMatchers+beTruthy.m in Sources */,
-				F41B8D9220BD5F94003ED723 /* UIViewExt.m in Sources */,
 				51FCC9EDD6B60BF63B5EF7CAC94CCF23 /* EXPMatchers+conformTo.m in Sources */,
-				F41B8DBC20BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
 				9EA076D25036A0F4765FF3FB57CF4A6A /* EXPMatchers+contain.m in Sources */,
-				F41B8DB520BD5F94003ED723 /* UIImage+Dashed.m in Sources */,
 				285C6F6BE59E632CB219CD98B4EDC1AA /* EXPMatchers+endWith.m in Sources */,
 				E6D59CAA2A6E134A4643254406ED11F2 /* EXPMatchers+equal.m in Sources */,
 				C676818DADAC76EE2FDC5533CBF3648A /* EXPMatchers+haveCountOf.m in Sources */,
@@ -1764,24 +1206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8DB620BD5F94003ED723 /* UIImage+Dashed.m in Sources */,
-				F41B8DC420BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */,
-				F41B8DA820BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
-				F41B8DF520BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */,
 				2CC183AE5C5A4EA8EE0E14768F464BBB /* Expecta+Snapshots-dummy.m in Sources */,
-				F41B8DD220BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */,
-				F41B8E0C20BD6027003ED723 /* BOAssistor.m in Sources */,
 				6C88FB17C3AE49E50ABF4C36176B55BB /* ExpectaObject+FBSnapshotTest.m in Sources */,
-				F41B8DEE20BD5F94003ED723 /* BONoticeBar.m in Sources */,
-				F41B8D9320BD5F94003ED723 /* UIViewExt.m in Sources */,
-				F41B8DBD20BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
-				F41B8D4620BD5F93003ED723 /* BOHUDManager.m in Sources */,
 				0D3FBF37E9E7829108F70F4D5658918A /* EXPMatchers+FBSnapshotTest.m in Sources */,
-				F41B8D7720BD5F93003ED723 /* UIColor+Hex.m in Sources */,
-				F41B8D5B20BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */,
-				F41B8D3120BD5F93003ED723 /* GTMBase64.m in Sources */,
-				F41B8D6920BD5F93003ED723 /* NSString+MD5Addition.m in Sources */,
-				F41B8DE020BD5F94003ED723 /* DESUtil.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1789,22 +1216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F41B8E1020BD6027003ED723 /* BOAssistor.m in Sources */,
-				F41B8DF220BD5F94003ED723 /* BONoticeBar.m in Sources */,
-				F41B8D9720BD5F94003ED723 /* UIViewExt.m in Sources */,
-				F41B8DBA20BD5F94003ED723 /* UIImage+Dashed.m in Sources */,
-				F41B8DC120BD5F94003ED723 /* UINavigationController+SXFullScreen.m in Sources */,
-				F41B8D5F20BD5F93003ED723 /* BOCoordinateTransformation.m in Sources */,
 				A1273302A260E0CABE6E556DD9C52ECB /* SJCategory-dummy.m in Sources */,
-				F41B8DD620BD5F94003ED723 /* NSObject+SXRuntime.m in Sources */,
-				F41B8D4A20BD5F93003ED723 /* BOHUDManager.m in Sources */,
-				F41B8DC820BD5F94003ED723 /* UINavigation+SXFixSpace.m in Sources */,
-				F41B8D7B20BD5F93003ED723 /* UIColor+Hex.m in Sources */,
-				F41B8D6D20BD5F93003ED723 /* NSString+MD5Addition.m in Sources */,
-				F41B8D3520BD5F93003ED723 /* GTMBase64.m in Sources */,
-				F41B8DF920BD5F94003ED723 /* BOTimeStampAssistor.m in Sources */,
-				F41B8DE420BD5F94003ED723 /* DESUtil.m in Sources */,
-				F41B8DAC20BD5F94003ED723 /* UIButton+ImageTitleSpacing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
