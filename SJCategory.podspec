@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJCategory'
-  s.version          = '1.2.4'
+  s.version          = '1.2.5'
   s.summary          = '常用类别，常用工具类，HUD，地理坐标转换，DES，介绍页'
   s.ios.deployment_target = '8.0'
   s.homepage         = 'https://github.com/superJunJun/ISGCategory'
@@ -39,7 +39,7 @@ Pod::Spec.new do |s|
     end
 
     s.subspec 'Category' do |ss|
-    ss.source_files = 'SJCategory/Classes/Category/*.{h,m}',
+    ss.source_files = 'SJCategory/Classes/Category/*.{h,m}'
     end
 
     s.subspec 'DESUtil' do |ss|
