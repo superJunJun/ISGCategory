@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJCategory'
-  s.version          = '1.2.5'
+  s.version          = '1.2.6'
   s.summary          = '常用类别，常用工具类，HUD，地理坐标转换，DES，介绍页'
   s.ios.deployment_target = '8.0'
   s.homepage         = 'https://github.com/superJunJun/ISGCategory'
@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 
-  s.default_subspecs = "BOAssistor", "BOCoordinate", "BOHUDManager", "BONoticeBar", "BOTimeStamp", "Category", "DESUtil", "GTMBase64"
+  #s.default_subspecs = "BOAssistor", "BOCoordinate", "BOHUDManager", "BONoticeBar", "BOTimeStamp", "Category", "DESUtil", "GTMBase64"
 
   s.resource_bundles = {
     'SJCategory' => ['SJCategory/Assets/*.png']
@@ -35,7 +35,6 @@ Pod::Spec.new do |s|
 
     s.subspec 'BOTimeStamp' do |ss|
     ss.source_files = 'SJCategory/Classes/BOTimeStamp/*.{h,m}'
-    ss.public_header_files = 'SJCategory/BOTimeStampAssistor.h'
     end
 
     s.subspec 'Category' do |ss|
