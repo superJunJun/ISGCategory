@@ -1,7 +1,4 @@
 # SJCategory
-<p align="center" >
-  <img src="https://github.com/superJunJun/ISGCategory/blob/master/SJCategory/Assets/lijun.png" alt="SJCategory" title="SJCategory">
-</p>
 [![CI Status](https://img.shields.io/travis/15934874308@163.com/SJCategory.svg?style=flat)](https://travis-ci.org/15934874308@163.com/SJCategory)
 [![Version](https://img.shields.io/cocoapods/v/SJCategory.svg?style=flat)](https://cocoapods.org/pods/SJCategory)
 [![License](https://img.shields.io/cocoapods/l/SJCategory.svg?style=flat)](https://cocoapods.org/pods/SJCategory)
