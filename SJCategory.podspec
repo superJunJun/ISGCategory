@@ -11,45 +11,20 @@ Pod::Spec.new do |s|
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 
-  #s.default_subspecs = "BOAssistor", "BOCoordinate", "BOHUDManager", "BONoticeBar", "BOTimeStamp", "Category", "DESUtil", "GTMBase64"
+    s.source_files  = "SJCategory/Classes/**/*.{h,m}"
 
-  s.resource_bundles = {
+    s.resource_bundles = {
     'SJCategory' => ['SJCategory/Assets/*.png']
-  }
+    }
 
-    s.subspec 'BOAssistor' do |ss|
-        ss.source_files = 'SJCategory/Classes/BOAssistor/*.{h,m}'
+    s.subspec 'Category' do |c|
+    c.source_files = 'SJCategory/Classes/Category/**/*'
     end
 
-    s.subspec 'BOCoordinate' do |ss|
-    ss.source_files = 'SJCategory/Classes/BOCoordinate/*.{h,m}'
+    s.subspec 'BOTool' do |t|
+    t.source_files = 'SJCategory/Classes/BOTool/**/*'
+    t.dependency 'MBProgressHUD', '~> 1.1.0'
     end
 
-    s.subspec 'BOHUDManager' do |ss|
-    ss.source_files = 'SJCategory/Classes/BOHUDManager/*.{h,m}','SJCategory/Classes/BOHUDManager/40x-{Cancel,Check}mark@2x.{png}'
-    end
-
-    s.subspec 'BONoticeBar' do |ss|
-    ss.source_files = 'SJCategory/Classes/BONoticeBar/*.{h,m}'
-    end
-
-    s.subspec 'BOTimeStamp' do |ss|
-    ss.source_files = 'SJCategory/Classes/BOTimeStamp/*.{h,m}'
-    end
-
-    s.subspec 'Category' do |ss|
-    ss.source_files = 'SJCategory/Classes/Category/*.{h,m}'
-    end
-
-    s.subspec 'DESUtil' do |ss|
-    ss.source_files = 'SJCategory/Classes/DESUtil/*.{h,m}'
-    end
-
-    s.subspec 'GTMBase64' do |ss|
-    ss.source_files = 'SJCategory/Classes/GTMBase64/*.{h,m}','SJCategory/Classes/GTMBase64/*.h'
-    end
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
-  s.dependency 'MBProgressHUD', '~> 1.1.0'
+    s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
 end
