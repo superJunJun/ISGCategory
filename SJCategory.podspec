@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
     s.resource_bundles = {
     'SJCategory' => ['SJCategory/Assets/*.png']
     }
-    s.source_files  = "SJCategory/Classes/**/*.{h,m}"
+    #s.source_files  = "SJCategory/Classes/**/*.{h,m}"
 
     s.subspec 'Category' do |c|
     c.source_files = 'SJCategory/Classes/Category/**/*'
