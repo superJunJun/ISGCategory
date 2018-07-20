@@ -20,8 +20,7 @@
 
 + (BOOL)phoneNumberIsValid:(NSString *)phoneNumber
 {
-    NSString *regex = @"^(([1][3-8]\\d{9})|((\\d{3}-\\d{8})|(\\d{4}-\\d{7})))$";
-    return [self resourceString:phoneNumber evalueWithPredicateRegex:regex];
+    return phoneNumber.length == 11;
 }
 
 + (BOOL)idCardIsValid:(NSString *)idCard {
