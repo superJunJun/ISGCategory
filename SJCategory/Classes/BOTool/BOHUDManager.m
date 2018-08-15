@@ -6,6 +6,8 @@
 #import "MBProgressHUD.h"
 
 #define MBProgressHUDCompleteStayTime                   0.6
+#define MBProgressHUDCompleteStayDeleteTime             0.601
+
 #define MBProgressHUDCompleteAdditionalFuncDelayTime    0.65
 
 @interface BOHUDManager ()
@@ -41,7 +43,6 @@
         progressHUD.animationType = MBProgressHUDAnimationFade;
         progressHUD.removeFromSuperViewOnHide = YES;
         progressHUD.mode = MBProgressHUDModeIndeterminate;
-//        progressHUD.dimBackground = YES;
         progressHUD.customView = self.customSuccessSignImageView;
         _progressHUD = progressHUD;
     }
@@ -76,6 +77,9 @@
     self.progressHUD.label.text = text;
     self.progressHUD.mode = MBProgressHUDModeCustomView;
     [self.progressHUD hideAnimated:YES afterDelay:MBProgressHUDCompleteStayTime];
+    [self performSelector:@selector(removeProgressHUD) withObject:nil afterDelay:MBProgressHUDCompleteStayDeleteTime];
+}
+- (void)removeProgressHUD {
     self.progressHUD = nil;
 }
 
