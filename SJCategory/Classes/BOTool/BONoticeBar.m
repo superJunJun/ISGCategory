@@ -56,6 +56,8 @@ typedef NS_ENUM(NSInteger, BONoticeTextViewStatus)
         self.shouldHideImmediately = NO;
         self.status = BONoticeTextViewStatusNone;
         self.centerPoint = center;
+        NSInteger labelCapW = 100;
+        NSInteger labelCapH = 20;
         
         UIFont *textFont = [UIFont systemFontOfSize:16];
         UIColor *textColor = [UIColor whiteColor];
@@ -68,14 +70,28 @@ typedef NS_ENUM(NSInteger, BONoticeTextViewStatus)
         
         UILabel *textLabel = [UILabel new];
         textLabel.backgroundColor = [UIColor clearColor];
-        textLabel.origin = CGPointMake(50, 10);//6 4
         textLabel.font = textFont;
+        textLabel.numberOfLines = 0;
+        textLabel.textAlignment = NSTextAlignmentCenter;
         textLabel.textColor = textColor;
         textLabel.text = noticeText;
         [textLabel sizeToFit];
+        if (textLabel.width > 300) {
+            
+            CGSize limitedSize = CGSizeMake(300, MAXFLOAT);
+            if([noticeText respondsToSelector:@selector(boundingRectWithSize:options:attributes:context:)])
+            {
+                textLabel.size = [noticeText boundingRectWithSize:limitedSize
+                                                          options:NSStringDrawingUsesLineFragmentOrigin|NSStringDrawingUsesFontLeading
+                                                       attributes:@{NSFontAttributeName:textFont}
+                                                          context:nil].size;
+            }
+            labelCapW = 60;
+        }
+        textLabel.origin = CGPointMake(labelCapW/2, labelCapH/2);//6 4
         [self addSubview:textLabel];
         
-        CGRect frame = CGRectMake(0, 0, textLabel.width + 100, textLabel.height + 20);//11 8
+        CGRect frame = CGRectMake(0, 0, textLabel.width + labelCapW, textLabel.height + labelCapH);//11 8
         UIView *bgView = [[UIView alloc] initWithFrame:frame];
         bgView.backgroundColor = bgViewShadowColor;
         bgView.layer.cornerRadius = 4;
