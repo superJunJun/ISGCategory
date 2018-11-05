@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SJCategory'
-  s.version          = '1.3.7'
+  s.version          = '1.3.8'
   s.summary          = '常用类别，常用工具类，HUD，地理坐标转换，DES，介绍页'
   s.ios.deployment_target = '8.0'
   s.homepage         = 'https://github.com/superJunJun/ISGCategory'
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
     end
 
     s.frameworks = 'UIKit', 'Foundation', 'CoreGraphics'
-    s.dependency 'MBProgressHUD', '~> 1.1.0'
+    s.dependency 'MBProgressHUD'
 
 end
